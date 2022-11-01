@@ -95,6 +95,19 @@
  .ears {
   width: 230px;
   height: 85px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .ear-left {
+  border: 2px solid steelblue;
+  width: 80px;
+
+ }
+
+ .ear-right {
+  border: 2px solid steelblue;
+  width: 80px;
  }
 
  .face {
@@ -129,14 +142,15 @@
  .brows {
   width: 100%;
   height: 23%;
-  border: 1px solid black;
+  border: 1px solid blck;
   display: flex;
+  margin-top: -12px;
  }
 
  .brow-left, .brow-right {
   width: 75px;
   border: 2px solid greenyellow;
-  height: 30px;
+  height: 40px;
  }
 
  .brow-centre {
@@ -154,6 +168,7 @@
  .eye-outline {
   width: 100%;
   height: 53%;
+  margin-top: 5px;
 
   display: flex;
   flex-direction: row;
@@ -194,7 +209,7 @@
  .snout {
   width: 100%;
   height: 29%;
-  border: 1px solid red;
+  border: 1px solid rd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,7 +245,10 @@
  <div class="frame">
   <div class="roly-poly background"></div>
   <div class="roly-poly middleground">
-   <div class="ears"></div>
+   <div class="ears">
+    <div class="ear-left ear-tri-L"></div>
+    <div class="ear-right ear-tri-R"></div>
+   </div>
    <div class="face">
     <div class="facial-outline">
      <div class="brows">
