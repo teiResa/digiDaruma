@@ -6,6 +6,12 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>DigiDaruma</title>
+
+ <link href="#" rel="stylesheet"/>
+
+ <meta name="author" content="teiResa">
+ <link rel="icon" href="https://teiresa.github.io/rwd/assets/teiResaHead.ico">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
 <body>
  <style>
@@ -22,8 +28,11 @@
  }
 
  h1 {
-  color: indianred;
+  color: white;
+  text-shadow: 3px 3px 8px cyan, -3px -3px 9px magenta;
+  font-size: 3rem;
   font-family: cursive, sans-serif;
+  text-align: center;
  }
 
 
@@ -32,7 +41,9 @@
   background-color: lightblue;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 75vh;
+  width: 80vw;
+  margin: auto;
  }
 
  .roly-poly {
@@ -40,10 +51,175 @@
   width: 200px;
   height: 210px;  /* or 200px */
   border-radius: 50%;
-  border: 2px solid red;
+  /* the border-radii make it the typical short egg shape  */
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+
+  /*
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 28%);
+  */
  }
+
+ .background, .middleground, .foreground {
+ /*border: 2px solid black; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+ position: absolute;
+
+ }
+
+ .background {
+  background-color: lightseagreen;
+  border: 2px solid lightsalmon;
+ }
+
+ .middleground {
+  height: 240px;
+  border: 2px solid pik;
+  margin-bottom: 28px;
+ }
+
+ .ears, .face, .chest {
+  width: 220px;
+  height: 80px;
+  /*
+  border: 2px solid green;
+  */
+  
+ }
+
+ .ears {
+  width: 230px;
+  height: 85px;
+ }
+
+ .face {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .facial-outline {
+  background-color: aliceblue;
+  width: 160px;
+  height: 100%;
+
+  
+  border-radius: 35px 35px 20px 20px; 
+  /* improve on the shape later */
+
+  /*
+  border-style: solid;
+  position: relative;
+  width: 94px;
+  box-sizing: content-box;
+  border-width: 50px 18px 0;
+  border-color: whitesmoke transparent;
+  border-radius: 10%;
+  transform: rotate(180deg);
+  */
+  
+ }
+
+ .brows {
+  width: 100%;
+  height: 23%;
+  border: 1px solid black;
+  display: flex;
+ }
+
+ .brow-left, .brow-right {
+  width: 75px;
+  border: 2px solid greenyellow;
+  height: 30px;
+ }
+
+ .brow-centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+  width: 25px;
+  height: 40px;
+  
+  border: 2px solid plum;
+ }
+
+
+ .eye-outline {
+  width: 100%;
+  height: 53%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+ }
+
+ .eye-left, .eye-right {
+  width: 33%;
+  height: auto;
+  border: 3px solid gold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+ }
+
+ .pupil {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+ }
+
+ .facial-hair-left, .facial-hair-right {
+  width: 59px;
+  border: 2px solid greenyellow;
+  height: 30px;
+ }
+
+ .breathers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -20px;
+ }
+
+ .snout {
+  width: 100%;
+  height: 29%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .nose {
+  width: 20px;
+  background-color: black;
+  height: 20px;
+  border-radius: 50%;
+ }
+
+ .mouth {
+  width: 40px;
+  background-color: grey;
+  height: 15px;
+ }
+
+ .chest {
+  border: 1px solid plum;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+ }
+ 
 
 
 
@@ -52,7 +228,40 @@
  <h1>My Daruma Doll</h1>
 
  <div class="frame">
-  <div class="roly-poly"></div>
+  <div class="roly-poly background"></div>
+  <div class="roly-poly middleground">
+   <div class="ears"></div>
+   <div class="face">
+    <div class="facial-outline">
+     <div class="brows">
+      <div class="brow-left"></div>
+      <div class="brow-centre"></div>
+      <div class="brow-right"></div>
+     </div>
+     <div class="eye-outline">
+      <div class="eye-left">
+       <div class="pupil goal-set"></div>
+      </div>
+      <div class="eye-right">
+       <div class="pupil goal-met"></div>
+      </div>
+     </div>
+     <div class="snout">
+      <div class="facial-hair-right"></div>
+      <div class="breathers">
+       <div class="nose"></div>
+       <div class="mouth"></div>
+      </div>
+      <div class="facial-hair-right"></div>
+     </div>
+    </div>
+   </div>
+   <div class="chest"></div>
+  </div>
+  <div class="pupils foreground">
+   <div class="pupil-left"></div>
+   <div class="pupil-right"></div>
+  </div>
  </div>
 </body>
 </html>
