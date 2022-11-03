@@ -1,0 +1,237 @@
+<style>
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ height: 100vh;
+ margin: auto;
+ overflow: hidden;
+ width: 100vw;
+}
+
+h1 {
+ color: white;
+ text-shadow: 3px 3px 8px cyan, -3px -3px 9px magenta;
+ font-size: 3rem;
+ font-family: cursive, sans-serif;
+ text-align: center;
+}
+
+
+.frame {
+ display: flex;
+ background-color: lightblue;
+ align-items: center;
+ justify-content: center;
+ height: 75vh;
+ width: 80vw;
+ margin: auto;
+}
+
+.roly-poly {
+ margin: auto;
+ width: 200px;
+ height: 210px;  /* or 200px */
+ border-radius: 50%;
+ /* the border-radii make it the typical short egg shape  */
+ -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+ border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+
+ /*
+ background: rgb(238,174,202);
+ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 28%);
+ */
+}
+
+.background, .middleground, .foreground {
+/*border: 2px solid black; */
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+position: absolute;
+
+}
+
+.background {
+ background-color: lightseagreen;
+ border: 2px solid lightsalmon;
+}
+
+.middleground {
+ height: 240px;
+ border: 2px solid pik;
+ margin-bottom: 28px;
+}
+
+.ears, .face, .chest {
+ width: 220px;
+ height: 80px;
+ /*
+ border: 2px solid green;
+ */
+ 
+}
+
+.ears {
+ width: 230px;
+ height: 85px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.ear-left {
+ border: 2px solid steelblue;
+ width: 80px;
+
+}
+
+.ear-right {
+ border: 2px solid steelblue;
+ width: 80px;
+}
+
+.face {
+ height: 110px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.facial-outline {
+ background-color: aliceblue;
+ width: 160px;
+ height: 100%;
+
+ 
+ border-radius: 35px 35px 20px 20px; 
+ /* improve on the shape later */
+
+ /*
+ border-style: solid;
+ position: relative;
+ width: 94px;
+ box-sizing: content-box;
+ border-width: 50px 18px 0;
+ border-color: whitesmoke transparent;
+ border-radius: 10%;
+ transform: rotate(180deg);
+ */
+ 
+}
+
+.brows {
+ width: 100%;
+ height: 23%;
+ border: 1px solid blck;
+ display: flex;
+ margin-top: -12px;
+}
+
+.brow-left, .brow-right {
+ width: 75px;
+ border: 2px solid greenyellow;
+ height: 40px;
+}
+
+.brow-centre {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: -10px;
+ width: 25px;
+ height: 40px;
+ 
+ border: 2px solid plum;
+}
+
+
+.eye-outline {
+ width: 100%;
+ height: 53%;
+ margin-top: 5px;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+
+}
+
+.ey-round {
+ /* Approved. Do not edit. */
+ width: 33%;
+ height: auto;
+ border: 3px solid gold;
+ border-radius: 50%;
+}
+
+.ey-elong {
+ 
+ width: 33%;
+ height: auto;
+ border: 3px solid gold;
+ border-radius:30%;
+ 
+}
+
+
+
+.eye-left, .eye-right {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.pupil {
+ width: 30px;
+ height: 30px;
+ background-color: black;
+ border-radius: 50%;
+}
+
+.facial-hair-left, .facial-hair-right {
+ width: 59px;
+ border: 2px solid greenyellow;
+ height: 30px;
+}
+
+.breathers {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: -20px;
+}
+
+.snout {
+ width: 100%;
+ height: 29%;
+ border: 1px solid rd;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.nose {
+ width: 20px;
+ background-color: black;
+ height: 20px;
+ border-radius: 50%;
+}
+
+.mouth {
+ width: 40px;
+ background-color: grey;
+ height: 15px;
+}
+
+.chest {
+ border: 2px solid plum;
+ width: 55px;
+ height: 55px;
+ border-radius: 50%;
+}
+
