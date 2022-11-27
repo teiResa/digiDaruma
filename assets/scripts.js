@@ -30,3 +30,16 @@ details.forEach((targetDetail) => {
   });
 });
 
+
+// Selected radio button updates feature. Ie, Eye Shape > round ('ey-round') would update the eyes to the css parameters under .ey-round on the stylesheet.
+// https://thewebdev.info/2022/02/12/how-to-attach-event-listener-to-a-radio-button-with-javascript/
+
+let radios = document.querySelectorAll('input')
+for (let radio of radios) {
+ radio.click = (e) => {
+  console.log(e.target.value);
+ }
+}
+
+const buttonToggle = document.querySelector('.toggle');
+buttonToggle.addEventListener('click', toggleClass);
