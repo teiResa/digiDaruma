@@ -25,8 +25,10 @@ h1 {
  align-items: center;
  justify-content: center;
  height: 75vh;
- width: 80vw;
+ width: 70vw;
  margin: auto;
+
+ /* might need this float: left; if the frame starts acting up */
 }
 
 .roly-poly {
@@ -241,3 +243,13 @@ position: absolute;
  border-radius: 50%;
 }
 
+/* This just controls whether the customisation menu is visible/hidden */
+
+#toggleMenu { /*Changing traits menu */
+ background-color: rgb(89, 89, 89);
+ margin-top: 2vh;
+ width: 20vw;
+ min-height: 70vh;
+ float: left;
+
+}

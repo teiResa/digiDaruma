@@ -17,6 +17,71 @@
  
  <h1>My Daruma Doll</h1>
 
+ <button onclick="menuToggler()">Click to edit your Daruma</button>
+ <br>
+
+ <div id="toggleMenu" class="customiserMenu">
+  <style>
+   details .doll-sections {
+    font-family: cursive, sans-serif;
+    color: plum;
+   }
+
+   details .doll-subsections {
+    color: green;
+   }
+
+   details label {
+    color: steelblue;
+   }
+   
+  </style>
+  hello
+  <form>
+   <details class="doll-sections">
+    <summary>body</summary>
+    <details class="doll-subsection">
+     <summary>Body Colour</summary>
+      <input type="radio" name="body-color" id="color1">
+       <label for="color1"> color1</label><br>
+      <input type="radio" name="body-color" id="color2">
+       <label for="color2"> color2</label><br>
+      <input type="radio" name="body-color" id="color3">
+       <label for="color3"> color3</label><br>
+    </details>
+    <details class="doll-subsection">
+     <summary>Ear Shape</summary>
+      <input type="radio" name="ear-shape" id="ear1">
+       <label for="ear1"> Round</label><br>
+      <input type="radio" name="ear-shape" id="ear2">
+       <label for="ear2"> Square</label><br>
+      <input type="radio" name="ear-shape" id="ear3">
+       <label for="ear3"> Elongated</label><br>
+    </details>
+
+   </details>
+
+
+   <details class="doll-sections">
+    <summary>Face</summary>
+
+   <details>
+    <summary>Eye Shape</summary>
+     <input type="radio" name="eye-shape" id="ey-round">
+      <label for="ey-round"> Round</label><br>
+     <input type="radio" name="eye-shape" id="ey-square">
+      <label for="ey-square"> Square</label><br>
+     <input type="radio" name="eye-shape" id="ey-elong">
+      <label for="ey-elong"> Elongated</label><br>
+   </details>
+
+   </details>
+   
+
+
+  </form>
+ </div>
+
  <div class="frame">
   <div class="roly-poly background"></div>
   <div class="roly-poly middleground">
@@ -56,5 +121,50 @@
    <div class="pupil-right"></div>
   </div>
  </div>
+ 
 </body>
+<script>
+ // ~~~~~~~~~~~~ Hide/Show Customisation menu ~~~~~~~~~~~~~~~~~
+ function menuToggler() {
+  var x = document.getElementById("toggleMenu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+// ~~~~~~~~~~~~ Automatically Close Details tags when another is opened. doll-section, doll-subsection, doll-sub-subsection ~~~~~~~~~
+
+// // Fetch all the details element.
+// const details = document.querySelectorAll("details");
+ 
+// // Add the onclick listeners.
+// details.forEach((targetDetail) => {
+//   targetDetail.addEventListener("click", () => {
+//     // Close all the details that are not targetDetail.
+//     details.forEach((detail) => {
+//       if (detail !== targetDetail) {
+//         detail.removeAttribute("open");
+//       }
+//     });
+//   });
+// });
+
+// Fetch all the details element.
+const detailsSections = document.querySelectorAll('.doll-sections');
+const detailsSubSections = document.querySelectorAll('.doll-subsections');
+ 
+// Add the onclick listeners.
+detailsSections.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+</script>
 </html>
