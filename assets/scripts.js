@@ -30,18 +30,3 @@ details.forEach((targetDetail) => {
   });
 });
 
-// // Fetch all the details element.
-// const detailsSections = document.querySelectorAll("details.sections");
-// // const detailsSubSections = document.querySelectorAll(".subsections");
- 
-// // Add the onclick listeners.
-// detailsSections.forEach((targetDetailSection) => {
-//   targetDetailSection.addEventListener("click", () => {
-//     // Close all the details that are not targetDetail.
-//     details.forEach((detailSection) => {
-//       if (detailSection !== targetDetailSection) {
-//         detailSection.removeAttribute("open");
-//       }
-//     });
-//   });
-// });
