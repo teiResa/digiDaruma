@@ -43,3 +43,28 @@ for (let radio of radios) {
 
 const buttonToggle = document.querySelector('.toggle');
 buttonToggle.addEventListener('click', toggleClass);
+
+// ~~~~~~~~~~~~ saving user's selections ~~~~~~
+
+// Since I don't want their customised doll information for myself, I'll just use localStorage. They can have their doll waiting for them next time they visit (to fill in the right eye or restart with a new doll).
+
+// https://css-tricks.com/forums/topic/unable-to-store-radio-button-value-in-localstorage/
+$(function() {
+
+ $.each($('.stored'), function() {
+     if(localStorage[$(this).attr('name')]) {
+         if ($(this).is(':radio')) {
+             if($(this).val() == localStorage[$(this).attr('name')]) {
+                 $(this).prop('checked', true);    
+             }
+         } else {
+             $(this).val(localStorage[$(this).attr('name')]);
+         }
+     }
+ });
+ 
+ $('.stored').on('change', function() {
+     localStorage[$(this).attr('name')] = $(this).val(), $(this).find('option:selected').val();
+ });
+ 
+ });
