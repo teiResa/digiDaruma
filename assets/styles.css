@@ -24,7 +24,7 @@ h1 {
  background-color: lightblue;
  align-items: center;
  justify-content: center;
- height: 75vh;
+ height: 65vh;
  width: 70vw;
  margin: auto;
 
@@ -252,4 +252,9 @@ position: absolute;
  min-height: 70vh;
  float: left;
 
+}
+
+
+.dev_only {
+ background-color: rgb(234, 210, 91);
 }

@@ -74,12 +74,15 @@
 
 
 
+// ~~ switched ""s for ''s
+
+
 // https://www.javatpoint.com/how-to-check-a-radio-button-using-javascript
 
 function updateSelections() {
 
  if(document.getElementById('bodycolor').checked) {
-  document.getElementById("displayBodyColor").innerHTML = getElementById("bodycolor").value + "is body color."
+  document.getElementById('displayBodyColor').innerHTML = getElementById('bodycolor').value + "is body color."
  }
 
  // var getBodyColor = document.querySelector('input[name="body-color"]:checked');
@@ -97,11 +100,11 @@ function updateSelections() {
 
  //for dev_only section
 
- // var bodyColor = document.getElementsByName('body-color');
+ var bodyColor = document.getElementsByName('body-color');
 
- // for (let i of bodyColor) {
- //  console.log(i.id);
+ for (let i of bodyColor) {
+   console.log(i.id);
   
- // }
+  }
 
- // document.write('<p>'+ bodyColor +'</p>');
+  document.write('<p>'+ bodyColor +'</p>');
