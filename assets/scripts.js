@@ -83,7 +83,9 @@ function updateSelections() {
 
  if(document.getElementById('bodycolor').checked) {
   document.getElementById('displayBodyColor').innerHTML = getElementById('bodycolor').value + "is body color."
- }
+ }  
+
+ // Ohmygoddamnit, my brain is buffering very painfully slowly.
 
  // var getBodyColor = document.querySelector('input[name="body-color"]:checked');
 
