@@ -33,7 +33,7 @@ h1 {
 
 .animation-frame {
  display: flex;
- background-color: lightseagreen;
+ /*background-color: lightseagreen;*/
  align-items: center;
  justify-content: center;
  height: 45vh;
@@ -73,8 +73,8 @@ position: absolute;
 
 }
 
-.background {
- background-color: lightseagreen;
+.background /* aka its skin colour */{
+ /*background-color: lightseagreen;*/
  border: 2px solid lightsalmon;
 }
 
