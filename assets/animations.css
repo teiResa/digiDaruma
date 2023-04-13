@@ -1,0 +1,43 @@
+
+@keyframes rolypoly {
+ 0% {
+   transform: rotate(0deg)
+ }
+ 100% {
+   transform: rotate(45deg)
+ }
+}
+
+@keyframes rolypoly2 {
+ /*  animation: rolypoly2 2100ms linear 1; */
+ 0%, 50%, 100% {
+   transform: rotate(0deg)
+ }
+ 25% {
+   transform: rotate(45deg)
+ }
+ 75% {
+  transform: rotate(-45deg)
+}
+}
+
+@keyframes rolypoly3 {
+ /*  animation: rolypoly3 2700ms linear 1; */
+ 0% {
+   transform: rotate(0deg)
+ } 25% {
+  transform: rotate(45deg)
+} 45% {
+ transform: rotate(-41deg)
+} 61% {
+ transform: rotate(37deg)
+} 75% {
+ transform: rotate(-31deg)
+} 86% {
+ transform: rotate(20deg)
+} 94% {
+ transform: rotate(-13deg)
+} 100% {
+ transform: rotate(0deg)
+}
+}
