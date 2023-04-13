@@ -259,7 +259,7 @@ position: absolute;
  border-radius: 50%;
 }
 
-/* This just controls whether the customisation menu is visible/hidden */
+/* This just controls whether the customisation menu is visible/hidden. Later decide on whether it should default as open or hidden. */
 
 #toggleMenu { /*Changing traits menu */
  background-color: rgb(89, 89, 89);
