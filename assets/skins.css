@@ -9,4 +9,16 @@
 .skin-color.orange {
   background-color: orangered;
 }
+
+.colorOpt1 {
+  background-color: blue;
+}
+
+.colorOpt2 {
+  background-color: #2ecc71;
+}
+
+.colorOpt3 {
+  background-color: orangered;
+}
 /*# sourceMappingURL=skins.css.map */

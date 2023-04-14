@@ -7,3 +7,6 @@
     x.style.display = "none";
   }
 }
+
+const skin = document.querySelector(".skin-color");
+
