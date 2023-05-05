@@ -118,7 +118,7 @@ $(uColor).change(function() {
 $(document.querySelector("#displayBodyColor")).append('<p> body colour: ' + uColor + '</p>');
 
 
-
+/* testing, testing. Github hasn't loaded in close to a week. We think the gov may have blocked it.  */
 
 
  /* THE COOKIE JAR */
