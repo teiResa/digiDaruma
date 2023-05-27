@@ -8,6 +8,13 @@ body {
  margin: auto;
  overflow: hidden;
  width: 100vw;
+
+ /* So the user cannot highlight or copy anything (excluding DEV stuff section (see very bottom for class .dev_only)) */
+ user-select: none; /* supported by Chrome and Opera */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 h1 {
@@ -252,11 +259,23 @@ position: absolute;
  height: 15px;
 }
 
+.torso {
+ border: 2px solid pink;
+ width: 185px;
+ height: 55px;
+ border-radius: 30%;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 .chest {
  border: 2px solid plum;
  width: 55px;
  height: 55px;
  border-radius: 50%;
+ position: absolute;
 }
 
 /* This just controls whether the customisation menu is visible/hidden. Later decide on whether it should default as open or hidden. */
@@ -274,4 +293,10 @@ position: absolute;
 
 .dev_only {
  background-color: rgb(234, 210, 91);
+
+ user-select: text;  /* supported by Chrome and Opera */
+   -webkit-user-select: text;  /* Safari */
+   -khtml-user-select: text;  /* Konqueror HTML */
+   -moz-user-select: text;  /* Firefox */
+   -ms-user-select: text;  /* Internet Explorer/Edge */
 }

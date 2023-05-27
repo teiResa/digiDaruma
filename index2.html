@@ -60,6 +60,24 @@
        <label for="color3"> color3</label><br>
     </details>
     <details class="subsections">
+     <summary>Torso Pattern</summary>
+      <input type="radio" name="torso-pattern" id="torPatt1" value="torPatt1" class="torPattOpt1"/>
+       <label for="torPatt1"> torPatt1</label><br>
+      <input type="radio" name="torso-pattern" id="torPatt2" value="torPatt2" class="torPattOpt2" />
+       <label for="torPatt2"> torPatt2</label><br>
+      <input type="radio" name="torso-pattern" id="torPatt3" value="torPatt3" class="torPattOpt3"/>
+       <label for="torPatt3"> torPatt3</label><br>
+    </details>
+    <details class="subsections">
+     <summary>Chest Pattern</summary>
+      <input type="radio" name="chest-pattern" id="chestPatt1" value="chestPatt1" class="chestPattOpt1"/>
+       <label for="chestPatt1"> chestPatt1</label><br>
+      <input type="radio" name="chest-pattern" id="chestPatt2" value="chestPatt2" class="chestPattOpt2" />
+       <label for="chestPatt2"> chestPatt2</label><br>
+      <input type="radio" name="chest-pattern" id="chestPatt3" value="chestPatt3" class="chestPattOpt3"/>
+       <label for="chestPatt3"> chestPatt3</label><br>
+    </details>
+    <details class="subsections">
      <summary>Ear Shape</summary>
       <input type="radio" name="ear-shape" id="ear1" value="ear1">
        <label for="ear1"> Round</label><br>
@@ -96,8 +114,8 @@
   <div class="roly-poly background skin-color" id="skin-color"></div>
   <div class="roly-poly middleground face-color">
    <div class="ears">
-    <div class="ear-left ear-tri-L"></div>
-    <div class="ear-right ear-tri-R"></div>
+    <div class="ear-left ear-color ear-tri-L"></div>
+    <div class="ear-right ear-color ear-tri-R"></div>
    </div>
    <div class="face">
     <div class="facial-outline">
@@ -124,7 +142,8 @@
      </div>
     </div>
    </div>
-   <div class="chest"></div>
+   <div class="torso" id="torso" ><div class="chest" id="chest"></div></div>
+   
   </div>
   <div class="pupils foreground">
    <div class="pupil-left"></div>
@@ -137,6 +156,9 @@
 
   <!-- ~~ changed from h3 and h4 to divs. -->
   <div id="displayBodyColor"> </div>
+  <div id="displayTorsoPattern"> </div>
+  <div id="displayChestPattern"> </div>
+  <div id="displayEarShape"> </div>
   <div id="error"></div>
  </div>
  
