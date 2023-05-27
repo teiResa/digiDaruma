@@ -13,7 +13,7 @@ The skins.scss file contains all of the information about the looks that are use
 
 const skin = document.querySelector(".skin-color");
 // querySelector() is more modern and faster
-var uColor = $("input[name='body-color']:checked").val();
+const uColor = $("input[name='body-color']:checked").val();
 /*
 function updateColor() {
  skin.style.color = "blue";
@@ -62,8 +62,8 @@ jQuery(document).ready(function() {
     // https://www.tutsmake.com/jquery-api-method-make-radio-button-check-get-value/#:~:text=Answer%3A%20You%20can%20use%20like%20below%20to%20get,by%20name.%20%24%20%28%22input%20%5B%20name%20%3D%27name%27%5D%3Achecked%22%29.val%20%28%29%3B
 
     
-    var uColor = $("input[name='body-color']:checked").val();
-
+    const uColor = $("input[name='body-color']:checked").value;
+//const uColor = $("input[name='body-color']:checked").val();
     if(uColor){
      // alert("Selected skin colour -" + uColor);   WORKS
 
@@ -92,7 +92,7 @@ if(uColor == "color1")   {
 };
 $(document.querySelector("#displayBodyColor")).append('<p> body colour: ' + uColor + '</p>');
 
-    var uEar = $("input[name='ear-shape']:checked").val();
+    const uEar = $("input[name='ear-shape']:checked").val();
     if(uEar){
      alert("Selected ear shape -" + uEar);
     } 
@@ -118,7 +118,10 @@ $(uColor).change(function() {
 $(document.querySelector("#displayBodyColor")).append('<p> body colour: ' + uColor + '</p>');
 
 
-/* testing, testing. Github hasn't loaded in close to a week. We think the gov may have blocked it.  */
+/* testing, testing. Github hasn't loaded in close to a week. We think the gov may have blocked it. 
+
+Seems okay now. 2023-05-27
+*/
 
 
  /* THE COOKIE JAR */
