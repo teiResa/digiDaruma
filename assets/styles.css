@@ -278,8 +278,7 @@ position: absolute;
  height: 55px;
  border-radius: 50%;
  /* position: absolute; 
- the inline-block for the sprites doesn't allow this */
- position: absolute !important;
+ the inline-block for the sprites doesn't allow this, so it is now in a class called .chestCorrect */
 }
 
 /* This just controls whether the customisation menu is visible/hidden. Later decide on whether it should default as open or hidden. */
