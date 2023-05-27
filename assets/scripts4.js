@@ -62,19 +62,33 @@ $(document).ready(function () {
      $('#displayTorsoPattern').html( 'Torso torPatt1 is Clicked!' );
 
      const currTorso = document.getElementById('torso');
+
+     /*
      currTorso.style.backgroundColor = "purple";
+     */
+
+     currTorso.classList.add('spritePos1');
+     currTorso.classList.remove('spritePos2', 'spritePos3');
+
+     
 }); 
 $( '#torPatt2' ).on( 'click', function() { 
      $('#displayTorsoPattern').html( 'Torso torPatt2 is Clicked!' );
 
      const currTorso = document.getElementById('torso');
-     currTorso.style.backgroundColor = "#4D0F28";
+     /* currTorso.style.backgroundColor = "#4D0F28"; */
+     
+     currTorso.classList.add('spritePos2');
+     currTorso.classList.remove('spritePos1', 'spritePos3');
 }); 
 $( '#torPatt3' ).on( 'click', function() { 
      $('#displayTorsoPattern').html( 'Torso torPatt3 is Clicked!' );
 
      const currTorso = document.getElementById('torso');
-     currTorso.style.backgroundColor = "#9867C5";
+     /*
+     currTorso.style.backgroundColor = "#9867C5"; */
+     currTorso.classList.add('spritePos3', 'chestCorrect');
+     currTorso.classList.remove('spritePos1', 'spritePos2');
 }); 
 
 $( '#chestPatt1' ).on( 'click', function() { 

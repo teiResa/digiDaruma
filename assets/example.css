@@ -1,0 +1,47 @@
+/*
+   File name: example.css
+   Purpose: to practice using sprites with CSS and Javascript before bothering to actually make the required sprites. 
+   Author: Theresa Balsdon ( @teiResa )
+   Creation: 2023-05-27
+   Most recent update: 2023-05-28
+
+
+   Resources:
+   https://www.udacity.com/blog/2021/07/an-easy-guide-to-css-sprites.html
+   
+*/
+
+/*
+For the sprite example, I use the image called pinkycyan.png and use it for the torso area of the daruma doll.
+*/
+
+.spriteContainer {
+ background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/pinkycyan.png) left top no-repeat;
+}
+
+
+.spritePos1 {
+ width: 185px;
+ height: 55px;
+ display:inline-block;
+ background-position: -10px 0px;
+}
+
+.spritePos2 {
+ width: 185px;
+ height: 55px;
+ display:inline-block;
+ background-position: -364px -312px;
+}
+
+.spritePos3 {
+ width: 185px;
+ height: 55px;
+ display:inline-block;
+ background-position: -565px -570px;
+}
+
+.chestCorrect {
+ /* Make sure JS adds this class after any torso classes so it puts the chest back in the center of the torso. */
+ display: flex;
+}

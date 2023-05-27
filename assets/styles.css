@@ -3,6 +3,8 @@
  box-sizing: border-box;
 }
 
+
+
 body {
  height: 100vh;
  margin: auto;
@@ -275,7 +277,9 @@ position: absolute;
  width: 55px;
  height: 55px;
  border-radius: 50%;
- position: absolute;
+ /* position: absolute; 
+ the inline-block for the sprites doesn't allow this */
+ position: absolute !important;
 }
 
 /* This just controls whether the customisation menu is visible/hidden. Later decide on whether it should default as open or hidden. */
