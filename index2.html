@@ -81,12 +81,12 @@
     </details>
     <details class="subsections">
      <summary>Ear Shape</summary>
-      <input type="radio" name="ear-shape" id="ear1" value="ear1">
-       <label for="ear1"> Round</label><br>
-      <input type="radio" name="ear-shape" id="ear2" value="ear2">
-       <label for="ear2"> Square</label><br>
-      <input type="radio" name="ear-shape" id="ear3" value="ear3">
-       <label for="ear3"> Elongated</label><br>
+      <input type="radio" name="ear-sets" id="earSet1" value="earSet1">
+       <label for="earSet1"> Round</label><br>
+      <input type="radio" name="ear-sets" id="earSet2" value="earSet2">
+       <label for="earSet2"> Square</label><br>
+      <input type="radio" name="ear-sets" id="earSet3" value="earSet3">
+       <label for="earSet3"> Elongated</label><br>
     </details>
 
    </div>
@@ -96,12 +96,23 @@
 
    <details class="subsections">
     <summary>Eye Shape</summary>
-     <input type="radio" name="eye-shape" id="ey-round" value="ey-round">
-      <label for="ey-round"> Round</label><br>
-     <input type="radio" name="eye-shape" id="ey-square" value="ey-square">
-      <label for="ey-square"> Square</label><br>
-     <input type="radio" name="eye-shape" id="ey-elong" value="ey-elong">
-      <label for="ey-elong"> Elongated</label><br>
+     <input type="radio" name="eye-shape" id="eyeSet1" value="eyeSet1">
+      <label for="eyeSet1"> Round</label><br>
+     <input type="radio" name="eye-shape" id="eyeSet2" value="eyeSet2">
+      <label for="eyeSet2"> Square</label><br>
+     <input type="radio" name="eye-shape" id="eyeSet3" value="eyeSet3">
+      <label for="eyeSet3"> Elongated</label><br>
+   </details>
+
+
+   <details class="subsections">
+    <summary>Eyebrows</summary>
+     <input type="radio" name="brow-sets" id="browSet1" value="browSet1">
+      <label for="browSet1"> Set 1</label><br>
+     <input type="radio" name="brow-sets" id="browSet2" value="browSet2">
+      <label for="browSet2"> Set 2</label><br>
+     <input type="radio" name="brow-sets" id="browSet3" value="browSet3">
+      <label for="browSet3"> Set 3</label><br>
    </details>
 
    </div>
@@ -116,15 +127,15 @@
   <div class="roly-poly background skin-color" id="skin-color"></div>
   <div class="roly-poly middleground face-color">
    <div class="ears">
-    <div class="ear-left ear-color ear-tri-L"></div>
-    <div class="ear-right ear-color ear-tri-R"></div>
+    <div class="ear-left ear-color spriteContainer " id="ear-left"></div>
+    <div class="ear-right ear-color spriteContainer" id="ear-right"></div>
    </div>
    <div class="face">
     <div class="facial-outline">
      <div class="brows">
-      <div class="brow-left"></div>
-      <div class="brow-centre"></div>
-      <div class="brow-right"></div>
+      <div class="brow-left spriteContainer" id="brow-left"></div>
+      <div class="brow-centre spriteContainer" id="bindi"></div>
+      <div class="brow-right spriteContainer" id="brow-right"></div>
      </div>
      <div class="eye-outline">
       <div class="eye-left">
@@ -144,7 +155,7 @@
      </div>
     </div>
    </div>
-   <div class="torso spriteContainer" id="torso" ><div class="chest" id="chest"></div></div>
+   <div class="torso spriteContainerTorso" id="torso" ><div class="chest" id="chest"></div></div>
    
   </div>
   <div class="pupils foreground">
@@ -161,6 +172,8 @@
   <div id="displayTorsoPattern"> </div>
   <div id="displayChestPattern"> </div>
   <div id="displayEarShape"> </div>
+  <div id="displayBrows"> </div>
+  <div id="displayBindi"> </div> 
   <div id="error"></div>
  </div>
  

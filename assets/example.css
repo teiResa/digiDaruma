@@ -15,8 +15,11 @@
 For the sprite example, I use the image called pinkycyan.png and use it for the torso area of the daruma doll.
 */
 
-.spriteContainer {
+.spriteContainerTorso {
  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/pinkycyan.png) left top no-repeat;
+}
+.spriteContainer{
+ background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/tempSprite.png) left top no-repeat;
 }
 
 
@@ -47,6 +50,73 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
 }
 
 
-.earSprite1 {
- content: '<i class="fa-solid fa-a"></i>';
+.earSprite1l {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -15px -6px;
+}
+.earSprite1r {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -78px -6px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.earSprite2l {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -78px -6px;
+}
+.earSprite2r {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -146px -6px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.earSprite3l {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -146px -6px;
+}
+.earSprite3r {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -15px -6px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.browSprite1l {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -536px;
+}
+.browSprite1r {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -536px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.browSprite2l {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -536px;
+}
+.browSprite2r {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -536px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
 }
