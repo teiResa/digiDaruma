@@ -18,7 +18,7 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
 .spriteContainerTorso {
  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/pinkycyan.png) left top no-repeat;
 }
-.spriteContainer{
+.spriteContainerTemp{
  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/tempSprite.png) left top no-repeat;
 }
 
@@ -97,11 +97,13 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
 
 .browSprite1l {
  /* removed width and height so they would just fill the given area*/
+ 
  display:inline-block;
  background-position: -940px -536px;
 }
 .browSprite1r {
  /* removed width and height so they would just fill the given area*/
+ 
  display:inline-block;
  background-position: -940px -536px;
  -webkit-transform: scaleX(-1);
@@ -110,6 +112,7 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
 
 .browSprite2l {
  /* removed width and height so they would just fill the given area*/
+ 
  display:inline-block;
  background-position: -594px -536px;
 }
@@ -117,6 +120,115 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
  /* removed width and height so they would just fill the given area*/
  display:inline-block;
  background-position: -594px -536px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.browSprite3l {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -210px;
+}
+.browSprite3r {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -210px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.bindiStyle1 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -210px;
+}
+
+.bindiStyle2 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -389px;
+}
+
+.bindiStyle3 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -210px;
+}
+
+.noseStyle1 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -210px;
+}
+
+.noseStyle2 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -389px;
+}
+
+.noseStyle3 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -210px;
+}
+
+.mouthStyle1 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -210px;
+}
+
+.mouthStyle2 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -389px;
+}
+
+.mouthStyle3 {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -210px;
+}
+
+.fhSprite1l {
+ /* removed width and height so they would just fill the given area*/
+ 
+ display:inline-block;
+ background-position: -594px -536px;
+}
+.fhSprite1r {
+ /* removed width and height so they would just fill the given area*/
+ 
+ display:inline-block;
+ background-position: -594px -536px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.fhSprite2l {
+ /* removed width and height so they would just fill the given area*/
+ 
+ display:inline-block;
+ background-position: -940px -536px;
+}
+.fhSprite2r {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -536px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.fhSprite3l {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -389px;
+}
+.fhSprite3r {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -594px -389px;
  -webkit-transform: scaleX(-1);
  transform: scaleX(-1);
 }
