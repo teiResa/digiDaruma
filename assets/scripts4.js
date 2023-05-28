@@ -74,10 +74,10 @@ $( '#color2' ).on( 'click', function() {
 }); 
 
 $( '#color3' ).on( 'click', function() { 
- $('#displayBodyColor').html( 'Body color3 is selected!' ); 
+ $('#displayBodyColor').html( 'Body color3 (blue) is selected!' ); 
 
  const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "blue";
+     currSkin.style.backgroundColor = "#0183cd"; //blue
 }); 
 });
 

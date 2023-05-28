@@ -1,0 +1,110 @@
+
+.spriteContainerTemp{
+ background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/parts/daruma%20cleaner.png) left top no-repeat;
+}
+
+
+
+
+
+
+.chestCorrect {
+ /* Make sure JS adds this class after any torso classes so it puts the chest back in the center of the torso. */
+ display: flex;
+}
+
+
+
+
+
+
+
+/* RobotCat */
+
+.browRobotCatL {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -844px -87px;
+}
+.browRobotCatR {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -940px -536px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+.cheekRobotCatL {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -857px -200px;
+}
+.cheekRobotCatR {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -857px -200px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+
+/* No ears for RobotCat */
+
+.bindiRobotCat {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -1214px -93px;
+}
+
+.noseRobotCat {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -1192px -198px;
+}
+
+.mouthRobotCat {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -1285px -95px;
+}
+
+.chestRobotCat {
+ /* removed width and height so they would just fill the given area*/
+ display:inline-block;
+ background-position: -1276px -149px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shiba */
+
+.earShibaL {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -844px -87px;
+}
+.earShibaR {
+ width: 70px;
+ height: 70px;
+ display:inline-block;
+ background-position: -844px -87px;
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
