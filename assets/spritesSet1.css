@@ -13,6 +13,14 @@
  display: flex;
 }
 
+.spritePos0 {
+ width: 185px;
+ height: 55px;
+ display:inline-block;
+ background-position: 0px 0px;
+ background-color: rgba(0, 0, 0, 0);
+}
+
 
 
 

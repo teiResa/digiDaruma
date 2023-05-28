@@ -22,6 +22,14 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/tempSprite.png) left top no-repeat;
 }
 
+.spritePos0 {
+ width: 185px;
+ height: 55px;
+ display:inline-block;
+ background-position: 0px 0px;
+ background-color: rgba(0, 0, 0, 0);
+}
+
 
 .spritePos1 {
  width: 185px;

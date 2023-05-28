@@ -15,7 +15,7 @@ I have decided to up the changing CSS here because the project is so small. Just
 var currSkin = document.getElementById('skin-color');
    currSkin.style.backgroundColor = "red";
 var currTorso = document.getElementById('torso');
-   currTorso.classList.add('spritePos1', 'chestCorrect');
+   currTorso.classList.add('spritePos0', 'chestCorrect');
 var currChest = document.getElementById('chest');
    currChest.style.backgroundColor = "#E39FF6";
 var currEarL = document.querySelector('#ear-left');
@@ -99,6 +99,20 @@ $(document).ready(function () { /* Torso & Chest */
 
  //For now, the torso and chest patterns are just represented by shades of purple FINISHME
         
+ $( '#torPatt0' ).on( 'click', function() { 
+  $('#displayTorsoPattern').html( 'Torso torPatt0 is selected!' );
+
+  const currTorso = document.getElementById('torso');
+
+  /*
+  currTorso.style.backgroundColor = "purple";
+  */
+
+  currTorso.classList.add('spritePos0', 'chestCorrect');
+  
+  currTorso.classList.remove('spritePos1','spritePos2', 'spritePos3');
+}); 
+
  $( '#torPatt1' ).on( 'click', function() { 
      $('#displayTorsoPattern').html( 'Torso torPatt1 is selected!' );
 
