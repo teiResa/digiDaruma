@@ -45,3 +45,8 @@ For the sprite example, I use the image called pinkycyan.png and use it for the 
  /* Make sure JS adds this class after any torso classes so it puts the chest back in the center of the torso. */
  display: flex;
 }
+
+
+.earSprite1 {
+ content: '<i class="fa-solid fa-a"></i>';
+}

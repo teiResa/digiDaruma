@@ -67,7 +67,7 @@ $(document).ready(function () {
      currTorso.style.backgroundColor = "purple";
      */
 
-     currTorso.classList.add('spritePos1');
+     currTorso.classList.add('spritePos1', 'chestCorrect');
      currTorso.classList.remove('spritePos2', 'spritePos3');
 
      
@@ -78,7 +78,7 @@ $( '#torPatt2' ).on( 'click', function() {
      const currTorso = document.getElementById('torso');
      /* currTorso.style.backgroundColor = "#4D0F28"; */
      
-     currTorso.classList.add('spritePos2');
+     currTorso.classList.add('spritePos2', 'chestCorrect');
      currTorso.classList.remove('spritePos1', 'spritePos3');
 }); 
 $( '#torPatt3' ).on( 'click', function() { 
