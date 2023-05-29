@@ -1,6 +1,7 @@
 
-.spriteContainerTemp{
- background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/parts/daruma%20cleaner.png) left top no-repeat;
+.spriteContainer1{
+ background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/parts/daruma%20cleaner.png) left top no-repeat ;
+ /*background-size: 650%; seems like too much work*/
 }
 
 
@@ -8,10 +9,7 @@
 
 
 
-.chestCorrect {
- /* Make sure JS adds this class after any torso classes so it puts the chest back in the center of the torso. */
- display: flex;
-}
+
 
 .spritePos0 {
  width: 185px;
@@ -21,7 +19,10 @@
  background-color: rgba(0, 0, 0, 0);
 }
 
-
+.chestCorrect {
+ /* Make sure JS adds this class after any torso classes so it puts the chest back in the center of the torso. */
+ display: flex;
+}
 
 
 
@@ -66,19 +67,22 @@
 .noseRobotCat {
  /* removed width and height so they would just fill the given area*/
  display:inline-block;
- background-position: -1192px -198px;
+ background-position: -1210px -198px;
 }
 
 .mouthRobotCat {
  /* removed width and height so they would just fill the given area*/
+ /* bg too big for frame FIX LATER*/
  display:inline-block;
- background-position: -1285px -95px;
+ background-position: -1315px -95px;
+ 
 }
 
 .chestRobotCat {
- /* removed width and height so they would just fill the given area*/
+ /* removed width and height so they would just fill the given areawidth: 80px;*/
+ /* bg too big for frame FIX LATER*/
  display:inline-block;
- background-position: -1276px -149px;
+ background-position: -1310px -189px;
 }
 
 

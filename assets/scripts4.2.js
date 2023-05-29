@@ -13,29 +13,30 @@ I have decided to up the changing CSS here because the project is so small. Just
 
 /* Using let variables to set defaults */
 var currSkin = document.getElementById('skin-color');
-   currSkin.style.backgroundColor = "#0183cd"; //blue
+   currSkin.style.backgroundColor = "red";
 var currTorso = document.getElementById('torso');
    currTorso.classList.add('spritePos0', 'chestCorrect');
 var currChest = document.getElementById('chest');
-   currChest.classList.add('chestRobotCat');
+   currChest.style.backgroundColor = "#E39FF6";
 var currEarL = document.querySelector('#ear-left');
 var currEarR = document.querySelector('#ear-right');
    currEarL.classList.add('earSprite1l');
    currEarR.classList.add('earSprite1r');
 var currBrowL = document.querySelector('#brow-left');
 var currBrowR = document.querySelector('#brow-right');
-   currBrowL.classList.add('browRobotCatL');
-   currBrowR.classList.add('browRobotCatR');
+   currBrowL.classList.add('browSprite1l');
+   currBrowR.classList.add('browSprite1r');
 var currBindi = document.getElementById('bindi');
-   currBindi.classList.add('bindiRobotCat');
+   currBindi.classList.add('bindiStyle1');
 var currNose = document.getElementById('nose');
-   currNose.classList.add('noseRobotCat');
+   currNose.classList.add('noseStyle1');
 var currMouth = document.getElementById('mouth');
-   currMouth.classList.add('mouthRobotCat');
+   currMouth.classList.add('mouthStyle1');
 var currCheekL = document.querySelector('#FH-left');
 var currCheekR = document.querySelector('#FH-right'); 
-   currCheekL.classList.add('cheekRobotCatL');
-   currCheekR.classList.add('cheekRobotCatR');
+   currCheekL.classList.add('fhSprite1l');
+   currCheekL.classList.remove('fhSprite2l', 'fhSprite3l');
+   currCheekR.classList.add('fhSprite1r');
 
 
 
@@ -275,7 +276,7 @@ $( '#browSet3' ).on( 'click', function() {
 
 });
 
-/* <div class="brow-centre spriteContainer1" id="bindi"></div>
+/* <div class="brow-centre spriteContainerTemp" id="bindi"></div>
  */
 
 $(document).ready(function () { /* Bindi */
@@ -313,12 +314,12 @@ $( '#bindiPatt3' ).on( 'click', function() {
 /* Snout and Facial Hair
 
 <div class="snout">
-      <div class="facial-hair-left spriteContainer1" id="FH-left"></div>
+      <div class="facial-hair-left spriteContainerTemp" id="FH-left"></div>
       <div class="breathers">
-       <div class="nose spriteContainer1" id="nose"></div>
-       <div class="mouth spriteContainer1" id="mouth"></div>
+       <div class="nose spriteContainerTemp" id="nose"></div>
+       <div class="mouth spriteContainerTemp" id="mouth"></div>
       </div>
-      <div class="facial-hair-right spriteContainer1" id="FH-right"></div>
+      <div class="facial-hair-right spriteContainerTemp" id="FH-right"></div>
      </div>
 
   <div id="displayFacialHair"> </div>
