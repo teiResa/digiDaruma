@@ -34,7 +34,7 @@ h1 {
  align-items: center;
  justify-content: center;
  height: 65vh;
- width: 70vw;
+ width: 80vw;
  margin: auto;
 
  /* might need this float: left; if the frame starts acting up */
@@ -46,8 +46,8 @@ h1 {
  align-items: center;
  justify-content: center;
  height: 45vh;
- width: 40vw;
- min-width: 280px;
+ width: 50vw;
+ min-width: 290px;
  max-width: 300px;
  /* See animations below*/
  animation: rolypoly3 2700ms linear 1;
@@ -59,7 +59,7 @@ h1 {
 .roly-poly {
  margin: auto;
  width: 200px;
- height: 210px;  /* or 200px */
+ height: 230px;  /* or 200px */
  border-radius: 50%;
  /* the border-radii make it the typical short egg shape  */
  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
@@ -88,9 +88,9 @@ position: absolute;
 }
 
 .middleground {
- height: 240px;
+ height: 260px;
  border: 2px solid pik;
- margin-bottom: 28px;
+ margin-bottom: 34px;
 }
 
 .ears, .face, .chest {
@@ -103,8 +103,8 @@ position: absolute;
 }
 
 .ears {
- width: 230px;
- height: 85px;
+ width: 260px;
+ height: 100px;
  display: flex;
  justify-content: space-between;
 }
@@ -121,7 +121,7 @@ position: absolute;
 }
 
 .face {
- height: 110px;
+ height: 120px;
  display: flex;
  flex-direction: column;
  align-items: center;

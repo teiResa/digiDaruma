@@ -13,29 +13,29 @@ I have decided to up the changing CSS here because the project is so small. Just
 
 /* Using let variables to set defaults */
 var currSkin = document.getElementById('skin-color');
-   currSkin.style.backgroundColor = "#0183cd"; //blue
+   currSkin.style.backgroundColor = "coral"; //blue
 var currTorso = document.getElementById('torso');
    currTorso.classList.add('spritePos0', 'chestCorrect');
 var currChest = document.getElementById('chest');
-   currChest.classList.add('chestRobotCat');
+   currChest.classList.add('chestFu');
 var currEarL = document.querySelector('#ear-left');
 var currEarR = document.querySelector('#ear-right');
-   currEarL.classList.add('earSprite1l');
-   currEarR.classList.add('earSprite1r');
+   currEarL.classList.add('earStyle0');
+   currEarR.classList.add('earStyle0');
 var currBrowL = document.querySelector('#brow-left');
 var currBrowR = document.querySelector('#brow-right');
-   currBrowL.classList.add('browRobotCatL');
-   currBrowR.classList.add('browRobotCatR');
+   currBrowL.classList.add('browBasicL');
+   currBrowR.classList.add('browBasicR');
 var currBindi = document.getElementById('bindi');
-   currBindi.classList.add('bindiRobotCat');
+   currBindi.classList.add('bindiBasic');
 var currNose = document.getElementById('nose');
-   currNose.classList.add('noseRobotCat');
+   currNose.classList.add('noseBasic');
 var currMouth = document.getElementById('mouth');
-   currMouth.classList.add('mouthRobotCat');
+   currMouth.classList.add('mouthBasic');
 var currCheekL = document.querySelector('#FH-left');
 var currCheekR = document.querySelector('#FH-right'); 
-   currCheekL.classList.add('cheekRobotCatL');
-   currCheekR.classList.add('cheekRobotCatR');
+   currCheekL.classList.add('cheekBasicL');
+   currCheekR.classList.add('cheekBasicR');
 
 
 
@@ -146,17 +146,27 @@ $( '#torPatt3' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt1' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt1 is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt1 (Fu) is selected!' );
 
  const currChest = document.getElementById('chest');
- currChest.style.backgroundColor = "#E39FF6";
+ currChest.classList.add('chestFu');
+ currChest.classList.remove('chestRobotCat', 'chestHeart');
 }); 
 
 $( '#chestPatt2' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt2 is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt2 (Bell) is selected!' );
 
  const currChest = document.getElementById('chest');
- currChest.style.backgroundColor = "#A45EE5";
+   currChest.classList.add('chestRobotCat');
+   currChest.classList.remove('chestFu', 'chestHeart');
+}); 
+
+$( '#chestPatt3' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt3 (Heart) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('chestHeart');
+   currChest.classList.remove('chestRobotCat', 'chestFu');
 }); 
 
 
@@ -178,6 +188,18 @@ $( '#chestPatt2' ).on( 'click', function() {
 
 
 $(document).ready(function () { /* Ears */
+ $( '#earSet0' ).on( 'click', function() { 
+     $('#displayEarShape').html( 'Ear earSet0 is selected!' );
+
+     const currEarL = document.querySelector('#ear-left');
+     const currEarR = document.querySelector('#ear-right');
+
+     currEarL.classList.add('earStyle0');
+     currEarL.classList.remove('earSprite1l', 'earSprite2l', 'earShibaL');
+     currEarR.classList.add('earStyle0');
+     currEarR.classList.remove('earSprite1r', 'earSprite2r', 'earShibaR');
+
+}); 
         
  $( '#earSet1' ).on( 'click', function() { 
      $('#displayEarShape').html( 'Ear earSet1 is selected!' );
@@ -186,9 +208,9 @@ $(document).ready(function () { /* Ears */
      const currEarR = document.querySelector('#ear-right');
 
      currEarL.classList.add('earSprite1l');
-     currEarL.classList.remove('earSprite2l', 'earSprite3l');
+     currEarL.classList.remove('earSprite2l', 'earShibaL');
      currEarR.classList.add('earSprite1r');
-     currEarR.classList.remove('earSprite2r', 'earSprite3r');
+     currEarR.classList.remove('earSprite2r', 'earShibaR');
 }); 
 
 $( '#earSet2' ).on( 'click', function() { 
@@ -198,9 +220,9 @@ $( '#earSet2' ).on( 'click', function() {
  const currEarR = document.querySelector('#ear-right');
 
  currEarL.classList.add('earSprite2l');
- currEarL.classList.remove('earSprite1l', 'earSprite3l');
+ currEarL.classList.remove('earSprite1l', 'earShibaL');
  currEarR.classList.add('earSprite2r');
- currEarR.classList.remove('earSprite1r', 'earSprite3r');
+ currEarR.classList.remove('earSprite1r', 'earShibaR');
 }); 
 
 $( '#earSet3' ).on( 'click', function() { 
@@ -209,9 +231,9 @@ $( '#earSet3' ).on( 'click', function() {
  const currEarL = document.querySelector('#ear-left');
  const currEarR = document.querySelector('#ear-right');
 
- currEarL.classList.add('earSprite3l');
+ currEarL.classList.add('earShibaL');
  currEarL.classList.remove('earSprite1l', 'earSprite2l');
- currEarR.classList.add('earSprite3r');
+ currEarR.classList.add('earShibaR');
  currEarR.classList.remove('earSprite1r', 'earSprite2r');
 }); 
 
@@ -235,29 +257,39 @@ $( '#earSet3' ).on( 'click', function() {
 
 
 $(document).ready(function () { /* Brows */
-        
- $( '#browSet1' ).on( 'click', function() { 
-     $('#displayBrows').html( 'brow browSet1 is selected!' );
 
-     const currBrowL = document.querySelector('#brow-left');
-     const currBrowR = document.querySelector('#brow-right');
-
-     currBrowL.classList.add('browSprite1l');
-     currBrowL.classList.remove('browSprite2l', 'browSprite3l');
-     currBrowR.classList.add('browSprite1r');
-     currBrowR.classList.remove('browSprite2r', 'browSprite3r');
-}); 
-
-$( '#browSet2' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet2 is selected!' );
+$( '#browSet0' ).on( 'click', function() { 
+ $('#displayBrows').html( 'brow browSet2 (none) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('browSprite2l');
- currBrowL.classList.remove('browSprite1l', 'browSprite3l');
- currBrowR.classList.add('browSprite2r');
- currBrowR.classList.remove('browSprite1r', 'browSprite3r');
+ currBrowL.classList.remove('browRobotCatL', 'browBasicL', 'browSprite1l', 'browSprite3l');
+ currBrowR.classList.remove('browRobotCatR', 'browBasicR', 'browSprite3r');
+}); 
+        
+ $( '#browSet1' ).on( 'click', function() { 
+     $('#displayBrows').html( 'brow browSet1 (basic) is selected!' );
+
+     const currBrowL = document.querySelector('#brow-left');
+     const currBrowR = document.querySelector('#brow-right');
+
+     currBrowL.classList.add('browBasicL');
+     currBrowL.classList.remove('browRobotCatL', 'browSprite2l', 'browSprite3l');
+     currBrowR.classList.add('browBasicR');
+     currBrowR.classList.remove('browRobotCatR', 'browSprite2r', 'browSprite3r');
+}); 
+
+$( '#browSet2' ).on( 'click', function() { 
+ $('#displayBrows').html( 'brow browSet2 (unibrow) is selected!' );
+
+ const currBrowL = document.querySelector('#brow-left');
+ const currBrowR = document.querySelector('#brow-right');
+
+ currBrowL.classList.add('browRobotCatL');
+ currBrowL.classList.remove('browSprite2l', 'browSprite1l', 'browSprite3l');
+ currBrowR.classList.add('browRobotCatR');
+ currBrowR.classList.remove('browSprite2r', 'browSprite1r', 'browSprite3r');
 }); 
 
 $( '#browSet3' ).on( 'click', function() { 
@@ -279,6 +311,15 @@ $( '#browSet3' ).on( 'click', function() {
  */
 
 $(document).ready(function () { /* Bindi */
+
+$( '#bindiPatt0' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt0 (none) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('bindiStyle0');
+ currBindi.classList.remove('bindiStyle1', 'bindiRobotCat', 'bindiStyle3');
+}); 
         
  $( '#bindiPatt1' ).on( 'click', function() { 
      $('#displayBindi').html( 'bindi bindiPatt1 is selected!' );
@@ -286,15 +327,15 @@ $(document).ready(function () { /* Bindi */
      const currBindi = document.getElementById('bindi');
 
      currBindi.classList.add('bindiStyle1');
-     currBindi.classList.remove('bindiStyle2', 'bindiStyle3');
+     currBindi.classList.remove('bindiStyle0', 'bindiRobotCat', 'bindiStyle3');
 }); 
 
 $( '#bindiPatt2' ).on( 'click', function() { 
- $('#displayBindi').html( 'bindi bindiPatt2 is selected!' );
+ $('#displayBindi').html( 'bindi bindiPatt2 (RocotCat) is selected!' );
 
  const currBindi = document.getElementById('bindi');
 
- currBindi.classList.add('bindiStyle2');
+ currBindi.classList.add('bindiRobotCat');
  currBindi.classList.remove('bindiStyle1', 'bindiStyle3');
 }); 
 
@@ -304,7 +345,7 @@ $( '#bindiPatt3' ).on( 'click', function() {
  const currBindi = document.getElementById('bindi');
 
  currBindi.classList.add('bindiStyle3');
- currBindi.classList.remove('bindiStyle1', 'bindiStyle2');
+ currBindi.classList.remove('bindiStyle1', 'bindiRobotCat');
 }); 
 
 });
@@ -342,44 +383,60 @@ $( '#bindiPatt3' ).on( 'click', function() {
 
 $(document).ready(function () { /* Nose */
         
+ $( '#nose0' ).on( 'click', function() { 
+  $('#displayNose').html( 'nose nose0 (none) is selected!' );
+
+  const currNose = document.getElementById('nose');
+
+  currNose.classList.remove('noseBasic', 'noseRobotCat', 'noseShiba');
+ });
+ 
  $( '#nose1' ).on( 'click', function() { 
-     $('#displayNose').html( 'nose nose1 is selected!' );
+     $('#displayNose').html( 'nose nose1 (basic) is selected!' );
 
      const currNose = document.getElementById('nose');
 
-     currNose.classList.add('noseStyle1');
-     currNose.classList.remove('noseStyle2', 'noseStyle3');
+     currNose.classList.add('noseBasic');
+     currNose.classList.remove('noseRobotCat', 'noseShiba');
 }); 
 
 $( '#nose2' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nose2 is selected!' );
+ $('#displayNose').html( 'nose nose2 (RobotCat) is selected!' );
 
  const currNose = document.getElementById('nose');
 
- currNose.classList.add('noseStyle2');
- currNose.classList.remove('noseStyle1', 'noseStyle3');
+ currNose.classList.add('noseRobotCat');
+ currNose.classList.remove('noseBasic', 'noseShiba');
 }); 
 
 $( '#nose3' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nose3 is selected!' );
+ $('#displayNose').html( 'nose nose3 (Shiba) is selected!' );
 
  const currNose = document.getElementById('nose');
 
- currNose.classList.add('noseStyle3');
- currNose.classList.remove('noseStyle1', 'noseStyle2');
+ currNose.classList.add('noseShiba');
+ currNose.classList.remove('noseBasic', 'noseRobotCat');
 }); 
 
 });
 
 $(document).ready(function () { /* Mouth */
-        
+      
+ $( '#mouth0' ).on( 'click', function() { 
+  $('#displayMouth').html( 'mouth mouth0 (none) is selected!' );
+
+  const currMouth = document.getElementById('mouth');
+
+  currMouth.classList.remove('mouthBasic', 'mouthRobotCat', 'mouthShiba');
+ }); 
+
  $( '#mouth1' ).on( 'click', function() { 
      $('#displayMouth').html( 'mouth mouth1 is selected!' );
 
      const currMouth = document.getElementById('mouth');
 
-     currMouth.classList.add('mouthStyle1');
-     currMouth.classList.remove('mouthStyle2', 'mouthStyle3');
+     currMouth.classList.add('mouthBasic');
+     currMouth.classList.remove('mouthRobotCat', 'mouthShiba');
 }); 
 
 $( '#mouth2' ).on( 'click', function() { 
@@ -387,33 +444,44 @@ $( '#mouth2' ).on( 'click', function() {
 
  const currMouth = document.getElementById('mouth');
 
- currMouth.classList.add('mouthStyle2');
- currMouth.classList.remove('mouthStyle1', 'mouthStyle3');
+ currMouth.classList.add('mouthRobotCat');
+ currMouth.classList.remove('mouthBasic', 'mouthShiba');
 }); 
 
 $( '#mouth3' ).on( 'click', function() { 
- $('#displayMouth').html( 'mouth mouth3 is selected!' );
+ $('#displayMouth').html( 'mouth mouth3 (shiba) is selected!' );
 
  const currMouth = document.getElementById('mouth');
 
- currMouth.classList.add('mouthStyle3');
- currMouth.classList.remove('mouthStyle1', 'mouthStyle2');
+ currMouth.classList.add('mouthShiba');
+ currMouth.classList.remove('mouthBasic', 'mouthRobotCat');
 }); 
 
 });
 
 $(document).ready(function () { /* Facial hair or cheeks */
-        
+   
+
+ $( '#fhair0' ).on( 'click', function() { 
+  $('#displayFacialHair').html( 'Cheeks fhair0 is selected!' );
+
+  const currCheekL = document.querySelector('#FH-left');
+  const currCheekR = document.querySelector('#FH-right');
+
+  currCheekL.classList.remove('cheekBasicL', 'cheekRobotCatL', 'fhSprite3l');
+  currCheekR.classList.remove('cheekBasicR','cheekRobotCatR', 'fhSprite3r');
+ }); 
+
  $( '#fhair1' ).on( 'click', function() { 
      $('#displayFacialHair').html( 'Cheeks fhair1 is selected!' );
 
      const currCheekL = document.querySelector('#FH-left');
      const currCheekR = document.querySelector('#FH-right');
     
-     currCheekL.classList.add('fhSprite1l');
-     currCheekL.classList.remove('fhSprite2l', 'fhSprite3l');
+     currCheekL.classList.add('cheekBasicL');
+     currCheekL.classList.remove('cheekBasicL','cheekRobotCatL', 'cheekShibaL');
      currCheekR.classList.add('fhSprite1r');
-     currCheekR.classList.remove('fhSprite2r', 'fhSprite3r');
+     currCheekR.classList.remove('cheekBasicR', 'cheekRobotCatR', 'cheekShibaR');
 }); 
 
 $( '#fhair2' ).on( 'click', function() { 
@@ -422,10 +490,10 @@ $( '#fhair2' ).on( 'click', function() {
      const currCheekL = document.querySelector('#FH-left');
      const currCheekR = document.querySelector('#FH-right');
 
-     currCheekL.classList.add('fhSprite2l');
-     currCheekL.classList.remove('fhSprite1l', 'fhSprite3l');
-     currCheekR.classList.add('fhSprite2r');
-     currCheekR.classList.remove('fhSprite1r', 'fhSprite3r');
+     currCheekL.classList.add('cheekRobotCatL');
+     currCheekL.classList.remove('cheekBasicL', 'cheekShibaL');
+     currCheekR.classList.add('cheekRobotCatR');
+     currCheekR.classList.remove('fhSprite1r', 'cheekShibaR');
 }); 
 
 $( '#fhair3' ).on( 'click', function() { 
@@ -434,10 +502,10 @@ $( '#fhair3' ).on( 'click', function() {
      const currCheekL = document.querySelector('#FH-left');
      const currCheekR = document.querySelector('#FH-right');
 
-     currCheekL.classList.add('fhSprite3l');
-     currCheekL.classList.remove('fhSprite1l', 'fhSprite2l');
-     currCheekR.classList.add('fhSprite3r');
-     currCheekR.classList.remove('fhSprite1r', 'fhSprite2r');
+     currCheekL.classList.add('cheekShibaL');
+     currCheekL.classList.remove('cheekBasicL', 'cheekRobotCatL');
+     currCheekR.classList.add('cheekShibaR');
+     currCheekR.classList.remove('fhSprite1r', 'cheekRobotCatR');
 }); 
 
 });

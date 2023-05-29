@@ -1,0 +1,26 @@
+Default
+ Brow:    57 153
+ Cheek:   73 214
+ Ear:		N/A
+ Bindi:   	N/A
+ Nose:    231 215
+ Mouth:   274 155
+ Chest:   274 180
+
+Doraemon
+ Brow:    423 53
+ Cheek:   437 99
+ Ear:     	N/A
+ Bindi:   610 58
+ Nose:    592 97
+ Mouth:   648 51
+ Chest:   641 79
+
+Shiba
+ Brow:    	N/A
+ Cheek:   437 99
+ Ear:     505 154
+ Bindi:   	N/A
+ Nose:    598 209
+ Mouth:   637 162
+ Chest:   642 187
