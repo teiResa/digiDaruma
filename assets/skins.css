@@ -1,27 +1,242 @@
-.skin-color.blue {
-  background-color: blue;
-}
-
-.skin-color.green {
-  background-color: #2ecc71;
-}
-
-.skin-color.orange {
-  background-color: orangered;
-}
-
-.colorOpt1 {
-  background-color: blue;
-}
-
-.colorOpt2 {
-  background-color: #2ecc71;
-}
-
-.colorOpt3 {
-  background-color: orangered;
-}
-
 /* or 32312d */
-/* What the shit is going on? */
+.spriteContainer1 {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/parts/daruma%20clean%20smaller.png) left top no-repeat;
+  /*background-size: 650%; seems like too much work
+ 
+ https://teiresa.github.io/digiDaruma/assets/deco/themes/parts/daruma%20cleaner.png
+ */
+}
+
+.bordersON {
+  border: 2px #FFF;
+}
+
+.bordersOFF {
+  border: 2px #00000000;
+}
+
+.spritePos0 {
+  width: 185px;
+  height: 55px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px #00000000;
+}
+
+.earStyle0 {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-position: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px #00000000;
+  background-size: 1200%;
+  /* so none of sprite is visible */
+}
+
+.bindiStyle0 {
+  display: inline-block;
+  background-position: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px #00000000;
+  background-size: 1200%;
+  /* so none of sprite is visible */
+}
+
+.browStyle0 {
+  display: inline-block;
+  background-position: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px #00000000;
+  background-size: 1200%;
+  /* so none of sprite is visible */
+}
+
+.chestCorrect {
+  /* Make sure JS adds this class after any torso classes so it puts the chest back in the center of the torso. */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Basic Daruma */
+.browBasicL {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -57px -153px;
+}
+
+.browBasicR {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -57px -153px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cheekBasicL {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -73px -214px;
+}
+
+.cheekBasicR {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -73px -214px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* No ears for Basic */
+/*
+.bindiBasic {
+ removed width and height so they would just fill the given area
+ display:inline-block;
+ background-position: -610px -58px;
+}*/
+.noseBasic {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -231px -215px;
+}
+
+.mouthBasic {
+  /* removed width and height so they would just fill the given area*/
+  /* bg too big for frame FIX LATER*/
+  display: inline-block;
+  background-position: -282px -155px;
+}
+
+.chestFu {
+  /* removed width and height so they would just fill the given areawidth: 80px;*/
+  /* bg too big for frame FIX LATER*/
+  display: inline-block;
+  background-position: -275px -186px;
+}
+
+/* RobotCat */
+.browRobotCatL {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -423px -53px;
+}
+
+.browRobotCatR {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -423px -53px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cheekRobotCatL {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -437px -99px;
+}
+
+.cheekRobotCatR {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -437px -99px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* No ears for RobotCat */
+.bindiRobotCat {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -610px -58px;
+}
+
+.noseRobotCat {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -597px -101px;
+}
+
+.mouthRobotCat {
+  /* removed width and height so they would just fill the given area*/
+  /* bg too big for frame FIX LATER*/
+  display: inline-block;
+  background-position: -648px -51px;
+}
+
+.chestRobotCat {
+  /* removed width and height so they would just fill the given areawidth: 80px;*/
+  /* bg too big for frame FIX LATER*/
+  display: inline-block;
+  background-position: -641px -79px;
+}
+
+/* Shiba */
+/* Shiba */
+.browShibaL {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -423px -53px;
+}
+
+.browShibaR {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -423px -53px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cheekShibaL {
+  /* removed width and height so they would just fill the given areabackground-position: -437px -99px;*/
+  display: inline-block;
+  background-position: -505px -237px;
+}
+
+.cheekShibaR {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -437px -99px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.earShibaL {
+  width: 105px;
+  height: 105px;
+  display: inline-block;
+  background-position: -889px -299px;
+}
+
+/* Was trying to get rid of the areas that are cut off, but they've grown on me. I like the ears huge like this.*/
+.earShibaR {
+  width: 105px;
+  height: 105px;
+  display: inline-block;
+  background-position: -889px -299px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* Shiba dones not have a bindi bindiShiba */
+.noseShiba {
+  /* removed width and height so they would just fill the given area*/
+  display: inline-block;
+  background-position: -598px -209px;
+}
+
+.mouthShiba {
+  /* removed width and height so they would just fill the given area*/
+  /* bg too big for frame FIX LATER*/
+  display: inline-block;
+  background-position: -648px -162px;
+}
+
+.chestHeart {
+  /* removed width and height so they would just fill the given areawidth: 80px;*/
+  /* bg too big for frame FIX LATER*/
+  display: inline-block;
+  background-position: -642px -187px;
+}
 /*# sourceMappingURL=skins.css.map */

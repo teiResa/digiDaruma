@@ -293,6 +293,57 @@ position: absolute;
 
 }
 
+#body-radios {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ max-width: 90vw;
+}
+
+#body-radios input[type="radio"] {
+  /* getting rid of the selected circle default to radio buttons
+  hiding the input element */
+  appearance: none;  /* supported by Chrome and Opera */
+    -webkit-appearance: none;  /* Safari */
+    -khtml-appearance: none;  /* Konqueror HTML */
+    -moz-appearance: none;  /* Firefox */
+    -ms-appearance: none;  /* Internet Explorer/Edge */
+}
+
+
+
+#body-radios i {
+ position: sticky;
+ display: block;
+  padding: 13px 13px;
+  top: -5px;
+  border: 1px solid green;
+}
+
+
+
+
+
+/* Works, but i want a cleaner method using js
+.colorOptions:hover ~ .hide {
+ display: block;
+ color:pink;
+}
+
+.hide {
+ display: none;
+ height: 1em;
+}
+*/
+.colorMeans {
+  user-select: text;  /* supported by Chrome and Opera */
+    -webkit-user-select: text;  /* Safari */
+    -khtml-user-select: text;  /* Konqueror HTML */
+    -moz-user-select: text;  /* Firefox */
+    -ms-user-select: text;  /* Internet Explorer/Edge */
+ 
+}
+
 
 .dev_only {
  background-color: rgb(234, 210, 91);

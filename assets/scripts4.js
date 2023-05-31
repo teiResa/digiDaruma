@@ -42,8 +42,28 @@ var currCheekR = document.querySelector('#FH-right');
 
 
 
+var optnRose = document.getElementById('colorRose');
+  optnRose.style.color ="#edb0b7";
+var optnRed = document.getElementById('colorRed');
+  optnRed.style.color ="#f4555f";
+var optnPeach = document.getElementById('colorPeach');
+  optnPeach.style.color ="#FFCBA4";
+  var optnOrange = document.getElementById('colorOrange');
+  optnOrange.style.color ="#fca54d";
+  var optnGold = document.getElementById('colorGold');
+  optnGold.style.color ="#DAA520";
+  var optnGreen = document.getElementById('colorGreen');
+  optnGreen.style.color ="#8cc063";
+  var optnBlue = document.getElementById('colorBlue');
+  optnBlue.style.color ="#0183cd";
+var optnPurple = document.getElementById('colorPurple');
+  optnPurple.style.color = "#9383c4";
 
-
+  var optnWhite = document.getElementById('colorWhite');
+  optnWhite.style.color ="#dbdbdb";
+  var optnBlack = document.getElementById('colorBlack');
+  optnBlack.style.color ="#45443d";
+  
 
 
 
@@ -58,15 +78,20 @@ var currCheekR = document.querySelector('#FH-right');
 
 $(document).ready(function () { /* Skin */
         
+
+
  $( '#color1' ).on( 'click', function() { 
      $('#displayBodyColor').html( 'Body color1 is selected!' );
+     $('#colorMeans').html( 'Red == Good fortune' );
+     
 
      const currSkin = document.getElementById('skin-color');
      currSkin.style.backgroundColor = "red";
 }); 
 
 $( '#color2' ).on( 'click', function() { 
- $('#displayBodyColor').html( 'Body color2 is selected!' ); 
+ $('#displayBodyColor').html( 'Body color2 is selected!' );
+ $('#colorMeans').html( 'Green == Physical Wellness' ); 
 
  const currSkin = document.getElementById('skin-color');
      currSkin.style.backgroundColor = "green";
@@ -74,6 +99,7 @@ $( '#color2' ).on( 'click', function() {
 
 $( '#color3' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color3 (blue) is selected!' ); 
+ $('#colorMeans').html( 'Blue == Academic success' ); 
 
  const currSkin = document.getElementById('skin-color');
      currSkin.style.backgroundColor = "#0183cd"; //blue

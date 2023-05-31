@@ -15,6 +15,19 @@
 For the sprite example, I use the image called pinkycyan.png and use it for the torso area of the daruma doll.
 */
 
+.hide {
+ display: none;
+}
+
+.colorOptions + .hide {
+ display: block;
+ color:pink;
+}
+
+/* The adjacent sibling selector (+) selects all elements that are the adjacent siblings of a specified element.
+
+The word "adjacent" means "immediately following", and the example above selects all elements with class=".hide", that are placed immediately after elements with class=".myDIV", on hover. */
+
 .spriteContainerTorso {
  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/examples/pinkycyan.png) left top no-repeat;
 }
