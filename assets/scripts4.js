@@ -104,6 +104,14 @@ $( '#color3' ).on( 'click', function() {
  const currSkin = document.getElementById('skin-color');
      currSkin.style.backgroundColor = "#0183cd"; //blue
 }); 
+
+$( '#color4' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color4 is selected!' );
+ $('#colorMeans').html( 'Green == Physical Wellness' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#";
+}); 
 });
 
 
