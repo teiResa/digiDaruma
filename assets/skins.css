@@ -193,13 +193,13 @@
 .cheekShibaL {
   /* removed width and height so they would just fill the given areabackground-position: -437px -99px;*/
   display: inline-block;
-  background-position: -505px -237px;
+  background-position: -427px -218px;
 }
 
 .cheekShibaR {
   /* removed width and height so they would just fill the given area*/
   display: inline-block;
-  background-position: -437px -99px;
+  background-position: -427px -218px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }

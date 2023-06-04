@@ -224,6 +224,14 @@ $( '#torPatt3' ).on( 'click', function() {
      currTorso.classList.remove('spritePos1', 'spritePos2');
 }); 
 
+$( '#chestPatt0' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt0 (NULL) is selected!' );
+
+ const currChest = document.getElementById('chest');
+ /*currChest.classList.add('chestFu'); */
+ currChest.classList.remove('chestFu', 'chestRobotCat', 'chestHeart');
+}); 
+
 $( '#chestPatt1' ).on( 'click', function() { 
  $('#displayChestPattern').html( 'chest chestPatt1 (Fu) is selected!' );
 
@@ -415,7 +423,7 @@ $( '#bindiPatt2' ).on( 'click', function() {
  const currBindi = document.getElementById('bindi');
 
  currBindi.classList.add('bindiRobotCat');
- currBindi.classList.remove('bindiStyle1', 'bindiStyle3');
+ currBindi.classList.remove('bindiStyle0', 'bindiStyle1',  'bindiStyle3');
 }); 
 
 $( '#bindiPatt3' ).on( 'click', function() { 
@@ -424,7 +432,7 @@ $( '#bindiPatt3' ).on( 'click', function() {
  const currBindi = document.getElementById('bindi');
 
  currBindi.classList.add('bindiStyle3');
- currBindi.classList.remove('bindiStyle1', 'bindiRobotCat');
+ currBindi.classList.remove('bindiStyle1', 'bindiRobotCat', 'bindiStyle0');
 }); 
 
 });
@@ -557,10 +565,12 @@ $(document).ready(function () { /* Facial hair or cheeks */
      const currCheekL = document.querySelector('#FH-left');
      const currCheekR = document.querySelector('#FH-right');
     
+    
+
      currCheekL.classList.add('cheekBasicL');
-     currCheekL.classList.remove('cheekBasicL','cheekRobotCatL', 'cheekShibaL');
-     currCheekR.classList.add('fhSprite1r');
-     currCheekR.classList.remove('cheekBasicR', 'cheekRobotCatR', 'cheekShibaR');
+     currCheekL.classList.remove('cheekRobotCatL', 'cheekShibaL');
+     currCheekR.classList.add('cheekBasicR');
+     currCheekR.classList.remove( 'cheekRobotCatR', 'cheekShibaR');
 }); 
 
 $( '#fhair2' ).on( 'click', function() { 
@@ -572,7 +582,7 @@ $( '#fhair2' ).on( 'click', function() {
      currCheekL.classList.add('cheekRobotCatL');
      currCheekL.classList.remove('cheekBasicL', 'cheekShibaL');
      currCheekR.classList.add('cheekRobotCatR');
-     currCheekR.classList.remove('fhSprite1r', 'cheekShibaR');
+     currCheekR.classList.remove('cheekBasicR', 'cheekShibaR');
 }); 
 
 $( '#fhair3' ).on( 'click', function() { 
@@ -584,7 +594,7 @@ $( '#fhair3' ).on( 'click', function() {
      currCheekL.classList.add('cheekShibaL');
      currCheekL.classList.remove('cheekBasicL', 'cheekRobotCatL');
      currCheekR.classList.add('cheekShibaR');
-     currCheekR.classList.remove('fhSprite1r', 'cheekRobotCatR');
+     currCheekR.classList.remove('cheekBasicR', 'cheekRobotCatR');
 }); 
 
 });
