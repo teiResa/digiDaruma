@@ -107,11 +107,56 @@ $( '#color3' ).on( 'click', function() {
 
 $( '#color4' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color4 is selected!' );
- $('#colorMeans').html( 'Green == Physical Wellness' ); 
+ $('#colorMeans').html( 'Purple == health and longevity' ); 
 
  const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#";
+     currSkin.style.backgroundColor = "#9383c4";
 }); 
+
+$( '#color6' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color6 is selected!' );
+ $('#colorMeans').html( 'Rose == love and romance' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#edb0b7";
+}); 
+$( '#color7' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color7 is selected!' );
+ $('#colorMeans').html( 'Peach == love and romance' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#FFCBA4";
+}); 
+$( '#color8' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color8 is selected!' );
+ $('#colorMeans').html( 'Orange == fertility and safety of children' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#fca54d";
+}); 
+$( '#color9' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color9 is selected!' );
+ $('#colorMeans').html( 'Gold == wealth and prosperity' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#DAA520";
+}); 
+$( '#color10' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color10 is selected!' );
+ $('#colorMeans').html( 'White == support and perseverance' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#dbdbdb";
+}); 
+$( '#color11' ).on( 'click', function() { 
+ $('#displayBodyColor').html( 'Body color11 is selected!' );
+ $('#colorMeans').html( 'Black == business success' ); 
+
+ const currSkin = document.getElementById('skin-color');
+     currSkin.style.backgroundColor = "#45443d";
+}); 
+
+
 });
 
 
