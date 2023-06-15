@@ -345,11 +345,14 @@ position: absolute;
 }
 */
 .colorMeans {
-  user-select: text;  /* supported by Chrome and Opera */
+    user-select: text;  /* supported by Chrome and Opera */
     -webkit-user-select: text;  /* Safari */
     -khtml-user-select: text;  /* Konqueror HTML */
     -moz-user-select: text;  /* Firefox */
     -ms-user-select: text;  /* Internet Explorer/Edge */
+
+  display: flex;
+  justify-content: center;
  
 }
 

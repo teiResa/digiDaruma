@@ -78,82 +78,102 @@ var optnPurple = document.getElementById('colorPurple');
 
 $(document).ready(function () { /* Skin */
         
+const colorMeaning = document.getElementById('colorMeans');
+const currSkin = document.getElementById('skin-color');
 
 
  $( '#color1' ).on( 'click', function() { 
      $('#displayBodyColor').html( 'Body color1 is selected!' );
      $('#colorMeans').html( 'Good fortune' );
      
-
-     const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "red";
+     currSkin.style.backgroundColor = "red"; // red
+     colorMeaning.style.color = "#dbdbdb";
+     colorMeaning.style.backgroundColor = "red";
 }); 
 
 $( '#color2' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color2 is selected!' );
  $('#colorMeans').html( 'Physical Wellness' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "green";
+ 
+     currSkin.style.backgroundColor = "#8cc063"; // green
+     colorMeaning.style.color = "#555555";
+     colorMeaning.style.backgroundColor = "#8cc063";
 }); 
 
 $( '#color3' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color3 (blue) is selected!' ); 
  $('#colorMeans').html( 'Academic success' ); 
 
- const currSkin = document.getElementById('skin-color');
+ 
      currSkin.style.backgroundColor = "#0183cd"; //blue
+     colorMeaning.style.color = "#ffffff";
+     colorMeaning.style.backgroundColor = "#0183cd";
 }); 
 
 $( '#color4' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color4 is selected!' );
  $('#colorMeans').html( 'health and longevity' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#9383c4";
+
+     currSkin.style.backgroundColor = "#9383c4"; // purple
+     colorMeaning.style.color = "#dbdbdb";
+    colorMeaning.style.backgroundColor = "#9383c4";
 }); 
 
 $( '#color6' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color6 is selected!' );
  $('#colorMeans').html( 'love and romance' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#edb0b7";
+ 
+     currSkin.style.backgroundColor = "#edb0b7"; // pink
+     colorMeaning.style.color = "#555555";
+     colorMeaning.style.backgroundColor = "#edb0b7";
 }); 
 $( '#color7' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color7 is selected!' );
  $('#colorMeans').html( 'love and romance' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#FFCBA4";
+ 
+     currSkin.style.backgroundColor = "#FFCBA4"; // peach
+     colorMeaning.style.color = "#555555";
+     colorMeaning.style.backgroundColor = "#FFCBA4";
 }); 
 $( '#color8' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color8 is selected!' );
  $('#colorMeans').html( 'fertility and safety of children' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#fca54d";
+ 
+     currSkin.style.backgroundColor = "#fca54d"; // orange
+     colorMeaning.style.color = "#555555";
+     colorMeaning.style.backgroundColor = "#fca54d";
 }); 
 $( '#color9' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color9 is selected!' );
  $('#colorMeans').html( 'wealth and prosperity' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#DAA520";
+ 
+     currSkin.style.backgroundColor = "#DAA520"; // gold
+     colorMeaning.style.color = "#555555";
+     colorMeaning.style.backgroundColor = "#DAA520";
 }); 
 $( '#color10' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color10 is selected!' );
  $('#colorMeans').html( 'support and perseverance' ); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#dbdbdb";
+ 
+     currSkin.style.backgroundColor = "#dbdbdb"; // hwhite
+     colorMeaning.style.color = "#555555";
+     colorMeaning.style.backgroundColor = "#dbdbdb";
 }); 
 $( '#color11' ).on( 'click', function() { 
  $('#displayBodyColor').html( 'Body color11 is selected!' );
- $('#colorMeans').html( 'business success' ).style('color: #45443d'); 
+ $('#colorMeans').html( 'business success'); 
 
- const currSkin = document.getElementById('skin-color');
-     currSkin.style.backgroundColor = "#45443d";
+ 
+     currSkin.style.backgroundColor = "#45443d"; // black
+    colorMeaning.style.color = "#dbdbdb";
+    colorMeaning.style.backgroundColor = "#45443d";
 }); 
 
 
