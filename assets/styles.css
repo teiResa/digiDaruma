@@ -301,8 +301,12 @@ position: absolute;
  */
  display: flex;
  flex-wrap: wrap;
- justify-content: flex-start;
- max-width: 90vw;
+ justify-content: center /*flex-start or space-evenly ?? */;
+ /*max-width: 18vw;
+ min-width: 17vw;
+*/
+ width: 267.81;
+ height: 102.26;
 }
 
 #body-radios input[type="radio"] {
@@ -322,7 +326,7 @@ position: absolute;
  display: block;
   padding: 13px 13px;
   top: -5px;
-  border: 1px solid green;
+  border: 1px solid rgba(0, 128, 0, 0.76);
 }
 
 
