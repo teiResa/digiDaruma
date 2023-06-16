@@ -107,7 +107,7 @@ $( '#color3' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#0183cd"; //blue
-     colorMeaning.style.color = "#ffffff";
+     colorMeaning.style.color = "#dbdbdb";
      colorMeaning.style.backgroundColor = "#0183cd";
 }); 
 
