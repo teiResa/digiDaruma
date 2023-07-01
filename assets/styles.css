@@ -1,3 +1,6 @@
+/* Make borders togglable so that the user can see the outlines */
+
+
 
 * {
  box-sizing: border-box;
@@ -84,7 +87,7 @@ position: absolute;
 
 .background /* aka its skin colour */{
  /*background-color: lightseagreen;*/
- border: 2px solid lightsalmon;
+ border: 2px solid lightsalmon;  /* make slightly lighter version of the selected colour*/
 }
 
 .middleground {
@@ -97,7 +100,7 @@ position: absolute;
  width: 220px;
  height: 80px;
  /*
- border: 2px solid green;
+ border: 2px solid green;  /* make slightly lighter version of the selected colour*/
  */
  
 }
@@ -131,7 +134,7 @@ position: absolute;
  background-color: aliceblue;
  width: 160px;
  height: 100%;
-
+/* border around face ~~ make slightly lighter version of the selected colour*/
  
  border-radius: 35px 35px 20px 20px; 
  /* improve on the shape later */
@@ -224,6 +227,7 @@ position: absolute;
  height: 30px;
  background-color: black;
  border-radius: 50%;
+ /* make outline slightly lighter version of the selected colour*/
 }
 
 .facial-hair-left, .facial-hair-right {
@@ -273,7 +277,7 @@ position: absolute;
 }
 
 .chest {
- border: 2px solid plum;
+ border: 2px solid plum; /* make slightly lighter version of the selected colour*/
  width: 55px;
  height: 55px;
  border-radius: 50%;
