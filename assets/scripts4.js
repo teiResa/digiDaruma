@@ -87,6 +87,7 @@ const currSkin = document.getElementById('skin-color');
      $('#colorMeans').html( 'Good fortune' );
      
      currSkin.style.backgroundColor = "red"; // red
+     currSkin.style.borderColor = "#f20000";
      colorMeaning.style.color = "#dbdbdb";
      colorMeaning.style.backgroundColor = "red";
 }); 
@@ -97,6 +98,7 @@ $( '#color2' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#8cc063"; // green
+     currSkin.style.borderColor = "#81b35b";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#8cc063";
 }); 
@@ -107,6 +109,7 @@ $( '#color3' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#0183cd"; //blue
+     currSkin.style.borderColor = "#007ac0";
      colorMeaning.style.color = "#dbdbdb";
      colorMeaning.style.backgroundColor = "#0183cd";
 }); 
