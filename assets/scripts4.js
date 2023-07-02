@@ -7,6 +7,15 @@
 
 */
 
+
+
+
+
+
+
+
+
+
 /* When the radio button (in html) is selected, the following function checks which is selected, prints a receipt, and updates the css to match. 
 
 I have decided to up the changing CSS here because the project is so small. Just seems like the simple choice. */
@@ -639,3 +648,49 @@ $( '#fhair3' ).on( 'click', function() {
 }); 
 
 });
+
+
+
+
+
+
+
+
+
+
+/* The template toggler shows the outline (borders) of each user-customizable feature. Dash square means hidden, filled square means visible. When visible, the outlines are displayed in neon orange. On hover, there is a short description to explain to the user.  */
+const templTogg =
+document.getElementById("template-togglr");
+const templIcon = document.getElementById("template-icon");
+// templateToggle()
+
+function templateToggle() {
+ templIcon.classList.toggle("fa-home");
+ templIcon.classList.toggle("fa-trash");
+}
+
+
+
+
+
+
+/*
+templTogg.on('click', () => {
+ if (templTogg.style.display === "none") {
+  templTogg.style.display = "block";
+  alert("block");
+ } else {
+  templTogg.style.display = "none";
+  alert("none");
+ }
+});
+
+
+if (templTogg.style.display === "none") {
+ templTogg.style.display = "block";
+} else {
+ templTogg.style.display = "none";
+}
+
+
+*/

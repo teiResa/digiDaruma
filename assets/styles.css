@@ -1,4 +1,12 @@
-/* Make borders togglable so that the user can see the outlines */
+/* Make borders togglable so that the user can see the outlines 
+
+.showTemplate and .hideTemplate
+*/
+
+.showTemplate {
+ border-color: #ffbd00; 
+ /* neon orange until I make up my mind */
+}
 
 
 
