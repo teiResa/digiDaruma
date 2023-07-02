@@ -80,6 +80,7 @@ $(document).ready(function () { /* Skin */
         
 const colorMeaning = document.getElementById('colorMeans');
 const currSkin = document.getElementById('skin-color');
+const faceSkin = document.getElementById('face-color');
 
 
  $( '#color1' ).on( 'click', function() { 
@@ -88,6 +89,7 @@ const currSkin = document.getElementById('skin-color');
      
      currSkin.style.backgroundColor = "red"; // red
      currSkin.style.borderColor = "#f20000";
+     faceSkin.style.borderColor = "#f20000";
      colorMeaning.style.color = "#dbdbdb";
      colorMeaning.style.backgroundColor = "red";
 }); 
@@ -99,6 +101,7 @@ $( '#color2' ).on( 'click', function() {
  
      currSkin.style.backgroundColor = "#8cc063"; // green
      currSkin.style.borderColor = "#81b35b";
+     faceSkin.style.borderColor = "#81b35b";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#8cc063";
 }); 
@@ -110,6 +113,7 @@ $( '#color3' ).on( 'click', function() {
  
      currSkin.style.backgroundColor = "#0183cd"; //blue
      currSkin.style.borderColor = "#007ac0";
+     faceSkin.style.borderColor = "#007ac0";
      colorMeaning.style.color = "#dbdbdb";
      colorMeaning.style.backgroundColor = "#0183cd";
 }); 
@@ -120,8 +124,10 @@ $( '#color4' ).on( 'click', function() {
 
 
      currSkin.style.backgroundColor = "#9383c4"; // purple
+     currSkin.style.borderColor = "#8879b7";
+     faceSkin.style.borderColor = "#8879b7";
      colorMeaning.style.color = "#dbdbdb";
-    colorMeaning.style.backgroundColor = "#9383c4";
+     colorMeaning.style.backgroundColor = "#9383c4";
 }); 
 
 $( '#color6' ).on( 'click', function() { 
@@ -130,6 +136,8 @@ $( '#color6' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#edb0b7"; // pink
+     currSkin.style.borderColor = "#e0a6ac";
+     faceSkin.style.borderColor = "#e0a6ac";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#edb0b7";
 }); 
@@ -139,6 +147,8 @@ $( '#color7' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#FFCBA4"; // peach
+     currSkin.style.borderColor = "#f2c09b";
+     faceSkin.style.borderColor = "#f2c09b";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#FFCBA4";
 }); 
@@ -148,6 +158,8 @@ $( '#color8' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#fca54d"; // orange
+     currSkin.style.borderColor = "#ef9b48";
+     faceSkin.style.borderColor = "#ef9b48";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#fca54d";
 }); 
@@ -157,6 +169,8 @@ $( '#color9' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#DAA520"; // gold
+     currSkin.style.borderColor = "#CC9B1D";
+     faceSkin.style.borderColor = "#CC9B1D";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#DAA520";
 }); 
@@ -166,6 +180,8 @@ $( '#color10' ).on( 'click', function() {
 
  
      currSkin.style.backgroundColor = "#dbdbdb"; // hwhite
+     currSkin.style.borderColor = "#cdcdcd";
+     faceSkin.style.borderColor = "#cdcdcd";
      colorMeaning.style.color = "#555555";
      colorMeaning.style.backgroundColor = "#dbdbdb";
 }); 
@@ -174,7 +190,9 @@ $( '#color11' ).on( 'click', function() {
  $('#colorMeans').html( 'business success'); 
 
  
-     currSkin.style.backgroundColor = "#45443d"; // black
+    currSkin.style.backgroundColor = "#45443d"; // black
+    currSkin.style.borderColor = "#373730";
+    faceSkin.style.borderColor = "#373730";
     colorMeaning.style.color = "#dbdbdb";
     colorMeaning.style.backgroundColor = "#45443d";
 }); 

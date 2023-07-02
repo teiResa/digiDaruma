@@ -87,7 +87,7 @@ position: absolute;
 
 .background /* aka its skin colour */{
  /*background-color: lightseagreen;*/
- border: 2px solid lightsalmon;  /* make slightly lighter version of the selected colour*/
+ border: 2px solid lightsalmon;  
 }
 
 .middleground {
@@ -100,7 +100,7 @@ position: absolute;
  width: 220px;
  height: 80px;
  /*
- border: 2px solid green;   make slightly lighter version of the selected colour
+ border: 2px solid green;   make toggable
  */
  
 }
@@ -134,7 +134,7 @@ position: absolute;
  background-color: aliceblue;
  width: 160px;
  height: 100%;
-/* border around face ~~ make slightly lighter version of the selected colour*/
+ border: 2px solid lightsalmon;
  
  border-radius: 35px 35px 20px 20px; 
  /* improve on the shape later */
