@@ -664,8 +664,7 @@ document.getElementById("template-togglr");
 const templIcon = document.getElementById("template-icon");
 // templateToggle()
 
-function templateToggle() {
- templIcon.classList.toggle("fa-home");
+function templateToggle() { 
  templIcon.classList.toggle("fa-trash");
 }
 
