@@ -279,33 +279,40 @@ $( '#chestPatt0' ).on( 'click', function() {
 
  const currChest = document.getElementById('chest');
  /*currChest.classList.add('chestFu'); */
- currChest.classList.remove('chestFu', 'chestRobotCat', 'chestHeart');
+ currChest.classList.remove('chestFu', 'chestRobotCat', 'chestHeart', 'spriteContainer1', 'spriteContainer2', 'pos00chest');
 }); 
 
 $( '#chestPatt1' ).on( 'click', function() { 
  $('#displayChestPattern').html( 'chest chestPatt1 (Fu) is selected!' );
 
  const currChest = document.getElementById('chest');
- currChest.classList.add('chestFu');
- currChest.classList.remove('chestRobotCat', 'chestHeart');
+ currChest.classList.add('spriteContainer1', 'chestFu');
+ currChest.classList.remove('spriteContainer2', 'chestRobotCat', 'chestHeart', 'pos00chest');
 }); 
 
 $( '#chestPatt2' ).on( 'click', function() { 
  $('#displayChestPattern').html( 'chest chestPatt2 (Bell) is selected!' );
 
  const currChest = document.getElementById('chest');
-   currChest.classList.add('chestRobotCat');
-   currChest.classList.remove('chestFu', 'chestHeart');
+   currChest.classList.add('spriteContainer1','chestRobotCat');
+   currChest.classList.remove('spriteContainer2', 'sprite', 'chestFu', 'chestHeart', 'pos00chest');
 }); 
 
 $( '#chestPatt3' ).on( 'click', function() { 
  $('#displayChestPattern').html( 'chest chestPatt3 (Heart) is selected!' );
 
  const currChest = document.getElementById('chest');
-   currChest.classList.add('chestHeart');
-   currChest.classList.remove('chestRobotCat', 'chestFu');
+   currChest.classList.add('spriteContainer1', 'chestHeart');
+   currChest.classList.remove('spriteContainer2', 'chestRobotCat', 'chestFu', 'pos00chest');
 }); 
 
+$( '#chestPatt4' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt4 (Heart) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos00chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart');
+}); 
 
 });
 
