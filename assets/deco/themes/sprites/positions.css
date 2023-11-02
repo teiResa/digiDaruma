@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .spriteContainer1 {
   background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0.jpg) left top no-repeat;
 }
@@ -83,6 +84,32 @@ Unused : .browShibaL .browShibaR
   */
 }
 
+/* 00 to 12 for the sheet's current 8 designs. This way Ïcan reuse the template on my phone for new ones. and just only update which spriteContainer class and add new buttons */
+.pos00earL, .pos00earR {
+  background-color: pink;
+}
+
+.pos00browL, .pos00browR {
+  background-color: pink;
+}
+
+.pos00bindi {
+  background-color: pink;
+}
+
+.pos00eyeL, .pos00eyeR {
+  background-color: pink;
+}
+
+.pos00cheekL, .pos00cheekR {
+  background-color: pink;
+}
+
+.pos00nose, .pos00mouth, .pos00chest {
+  background-color: pink;
+}
+
+/* Look into whether using something like calc() would help. I believe I spaced them well. Maybe it would be worth while to confirm this then write a quick alogithm in js. Otherwise, just do it the traditional paint method. */
 .cheekShibaL .pos00cheekL {
   /* removed width and height so they would just fill the given areabackground-position: -437px -99px;*/
   display: inline-block;

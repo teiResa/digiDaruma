@@ -338,10 +338,10 @@ $(document).ready(function () { /* Ears */
      const currEarL = document.querySelector('#ear-left');
      const currEarR = document.querySelector('#ear-right');
 
-     currEarL.classList.add('earStyle0');
-     currEarL.classList.remove('earSprite1l', 'earSprite2l', 'earShibaL');
-     currEarR.classList.add('earStyle0');
-     currEarR.classList.remove('earSprite1r', 'earSprite2r', 'earShibaR');
+     currEarL.classList.add('spriteContainer1', 'earStyle0');
+     currEarL.classList.remove('spriteContainer2', 'earSprite1l', 'earSprite2l', 'earShibaL', 'pos00earL');
+     currEarR.classList.add('spriteContainer1', 'earStyle0');
+     currEarR.classList.remove('spriteContainer2', 'earSprite1r', 'earSprite2r', 'earShibaR', 'pos00earR');
 
 }); 
         
@@ -351,10 +351,10 @@ $(document).ready(function () { /* Ears */
      const currEarL = document.querySelector('#ear-left');
      const currEarR = document.querySelector('#ear-right');
 
-     currEarL.classList.add('earSprite1l');
-     currEarL.classList.remove('earSprite2l', 'earShibaL');
-     currEarR.classList.add('earSprite1r');
-     currEarR.classList.remove('earSprite2r', 'earShibaR');
+     currEarL.classList.add('spriteContainer1', 'earSprite1l');
+     currEarL.classList.remove('spriteContainer2', 'earSprite2l', 'earShibaL', 'pos00earL', 'earStyle0');
+     currEarR.classList.add('spriteContainer1', 'earSprite1r');
+     currEarR.classList.remove('spriteContainer2', 'earSprite2r', 'earShibaR', 'pos00earR', 'earStyle0');
 }); 
 
 $( '#earSet2' ).on( 'click', function() { 
@@ -363,10 +363,10 @@ $( '#earSet2' ).on( 'click', function() {
  const currEarL = document.querySelector('#ear-left');
  const currEarR = document.querySelector('#ear-right');
 
- currEarL.classList.add('earSprite2l');
- currEarL.classList.remove('earSprite1l', 'earShibaL');
- currEarR.classList.add('earSprite2r');
- currEarR.classList.remove('earSprite1r', 'earShibaR');
+ currEarL.classList.add('spriteContainer1','earSprite2l');
+ currEarL.classList.remove('spriteContainer2', 'earSprite1l', 'earShibaL', 'pos00earL', 'earStyle0');
+ currEarR.classList.add('spriteContainer1', 'earSprite2r');
+ currEarR.classList.remove('spriteContainer2', 'earSprite1r', 'earShibaR', 'pos00earR', 'earStyle0');
 }); 
 
 $( '#earSet3' ).on( 'click', function() { 
@@ -375,13 +375,27 @@ $( '#earSet3' ).on( 'click', function() {
  const currEarL = document.querySelector('#ear-left');
  const currEarR = document.querySelector('#ear-right');
 
- currEarL.classList.add('earShibaL');
- currEarL.classList.remove('earSprite1l', 'earSprite2l');
- currEarR.classList.add('earShibaR');
- currEarR.classList.remove('earSprite1r', 'earSprite2r');
+ currEarL.classList.add('spriteContainer1', 'earShibaL');
+ currEarL.classList.remove('spriteContainer2', 'earSprite1l', 'earSprite2l', 'pos00earL', 'earStyle0');
+ currEarR.classList.add('spriteContainer1', 'earShibaR');
+ currEarR.classList.remove('spriteContainer2', 'earSprite1r', 'earSprite2r', 'pos00earR', 'earStyle0');
+}); 
+
+$( '#earSet4' ).on( 'click', function() { 
+ $('#displayEarShape').html( 'Ear pos00ear is selected!' );
+
+ const currEarL = document.querySelector('#ear-left');
+ const currEarR = document.querySelector('#ear-right');
+
+ currEarL.classList.add('spriteContainer2', 'pos00earL');
+ currEarL.classList.remove('spriteContainer1', 'earSprite1l', 'earSprite2l', 'earShibaL', 'earStyle0');
+ currEarR.classList.add('spriteContainer2', 'pos00earR');
+ currEarR.classList.remove('spriteContainer1', 'earSprite1r', 'earSprite2r', 'earShibaR', 'earStyle0');
 }); 
 
 });
+
+/* Eyes missing */
 
 /* Eyebrows (brows) and bindi 
 
