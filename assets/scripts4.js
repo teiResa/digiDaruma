@@ -307,7 +307,7 @@ $( '#chestPatt3' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt4' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt4 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt4 (Inked robotcat) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos00chest');
@@ -315,7 +315,7 @@ $( '#chestPatt4' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt5' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt5 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt5 (Inked dragon1 ) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos01chest');
@@ -323,7 +323,7 @@ $( '#chestPatt5' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt6' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt6 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt6 (cat deer) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos02chest');
@@ -331,7 +331,7 @@ $( '#chestPatt6' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt7' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt7 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt7 (Lucky1) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos03chest');
@@ -339,7 +339,7 @@ $( '#chestPatt7' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt8' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt8 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt8 (mouse) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos04chest');
@@ -347,7 +347,7 @@ $( '#chestPatt8' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt9' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt9 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt9 (dragon2) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos05chest');
@@ -355,7 +355,7 @@ $( '#chestPatt9' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt10' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt10 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt10 (dog, down ear) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos06chest');
@@ -363,7 +363,7 @@ $( '#chestPatt10' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt11' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt11 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt11 (dog, doge, up ear) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos07chest');
@@ -371,7 +371,7 @@ $( '#chestPatt11' ).on( 'click', function() {
 }); 
 
 $( '#chestPatt12' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt12 (Inked bell) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt12 (Unassigned) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos08chest');
