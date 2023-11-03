@@ -79,7 +79,7 @@ Unused : .browShibaL .browShibaR
  }
 */
 
-.pos00chest {
+.pos00chest, .pos01chest, .pos02chest, .pos03chest, .pos04chest, .pos05chest, .pos06chest, .pos07chest, .pos08chest {
  background-color: pink ;
   /* FIXED -- All good, but make it not requite !important statement */
    /* removed width and height so they would just fill the given areawidth: 80px;*/
