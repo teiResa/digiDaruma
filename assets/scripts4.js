@@ -279,7 +279,7 @@ $( '#chestPatt0' ).on( 'click', function() {
 
  const currChest = document.getElementById('chest');
  /*currChest.classList.add('chestFu'); */
- currChest.classList.remove('chestFu', 'chestRobotCat', 'chestHeart', 'spriteContainer1', 'spriteContainer2', 'pos00chest');
+ currChest.classList.remove('chestFu', 'chestRobotCat', 'chestHeart', /*'spriteContainer1',*/ 'spriteContainer2', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
 }); 
 
 $( '#chestPatt1' ).on( 'click', function() { 
@@ -287,7 +287,7 @@ $( '#chestPatt1' ).on( 'click', function() {
 
  const currChest = document.getElementById('chest');
  currChest.classList.add('spriteContainer1', 'chestFu');
- currChest.classList.remove('spriteContainer2', 'chestRobotCat', 'chestHeart', 'pos00chest');
+ currChest.classList.remove('spriteContainer2', 'chestRobotCat', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
 }); 
 
 $( '#chestPatt2' ).on( 'click', function() { 
@@ -295,7 +295,7 @@ $( '#chestPatt2' ).on( 'click', function() {
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer1','chestRobotCat');
-   currChest.classList.remove('spriteContainer2', 'sprite', 'chestFu', 'chestHeart', 'pos00chest');
+   currChest.classList.remove('spriteContainer2', 'sprite', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
 }); 
 
 $( '#chestPatt3' ).on( 'click', function() { 
@@ -303,16 +303,83 @@ $( '#chestPatt3' ).on( 'click', function() {
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer1', 'chestHeart');
-   currChest.classList.remove('spriteContainer2', 'chestRobotCat', 'chestFu', 'pos00chest');
+   currChest.classList.remove('spriteContainer2', 'chestRobotCat', 'chestFu', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
 }); 
 
 $( '#chestPatt4' ).on( 'click', function() { 
- $('#displayChestPattern').html( 'chest chestPatt4 (Heart) is selected!' );
+ $('#displayChestPattern').html( 'chest chestPatt4 (Inked bell) is selected!' );
 
  const currChest = document.getElementById('chest');
    currChest.classList.add('spriteContainer2', 'pos00chest');
-   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
 }); 
+
+$( '#chestPatt5' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt5 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos01chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest',  'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
+}); 
+
+$( '#chestPatt6' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt6 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos02chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
+}); 
+
+$( '#chestPatt7' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt7 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos03chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
+}); 
+
+$( '#chestPatt8' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt8 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos04chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos05chest', 'pos06chest', 'pos07chest', 'pos08chest');
+}); 
+
+$( '#chestPatt9' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt9 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos05chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos06chest', 'pos07chest', 'pos08chest');
+}); 
+
+$( '#chestPatt10' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt10 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos06chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos07chest', 'pos08chest');
+}); 
+
+$( '#chestPatt11' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt11 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos07chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos08chest');
+}); 
+
+$( '#chestPatt12' ).on( 'click', function() { 
+ $('#displayChestPattern').html( 'chest chestPatt12 (Inked bell) is selected!' );
+
+ const currChest = document.getElementById('chest');
+   currChest.classList.add('spriteContainer2', 'pos08chest');
+   currChest.classList.remove('spriteContainer1', 'chestRobotCat', 'chestFu', 'chestHeart', 'pos00chest', 'pos01chest', 'pos02chest', 'pos03chest', 'pos04chest', 'pos05chest', 'pos06chest', 'pos07chest');
+}); 
+
+
+
 
 });
 
