@@ -585,8 +585,6 @@ const toggler = document.querySelector('toggleSwitch');
 }*/
 function eyeRHide(){
 
-
-
    $('#toggleInput').on('click', function(){
 
     $('#displayEyeHide').html('RIGHT EYE unHIDDEN');
@@ -594,6 +592,30 @@ function eyeRHide(){
     const currREye = document.getElementById('eye-right');
       currREye.classList.add('eyeRightUnhidden');
       currREye.classList.remove('eyeRightHidden');
+   });
+  }
+
+  function eyeRHide2(){
+
+   $('#eye-set').on('click', function(){
+
+    $('#displayEyeHide').html('RIGHT EYE unHIDDEN');
+
+    const currREye = document.getElementById('eye-right');
+      currREye.classList.add('eyeRightUnhidden');
+      currREye.classList.remove('eyeRightHidden');
+   });
+  }
+
+  function eyeOverride(){
+
+   $('#eye-override').on('click', function(){
+
+    $('#displayEyeHide').html('RIGHT EYE HIDDEN');
+
+    const currREye = document.getElementById('eye-right');
+      currREye.classList.add('eyeRightHidden');
+      currREye.classList.remove('eyeRightUnhidden');
 
    });
 
