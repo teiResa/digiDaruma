@@ -56,6 +56,14 @@
    <button id="template-togglr" onclick="templateToggle()"> <i class="fa fa-home" id="template-icon"></i></button>
    
    <div class="sections">
+    Goal is: <br>
+    <label class="switch toggleSwitch nolabel sanslabel" onclick="/* disable the right eye or visually hide it*/">
+     
+     <input type="checkbox">
+     <span class="slider round"><span class="left-span">set</span>
+     <span class="right-span">met</span></span>
+   </label>
+
     <h3>body</h3>
     
     <details class="subsections"> <!-- body colours -->
@@ -398,11 +406,11 @@
       <div class="brow-right spriteContainer1" id="brow-right"></div>
      </div>
      <div class="eye-outline">
-      <div class="eye-left">
-       <div class="pupil goal-set"></div>
+      <div class="eye-left spriteContainer1" >
+       <div class="pupil goal-set" id="eye-left"></div>
       </div>
-      <div class="eye-right">
-       <div class="pupil goal-met"></div>
+      <div class="eye-right spriteContainer1">
+       <div class="pupil goal-met" id="eye-right"></div>
       </div>
      </div>
      <div class="snout">

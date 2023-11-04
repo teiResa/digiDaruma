@@ -93,14 +93,22 @@ Unused : .browShibaL .browShibaR
   */
 }
 
-.pos00earR, .pos01earR, .pos02earR, .pos03earR, .pos04earR, .pos05earR, .pos06earR, .pos07earR, .pos08earR {
+.pos00eyeR, .pos01eyeR, .pos02eyeR, .pos03eyeR, .pos04eyeR, .pos05eyeR, .pos06eyeR, .pos07eyeR, .pos08eyeR {
   background-color: yellow;
+}
+
+.pos00eyeL, .pos01eyeL, .pos02eyeL, .pos03eyeL, .pos04eyeL, .pos05eyeL, .pos06eyeL, .pos07eyeL, .pos08eyeL {
+  background-color: pink;
   /* FIXED -- All good, but make it not requite !important statement */
   /* removed width and height so they would just fill the given areawidth: 80px;*/
   /* bg too big for frame FIX LATER
    display:inline-block;
    background-position: -100px -260px;
   */
+}
+
+.pos00earR, .pos01earR, .pos02earR, .pos03earR, .pos04earR, .pos05earR, .pos06earR, .pos07earR, .pos08earR {
+  background-color: yellow;
 }
 
 .pos00chest {

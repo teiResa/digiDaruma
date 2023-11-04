@@ -379,3 +379,260 @@ position: absolute;
    -moz-user-select: text;  /* Firefox */
    -ms-user-select: text;  /* Internet Explorer/Edge */
 }
+
+
+/*
+This all below is for the switch
+*/
+
+.switch {
+ position: relative;
+ display: inline-block;
+ width: 40px;  /* was 60px */
+ height: 22px; /* was 34 */
+}
+
+.switch input { 
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgb(238, 183, 238);
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+.slider:before {
+ position: absolute;
+ content: "";
+ /* were 26, 26 4 4 */
+ height: 17px;
+ width: 17px;
+ left: 4px;
+ bottom: 4px;
+ background-color: white;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+input:checked + .slider {
+ background-color:rgb(238, 183, 238);
+}
+
+input:focus + .slider {
+ box-shadow: 0 0 1px plum;
+}
+
+/*  Toggle Switch  */
+
+.toggleSwitch span span {
+	display: none;
+}  
+  
+.toggleSwitch {
+	display: inline-block;
+	height: 18px;
+	position: relative;
+	overflow: visible;
+	padding: 0;
+	cursor: pointer;
+	width: 120px;
+ max-width: 90vw;
+	background-color: rgba(221, 160, 221, 0.888);
+	border: 1px solid rgb(198, 138, 198);
+	border-radius:5px;
+	height:24px;
+}
+.toggleSwitch * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.toggleSwitch label,
+.toggleSwitch > span {
+	line-height: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.toggleSwitch input:focus ~ a,
+.toggleSwitch input:focus + label {
+	outline: none;
+}
+.toggleSwitch label {
+	position: relative;
+	z-index: 3;
+	display: block;
+	width: 100%;
+}
+.toggleSwitch input {
+	position: absolute;
+	opacity: 0;
+	z-index: 5;
+}
+.toggleSwitch > span {
+	position: absolute;
+	left: 0;
+	width: calc(100% - 6px);
+	margin: 0;
+	text-align: left;
+	white-space: nowrap;
+  margin:0 3px;
+}
+.toggleSwitch > span span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: block;
+	width: 50%;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 0.9em;
+	width: auto;
+	left: 0;
+	top: -1px;
+	opacity: 1;
+	width:40%;
+	text-align: center;
+  line-height:34px;
+}
+.toggleSwitch a {
+	position: absolute;
+	right: 50%;
+	z-index: 4;
+	display: block;
+	top: 3px;
+	bottom: 3px;
+	padding: 0;
+	left: 3px;
+	width: 50%;
+	background-color: #666;
+	border-radius: 4px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+/* toggle left */
+.toggleSwitch > span span:first-of-type {
+ font-size: x-large;
+ font-weight: bolder;
+ left: 40px !important;
+ /* You filthy cheater */
+ top: -6px;
+	color: lightseagreen;
+	opacity: 1;
+	left: 0;
+	margin: 0;
+    width: 50%;
+}
+.toggleSwitch > span span:last-of-type {
+	left:auto;
+	right:0;
+	color: rgba(198, 138, 198, 0);
+	margin: 0;
+    width: 50%;
+}
+.toggleSwitch > span:before {
+	content: '';
+	display: block;
+ /*
+	width: 100%;*/
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: -2px;
+	/* background-color: #fafafa;
+	border: 1px solid #ccc; */
+	border-radius: 30px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.toggleSwitch input:checked ~ a {
+	left: calc(50% - 3px);
+}/*
+.toggleSwitch input:checked ~ span:before {
+	 border-color: #0097D1;
+	box-shadow: inset 0 0 0 30px #0097D1; 
+}*/
+.toggleSwitch input:checked ~ span span:first-of-type {
+	left:0;
+	color:#cccccc00;
+}
+.toggleSwitch input:checked ~ span span:last-of-type {
+	/* opacity: 1;
+	color: #fff;	 */
+ font-size: x-large;
+ font-weight: bolder;
+ right: 43px;
+ top: -6px;
+	color:lightseagreen;
+}
+/* Switch Sizes */
+.toggleSwitch.large {
+	width: 60px;
+	height: 27px;
+}
+.toggleSwitch.large a {
+	width: 27px;
+}
+.toggleSwitch.large > span {
+	height: 29px;
+	line-height: 28px;
+}
+.toggleSwitch.large input:checked ~ a {
+	left: 41px;
+}
+.toggleSwitch.large > span span {
+	font-size: 1.1em;
+}
+.toggleSwitch.large > span span:first-of-type {
+	left: 50%;
+}
+.toggleSwitch.xlarge {
+	width: 80px;
+	height: 36px;
+}
+.toggleSwitch.xlarge a {
+	width: 36px;
+}
+.toggleSwitch.xlarge > span {
+	height: 38px;
+	line-height: 37px;
+}
+.toggleSwitch.xlarge input:checked ~ a {
+	left: 52px;
+}
+.toggleSwitch.xlarge > span span {
+	font-size: 1.4em;
+}
+.toggleSwitch.xlarge > span span:first-of-type {
+	left: 50%;
+}
+
+  /*  End Toggle Switch  */
+
+input:checked + .slider:before {
+ /* Were 26px then 17px */
+ -webkit-transform: translateX(90px);
+ -ms-transform: translateX(90px);
+ transform: translateX(90px);
+}
+
+/* Rounded sliders, was 34px */
+.slider.round {
+ border-radius: 22px;
+}
+
+.slider.round:before {
+ border-radius: 50%;
+}
