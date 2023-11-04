@@ -185,6 +185,36 @@ Free to use later
   opacity: 1;
 }
 
+.eye-button-right {
+  margin-left: -7px;
+  background-color: plum;
+}
+
+.eye-button-right:active {
+  background-color: plum;
+}
+
+.eye-button-right:focus {
+  background-color: lightseagreen;
+  border-color: plum;
+  border-style: inset;
+}
+
+.eye-button-left {
+  margin-left: -7px;
+  background-color: plum;
+}
+
+.eye-button-left:active {
+  background-color: plum;
+}
+
+.eye-button-left:focus {
+  background-color: lightseagreen;
+  border-color: plum;
+  border-style: inset;
+}
+
 .cheekShibaL .pos00cheekL {
   /* removed width and height so they would just fill the given areabackground-position: -437px -99px;*/
   display: inline-block;

@@ -240,7 +240,35 @@ Free to use later
  opacity: 1;
 }
 
+.eye-button-right {
+ margin-left:-7px;
+ background-color: plum;
 
+ &:active {
+  background-color: plum;
+ }
+
+ &:focus {
+  background-color: lightseagreen;
+  border-color: plum;
+  border-style: inset;
+ }
+}
+
+.eye-button-left {
+ margin-left:-7px;
+ background-color: plum;
+
+ &:active {
+  background-color: plum;
+ }
+
+ &:focus {
+  background-color: lightseagreen;
+  border-color: plum;
+  border-style: inset;
+ }
+}
 
 
 
