@@ -37,6 +37,9 @@ var currBrowR = document.querySelector('#brow-right');
    currBrowR.classList.add('browBasicR');
 var currBindi = document.getElementById('bindi');
    currBindi.classList.add('bindiBasic');
+var currREye = document.getElementById('eye-right');
+   currREye.classList.add('eyeRightHidden');
+
 var currNose = document.getElementById('nose');
    currNose.classList.add('noseBasic');
 var currMouth = document.getElementById('mouth');
@@ -554,6 +557,131 @@ $( '#earSet12' ).on( 'click', function() {
 });
 
 /* Eyes (first three) missing */
+
+function eyeHide() {
+ $('#displayEyeHide').html( 'Hidden right eye' );
+
+ var hideEye = document.getElementById('eye-right');
+  hideEye.style.opacity = 0;
+
+}; 
+
+function eyeUnhide() {
+ $('#displayEyeHide').html( 'unHidden right eye' );
+
+ var unhideEye = document.getElementById('eye-right');
+  unhideEye.style.opacity = 1;
+
+}; 
+
+/*
+function eyeHideUnhide(){
+ */
+ /*
+ var eyeState = document.getElementById('eye-right');
+ const input = document.querySelector('#toggleInput');
+const toggler = document.querySelector('toggleSwitch');
+
+}*/
+function eyeRHide(){
+
+
+
+   $('#toggleInput').on('click', function(){
+
+    $('#displayEyeHide').html('RIGHT EYE unHIDDEN');
+
+    const currREye = document.getElementById('eye-right');
+      currREye.classList.add('eyeRightUnhidden');
+      currREye.classList.remove('eyeRightHidden');
+
+   });
+
+  }
+ 
+ //}
+
+//.toggleSwitch input:checked
+/*
+toggler.addEventListener("click")
+*/
+ /*
+if (toggler.input="checked") {
+ eyeState.style.opacity = "1";
+}
+*/
+
+ /*
+if (eyeState.style.opacity === "0") {
+  eyeState.style.opacity = 1;
+ } else {
+  eyeState.style.opacity = 0;
+ };
+*/
+ /*
+ if (eyeState.hasAttribute(style.opacity)){
+
+  eyeState.style.opacity = 1;
+
+ }
+
+*/
+
+
+/*
+ 
+*/
+
+
+
+
+/*
+ makeUnhidden = function(elem){
+  elem.classList.toggle("is-active");
+ }
+
+ for(var i = 0; i <= eyeState.style.opacity; i++) {
+
+
+ }*/
+
+ /*
+     if (eyeState).style.opacity = 0 {
+      eyeHideUnhide();
+     } else {eyeHide();};
+     
+
+     const style = getComputedStyle(eyeState);
+
+     const opacity = style.opacity
+     console.log(opacity);
+
+     if (i = 1) {
+      eyeState = style.opacity('0');
+     } else if (i = 0) { eyeUnhide();}
+     else {alert('hi')}
+*/
+
+
+
+function eyeHide() {
+  $('#displayEyeHide').html( 'Hidden right eye' );
+
+  var hideEye = document.getElementById('eye-right');
+   hideEye.style.opacity = 0;
+
+ }; 
+
+ function eyeUnhide() {
+  $('#displayEyeHide').html( 'unHidden right eye' );
+
+  var unhideEye = document.getElementById('eye-right');
+   unhideEye.style.opacity = 1;
+
+ }; 
+
+
+
 $(document).ready(function () { 
  $( '#eyeSet0' ).on( 'click', function() { 
   $('#displayEyeShape').html( 'Eye eyeStyle0 (no eyes) is selected!' );

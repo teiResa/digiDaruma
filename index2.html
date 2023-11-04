@@ -54,12 +54,15 @@
   <form action="" id="customisationMenu">
    <button type="submit" id="btnSubmit">update / refresh</button>
    <button id="template-togglr" onclick="templateToggle()"> <i class="fa fa-home" id="template-icon"></i></button>
+
    
    <div class="sections">
     Goal is: <br>
-    <label class="switch toggleSwitch nolabel sanslabel" onclick="/* disable the right eye or visually hide it*/">
+    <label class="switch toggleSwitch nolabel sanslabel" onclick="eyeRHide()">
+
+     <!--  eyeHideUnhide()  -->
      
-     <input type="checkbox">
+     <input type="checkbox" id="toggleInput">
      <span class="slider round"><span class="left-span">set</span>
      <span class="right-span">met</span></span>
    </label>
@@ -442,6 +445,8 @@
   <div id="displayEarShape"> </div>
   <div id="displayBrows"> </div>
   <div id="displayBindi"> </div>
+  <div id="displayEyeShape"></div>
+  <div id="displayEyeHide"></div>
   <div id="displayFacialHair"> </div>
   <div id="displayNose"> </div>
   <div id="displayMouth"> </div>   

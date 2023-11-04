@@ -177,6 +177,14 @@ Free to use later
 }
 
 /* Look into whether using something like calc() would help. I believe I spaced them well. Maybe it would be worth while to confirm this then write a quick alogithm in js. Otherwise, just do it the traditional paint method. */
+.eyeRightHidden {
+  opacity: 0;
+}
+
+.eyeRightUnhidden {
+  opacity: 1;
+}
+
 .cheekShibaL .pos00cheekL {
   /* removed width and height so they would just fill the given areabackground-position: -437px -99px;*/
   display: inline-block;
