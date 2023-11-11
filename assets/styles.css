@@ -568,6 +568,8 @@ input:focus + .slider {
 	left:0;
 	color:#cccccc00;
 }
+
+//testytesty
 .toggleSwitch input:checked ~ span span:last-of-type {
 	/* opacity: 1;
 	color: #fff;	 */
