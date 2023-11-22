@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .spriteContainer2 {
   background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin.png) left top no-repeat;
   display: inline-block;
@@ -85,12 +84,53 @@ Unused : .browShibaL .browShibaR
 */
 .pos00earL, .pos01earL, .pos02earL, .pos03earL, .pos04earL, .pos05earL, .pos06earL, .pos07earL, .pos08earL {
   background-color: pink;
+  border-color: #ffff00;
   /* FIXED -- All good, but make it not requite !important statement */
   /* removed width and height so they would just fill the given areawidth: 80px;*/
   /* bg too big for frame FIX LATER
    display:inline-block;
    background-position: -100px -260px;
   */
+}
+
+.pos00earR, .pos01earR, .pos02earR, .pos03earR, .pos04earR, .pos05earR, .pos06earR, .pos07earR, .pos08earR {
+  background-color: yellow;
+  border-color: pink;
+}
+
+/*
+Doraemon doesn't have ears, so these can be used for something else.
+.pos00earL{background-position: -886px -342px;}*/
+.pos01earL {
+  background-position: -886px -342px;
+}
+
+.pos02earL {
+  background-position: -886px -342px;
+}
+
+.pos03earL {
+  background-position: -886px -342px;
+}
+
+.pos04earL {
+  background-position: -886px -342px;
+}
+
+.pos05earL {
+  background-position: -886px -342px;
+}
+
+.pos00earL {
+  background-position: -886px -342px;
+}
+
+.pos06earL {
+  background-position: -886px -342px;
+}
+
+.pos07earL {
+  background-position: -886px -342px;
 }
 
 .pos00eyeR, .pos01eyeR, .pos02eyeR, .pos03eyeR, .pos04eyeR, .pos05eyeR, .pos06eyeR, .pos07eyeR, .pos08eyeR {
@@ -105,10 +145,6 @@ Unused : .browShibaL .browShibaR
    display:inline-block;
    background-position: -100px -260px;
   */
-}
-
-.pos00earR, .pos01earR, .pos02earR, .pos03earR, .pos04earR, .pos05earR, .pos06earR, .pos07earR, .pos08earR {
-  background-color: yellow;
 }
 
 .pos00chest {
@@ -151,7 +187,7 @@ Free to use later
 Free to use later
 .pos07chest and .pos08chest
 */
-/* 00 to 12 for the sheet's current 8 designs. This way Ïcan reuse the template on my phone for new ones. and just only update which spriteContainer class and add new buttons */
+/* 00 to 12 for the sheet's current 8 designs. This way I can reuse the template on my phone for new ones. and just only update which spriteContainer class and add new buttons */
 .pos00earL, .pos00earR {
   background-color: pink;
 }

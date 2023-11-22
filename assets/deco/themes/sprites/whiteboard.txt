@@ -1,0 +1,40 @@
+Template: 750px x 300px 
+(I didn;t use this, I used 1080x607 with 300ppi which might have been too low res to I may have drawing too small)
+
+with pen 3.67 (lines) or 2.67 (outlines)
+(Did't use this either, because I learned better)
+
+SCSS Style sheet - colours and shades (of trims to match the selected body color If they're staying visible)\
+
+torso box - 750px by 300px
+
+
+
+Future Ideas :
+
+-tamagotchi mode ?
+- make patterns to make it cooler than just basic colours
+
+
+
+
+
+ Colour with FA eggs instead of names 
+ App + widget ?
+ Reminder notifications
+ toggle borders (outlines)
+ cookies
+ finish funtionality
+ website + app pretties layout
+   UI< UX, looks
+ features?
+ more skins
+ eye options? Eye colours too?
+ face colours? Have so body and ears match the body colour too
+
+ OnChange or onBeforeUnload?
+
+ Offline events?
+
+ in Edge, 2023-08-01 for tabs from browser
+ also, 2023-11-20 ish too
