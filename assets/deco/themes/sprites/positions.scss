@@ -107,15 +107,27 @@ Unused : .browShibaL .browShibaR
 
 /*
 Doraemon doesn't have ears, so these can be used for something else.
-.pos00earL{background-position: -886px -342px;}*/
-.pos01earL{background-position: -886px -342px;}
-.pos02earL{background-position: -886px -342px;}
-.pos03earL{background-position: -886px -342px;}
-.pos04earL{background-position: -886px -342px;}
-.pos05earL{background-position: -886px -342px;}
 .pos00earL{background-position: -886px -342px;}
+.pos00earR{background-position: -886px -342px; transform: scaleX(-1);}*/
+.pos01earL{background-position: -886px -342px;}
+.pos01earR{background-position: -886px -342px; transform: scaleX(-1);}
+.pos02earL{background-position: -886px -342px;}
+.pos02earR{background-position: -886px -342px; transform: scaleX(-1);}
+.pos03earL{background-position: -886px -342px;}
+.pos03earR{background-position: -886px -342px; transform: scaleX(-1);}
+.pos04earL{background-position: -886px -342px;}
+.pos04earR{background-position: -886px -342px; transform: scaleX(-1);}
+.pos05earL{background-position: -886px -342px;}
+.pos05earR{background-position: -886px -342px; transform: scaleX(-1);}
 .pos06earL{background-position: -886px -342px;}
+.pos06earR{background-position: -886px -342px; transform: scaleX(-1);}
 .pos07earL{background-position: -886px -342px;}
+.pos07earR{background-position: -886px -342px; transform: scaleX(-1);}
+/*
+Not used, but I wrote the code for it in html and js
+.pos08earL{background-position: -886px -342px;}
+.pos08earR{background-position: -886px -342px; transform: scaleX(-1);}
+*/
 
 
 
