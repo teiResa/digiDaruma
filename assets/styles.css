@@ -231,6 +231,7 @@ position: absolute;
 
 
 .pupil {
+ /*are the eyes too small?*/
  width: 30px;
  height: 30px;
  background-color: black;

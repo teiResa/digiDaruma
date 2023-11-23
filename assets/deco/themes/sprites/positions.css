@@ -103,71 +103,71 @@ Doraemon doesn't have ears, so these can be used for something else.
 .pos00earL{background-position: -886px -342px;}
 .pos00earR{background-position: -886px -342px; transform: scaleX(-1);}*/
 .pos01earL {
-  background-position: -886px -342px;
+  background-position: -41px -545px;
 }
 
 .pos01earR {
-  background-position: -886px -342px;
+  background-position: -41px -545px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos02earL {
-  background-position: -886px -342px;
+  background-position: -406px -125px;
 }
 
 .pos02earR {
-  background-position: -886px -342px;
+  background-position: -406px -125px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos03earL {
-  background-position: -886px -342px;
+  background-position: -406px -546px;
 }
 
 .pos03earR {
-  background-position: -886px -342px;
+  background-position: -406px -546px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos04earL {
-  background-position: -886px -342px;
+  background-position: -784px -134px;
 }
 
 .pos04earR {
-  background-position: -886px -342px;
+  background-position: -784px -134px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos05earL {
-  background-position: -886px -342px;
+  background-position: -784px -541px;
 }
 
 .pos05earR {
-  background-position: -886px -342px;
+  background-position: -784px -541px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos06earL {
-  background-position: -886px -342px;
+  background-position: -1159px -138px;
 }
 
 .pos06earR {
-  background-position: -886px -342px;
+  background-position: -1159px -138px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos07earL {
-  background-position: -886px -342px;
+  background-position: -1154px -554px;
 }
 
 .pos07earR {
-  background-position: -886px -342px;
+  background-position: -1154px -554px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -179,16 +179,108 @@ Not used, but I wrote the code for it in html and js
 */
 .pos00eyeR, .pos01eyeR, .pos02eyeR, .pos03eyeR, .pos04eyeR, .pos05eyeR, .pos06eyeR, .pos07eyeR, .pos08eyeR {
   background-color: #ffff00;
+  background-size: 190px;
 }
 
 .pos00eyeL, .pos01eyeL, .pos02eyeL, .pos03eyeL, .pos04eyeL, .pos05eyeL, .pos06eyeL, .pos07eyeL, .pos08eyeL {
-  background-color: pink;
+  border-color: pink;
+  background-size: 190px;
   /* FIXED -- All good, but make it not requite !important statement */
   /* removed width and height so they would just fill the given areawidth: 80px;*/
   /* bg too big for frame FIX LATER
    display:inline-block;
    background-position: -100px -260px;
   */
+}
+
+.pos00eyeL {
+  background-position: -104px -263px;
+}
+
+.pos00eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos01eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos01eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos02eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos02eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos03eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos03eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos04eyeL {
+  background-position: -858px -266px;
+}
+
+.pos04eyeR {
+  background-position: -858px -266px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos05eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos05eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos06eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos06eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos07eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos07eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos08eyeL {
+  background-position: -1154px -554px;
+}
+
+.pos08eyeR {
+  background-position: -1154px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .pos00chest {
@@ -245,7 +337,8 @@ Free to use later
 }
 
 .pos00eyeL, .pos00eyeR {
-  background-color: pink;
+  background-color: rgba(255, 192, 203, 0.554);
+  border-color: pink;
 }
 
 .pos00cheekL, .pos00cheekR {
