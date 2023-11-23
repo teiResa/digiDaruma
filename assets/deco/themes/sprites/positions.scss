@@ -144,7 +144,7 @@ Not used, but I wrote the code for it in html and js
 .pos00eyeL,  .pos01eyeL, .pos02eyeL, .pos03eyeL, .pos04eyeL, .pos05eyeL, .pos06eyeL, .pos07eyeL, .pos08eyeL {
  border-color: pink ;
  
- background-size: 190px;
+ background-size: 1090px;
  //was 1706px
   /* FIXED -- All good, but make it not requite !important statement */
    /* removed width and height so they would just fill the given areawidth: 80px;*/
@@ -156,7 +156,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos00eyeL{background-position: -104px -263px;}
 .pos00eyeR{background-position: -1154px -554px; transform: scaleX(-1);}
-.pos01eyeL{background-position: -1154px -554px;}
+.pos01eyeL{background-position: -754px -754px;}
 .pos01eyeR{background-position: -1154px -554px; transform: scaleX(-1);}
 .pos02eyeL{background-position: -1154px -554px;}
 .pos02eyeR{background-position: -1154px -554px; transform: scaleX(-1);}
