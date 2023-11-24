@@ -231,9 +231,10 @@ position: absolute;
 
 
 .pupil {
- /*are the eyes too small?*/
- width: 30px;
- height: 30px;
+ /*are the eyes too small?
+ were 30px each*/
+ width: 45px;
+ height: 45px;
  background-color: black;
  border-radius: 50%;
  /* make outline slightly lighter version of the selected colour*/

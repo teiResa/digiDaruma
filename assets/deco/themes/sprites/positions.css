@@ -178,13 +178,13 @@ Not used, but I wrote the code for it in html and js
 .pos08earR{background-position: -886px -342px; transform: scaleX(-1);}
 */
 .pos00eyeR, .pos01eyeR, .pos02eyeR, .pos03eyeR, .pos04eyeR, .pos05eyeR, .pos06eyeR, .pos07eyeR, .pos08eyeR {
-  background-color: #ffff00;
-  background-size: 190px;
+  border-color: #ffff00;
+  background-size: 1421px;
 }
 
 .pos00eyeL, .pos01eyeL, .pos02eyeL, .pos03eyeL, .pos04eyeL, .pos05eyeL, .pos06eyeL, .pos07eyeL, .pos08eyeL {
   border-color: pink;
-  background-size: 1090px;
+  background-size: 1421px;
   /* FIXED -- All good, but make it not requite !important statement */
   /* removed width and height so they would just fill the given areawidth: 80px;*/
   /* bg too big for frame FIX LATER
@@ -194,91 +194,93 @@ Not used, but I wrote the code for it in html and js
 }
 
 .pos00eyeL {
-  background-position: -104px -263px;
+  background-position: -85px -209px;
 }
 
 .pos00eyeR {
-  background-position: -1154px -554px;
+  background-position: -85px -209px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos01eyeL {
-  background-position: -754px -754px;
+  background-size: 1706px;
+  background-position: -110px -666px;
 }
 
 .pos01eyeR {
-  background-position: -1154px -554px;
+  background-size: 1706px;
+  background-position: -110px -666px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos02eyeL {
-  background-position: -1154px -554px;
+  background-position: -388px -213px;
 }
 
 .pos02eyeR {
-  background-position: -1154px -554px;
+  background-position: -388px -213px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos03eyeL {
-  background-position: -1154px -554px;
+  background-position: -386px -554px;
 }
 
 .pos03eyeR {
-  background-position: -1154px -554px;
+  background-position: -386px -554px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos04eyeL {
-  background-position: -858px -266px;
+  background-position: -701px -210px;
 }
 
 .pos04eyeR {
-  background-position: -858px -266px;
+  background-position: -701px -210px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos05eyeL {
-  background-position: -1154px -554px;
+  background-position: -701px -554px;
 }
 
 .pos05eyeR {
-  background-position: -1154px -554px;
+  background-position: -701px -554px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos06eyeL {
-  background-position: -1154px -554px;
+  background-position: -1010px -210px;
 }
 
 .pos06eyeR {
-  background-position: -1154px -554px;
+  background-position: -1010px -216px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos07eyeL {
-  background-position: -1154px -554px;
+  background-position: -1010px -210px;
 }
 
 .pos07eyeR {
-  background-position: -1154px -554px;
+  background-position: -1010px -210px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos08eyeL {
-  background-position: -1154px -554px;
+  background-position: -1020px -554px;
 }
 
 .pos08eyeR {
-  background-position: -1154px -554px;
+  background-position: -1020px -554px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }

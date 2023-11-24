@@ -712,7 +712,7 @@ $(document).ready(function () {
   const currEyeR = document.querySelector('#eye-right');
  
   currEyeL.classList.add('spriteContainer1', 'eyeStyle0');
-  currEyeL.classList.remove('spriteContainer2', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+  currEyeL.classList.remove('spriteContainer2', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
   currEyeR.classList.add('spriteContainer1', 'eyeStyle0');
   currEyeR.classList.remove('spriteContainer2', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3','eyeStyle0', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR','pos00eyeR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
  }); 
@@ -723,7 +723,7 @@ $(document).ready(function () {
    const currEyeR = document.querySelector('#eye-right');
   
    currEyeL.classList.add('spriteContainer1', 'eyeStyle1');
-   currEyeL.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle2', 'eyeStyle3', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+   currEyeL.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle2', 'eyeStyle3', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
    currEyeR.classList.add('spriteContainer1', 'eyeStyle1');
    currEyeR.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle2', 'eyeStyle3', 'eyeStyle0', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR','pos00eyeR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
   }); 
@@ -735,7 +735,7 @@ $(document).ready(function () {
     const currEyeR = document.querySelector('#eye-right');
    
     currEyeL.classList.add('spriteContainer1', 'eyeStyle2');
-    currEyeL.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle1', 'eyeStyle3', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+    currEyeL.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle1', 'eyeStyle3', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
     currEyeR.classList.add('spriteContainer1', 'eyeStyle2');
     currEyeR.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle1', 'eyeStyle3', 'eyeStyle0', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR','pos00eyeR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
    }); 
@@ -747,7 +747,7 @@ $(document).ready(function () {
     const currEyeR = document.querySelector('#eye-right');
    
     currEyeL.classList.add('spriteContainer1', 'eyeStyle3');
-    currEyeL.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+    currEyeL.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
     currEyeR.classList.add('spriteContainer1', 'eyeStyle3');
     currEyeR.classList.remove('spriteContainer2','eyeStyle0', 'eyeStyle1', 'eyeStyle2','eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR','pos00eyeR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
    }); 
@@ -762,7 +762,7 @@ $( '#eyeSet4' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos00eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos00eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -774,7 +774,7 @@ $( '#eyeSet5' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos01eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos00eyeR');
  currEyeR.classList.remove('spriteContainer1', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos00eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -785,7 +785,7 @@ $( '#eyeSet6' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos02eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos01eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos01eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos02eyeR');
  currEyeR.classList.remove('spriteContainer1', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos00eyeR', 'pos01eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -796,7 +796,7 @@ $( '#eyeSet7' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos03eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos03eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR','pos00eyeR', 'pos01eyeR', 'pos02eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -807,7 +807,7 @@ $( '#eyeSet8' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos04eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3','pos00eyeL', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos04eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR','pos00eyeR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -818,7 +818,7 @@ $( '#eyeSet9' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos05eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos00eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos00eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos05eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos00eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -829,7 +829,7 @@ $( '#eyeSet10' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos06eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos00eyeL', 'pos07eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos00eyeL', 'pos07eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos06eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos00eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
@@ -840,7 +840,7 @@ $( '#eyeSet11' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos07eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos00eyeL', 'pos08eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos00eyeL', 'pos08eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos07eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos00eyeR', 'pos08eyeR');
 }); 
@@ -851,7 +851,7 @@ $( '#eyeSet12' ).on( 'click', function() {
  const currEyeR = document.querySelector('#eye-right');
 
  currEyeL.classList.add('spriteContainer2', 'pos08eyeL');
- currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos00eyeR');
+ currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos01eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos00eyeL');
  currEyeR.classList.add('spriteContainer2', 'pos08eyeR');
  currEyeR.classList.remove('spriteContainer1','eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos01eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos00eyeR');
 }); 
