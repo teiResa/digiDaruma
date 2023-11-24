@@ -883,13 +883,13 @@ $( '#eyeSet12' ).on( 'click', function() {
 $(document).ready(function () { /* Brows */
 
 $( '#browSet0' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet2 (none) is selected!' );
+ $('#displayBrows').html( 'brow browSet0 (none) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.remove('browRobotCatL', 'browBasicL', 'browSprite1l', 'browSprite3l', 'pos00browL', 'pos01browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.remove('browRobotCatR', 'browBasicR', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.remove('browRobotCatL', 'browBasicL', 'browSprite1l', 'browSprite2l', 'browSprite3l', 'pos00browL', 'pos01browL', 'pos02browL' ,'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL', 'spriteContainer2', 'spriteContainer1');
+ currBrowR.classList.remove('browRobotCatR', 'browBasicR', 'browSprite3r', 'browSprite2r', 'browSprite1r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR', 'spriteContainer2', 'spriteContainer1');
 }); 
         
  $( '#browSet1' ).on( 'click', function() { 
@@ -898,10 +898,10 @@ $( '#browSet0' ).on( 'click', function() {
      const currBrowL = document.querySelector('#brow-left');
      const currBrowR = document.querySelector('#brow-right');
 
-     currBrowL.classList.add('browBasicL');
-     currBrowL.classList.remove('browRobotCatL', 'browSprite2l', 'browSprite3l', 'pos00browL', 'pos01browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
-     currBrowR.classList.add('browBasicR');
-     currBrowR.classList.remove('browRobotCatR', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+     currBrowL.classList.add('spriteContainer1','browBasicL');
+     currBrowL.classList.remove('spriteContainer2','browRobotCatL','browSprite1l', 'browSprite2l', 'browSprite3l', 'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+     currBrowR.classList.add('spriteContainer1', 'browBasicR');
+     currBrowR.classList.remove("spriteContainer2",'browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR','pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 }); 
 
 $( '#browSet2' ).on( 'click', function() { 
@@ -910,10 +910,12 @@ $( '#browSet2' ).on( 'click', function() {
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('browRobotCatL');
- currBrowL.classList.remove('browSprite2l', 'browSprite1l', 'browSprite3l', 'pos00browR', 'pos01browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('browRobotCatR');
- currBrowR.classList.remove('browSprite2r', 'browSprite1r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ //have it automatically add the bindi too? All other eyebrows would have to manually remove this set's specific bindi too, which might be annoying if they want to mix other bindis and eyebrows. Make sure this isn't buggy.
+
+ currBrowL.classList.add('spriteContainer1', 'browRobotCatL');
+ currBrowL.classList.remove('spriteContainer2','browBasicL', 'browSprite2l', 'browSprite1l', 'browSprite3l', 'pos00browR', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer1', 'browRobotCatR');
+ currBrowR.classList.remove('spriteContainer2', 'browBasicR', 'browSprite2r', 'browSprite1r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 }); 
 
 $( '#browSet3' ).on( 'click', function() { 
@@ -922,131 +924,135 @@ $( '#browSet3' ).on( 'click', function() {
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('browSprite3l');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'pos00browL', 'pos01browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('browSprite3r');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer1', 'browSprite3l');
+ currBrowL.classList.remove('spriteContainer2', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer1','browSprite3r');
+ currBrowR.classList.remove('spriteContainer2', 'browBasicR', 'browRobotCatR', 'browSprite1r', 'browSprite2r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 }); 
 
 $( '#browSet4' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet4 is selected!' );
+ 
+ $('#displayBrows').html( 'brow browSet4 (lashes for daaaaays) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos00browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos00browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
-});
-$( '#browSet4' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet4 is selected!' );
-
- const currBrowL = document.querySelector('#brow-left');
- const currBrowR = document.querySelector('#brow-right');
-
- currBrowL.classList.add('pos01browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos01browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos00browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos00browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR','browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet5' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet5 is selected!' );
+ $('#displayBrows').html( 'brow browSet5 (mousey) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos02browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos02browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos01browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL',  'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos01browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet6' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet6 is selected!' );
+ $('#displayBrows').html( 'brow browSet6 (twinkles) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos03browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos03browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos02browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL' ,'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos02browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR' , 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet7' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet7 is selected!' );
+ $('#displayBrows').html( 'brow browSet7 (squiggles) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos04browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos04browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos03browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos03browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR',  'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet8' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet8 is selected!' );
+ $('#displayBrows').html( 'brow browSet8 (cat) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos05browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos05browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos04browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos04browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet9' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet9 is selected!' );
+ $('#displayBrows').html( 'brow browSet9 (dog) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos06browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos06browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos05browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos05browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR',  'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet10' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet10 is selected!' );
+ $('#displayBrows').html( 'brow browSet10 (biu biu) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos07browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos08browL');
- currBrowR.classList.add('pos07browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos06browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos06browR');
+ currBrowR.classList.remove('SpriteContainer1', 'browBasicL', 'browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos07browR', 'pos08browR');
 });
 
 $( '#browSet11' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet11 is selected!' );
+ $('#displayBrows').html( 'brow browSet11 (biu biu but xsmall) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos08browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL');
- currBrowR.classList.add('pos08browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR',);
+ currBrowL.classList.add('spriteContainer2', 'pos07browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos07browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos08browR');
 });
-/*
+
 $( '#browSet12' ).on( 'click', function() { 
- $('#displayBrows').html( 'brow browSet12 is selected!' );
+ $('#displayBrows').html( 'brow browSet12 (dog) is selected!' );
 
  const currBrowL = document.querySelector('#brow-left');
  const currBrowR = document.querySelector('#brow-right');
 
- currBrowL.classList.add('pos00browL');
- currBrowL.classList.remove('browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
- currBrowR.classList.add('pos00browR');
- currBrowR.classList.remove('browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
+ currBrowL.classList.add('spriteContainer2', 'pos08browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL',  'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL');
+ currBrowR.classList.add('spriteContainer2', 'pos08browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR',);
+});
+
+/*
+$( '#browSet13' ).on( 'click', function() { 
+ $('#displayBrows').html( 'brow browSet13 is selected!' );
+
+ const currBrowL = document.querySelector('#brow-left');
+ const currBrowR = document.querySelector('#brow-right');
+
+ currBrowL.classList.add('spriteContainer2', 'pos00browL');
+ currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos07browL', 'pos08browL');
+ currBrowR.classList.add('spriteContainer2', 'pos00browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatR', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos07browR', 'pos08browR');
 });
 */
+
 
 
 });

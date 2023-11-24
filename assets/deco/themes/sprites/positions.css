@@ -193,7 +193,16 @@ Not used, but I wrote the code for it in html and js
   */
 }
 
-.pos00eyeL {
+.pos00browR, .pos01browR, .pos02browR, .pos03browR, .pos04browR, .pos05browR, .pos06browR, .pos07browR, .pos08browR {
+  border-color: #ffff00;
+  background-size: 1421px;
+}
+
+.pos00browL, .pos01browL, .pos02browL, .pos03browL, .pos04browL, .pos05browL, .pos06browL, .pos07browL, .pos08browL {
+  background-size: 1421px;
+}
+
+.pos00browL {
   background-position: -85px -209px;
 }
 
@@ -306,11 +315,12 @@ Not used, but I wrote the code for it in html and js
 }
 
 .pos02browL {
-  background-position: -1020px -554px;
+  /*background-size: 1421px;*/
+  background-position: -379px -186px;
 }
 
 .pos02browR {
-  background-position: -1020px -554px;
+  background-position: -379px -186px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -371,6 +381,104 @@ Not used, but I wrote the code for it in html and js
 
 .pos08browR {
   background-position: -1020px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos00browL {
+  background-position: -691px -170px;
+}
+
+.pos00browR {
+  background-position: -691px -170px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos01browL {
+  background-size: 2274px;
+  background-position: -130px -852px;
+}
+
+.pos01browR {
+  background-size: 2274px;
+  background-position: -130px -852px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos02browL {
+  background-size: 1706px;
+  background-position: -379px -186px;
+}
+
+.pos02browR {
+  background-size: 1706px;
+  background-position: -388px -213px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos03browL {
+  background-position: -375px -522px;
+}
+
+.pos03browR {
+  background-position: -386px -554px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos04browL {
+  background-position: -691px -180px;
+}
+
+.pos04browR {
+  background-position: -691px -180px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos05browL {
+  background-position: -686px -523px;
+}
+
+.pos05browR {
+  background-position: -686px -523px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos06browL {
+  background-size: 1421px;
+  background-position: -1000px -179px;
+}
+
+.pos06browR {
+  background-size: 1421px;
+  background-position: -1000px -179px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos07browL {
+  background-size: 1137px;
+  background-position: -790px -140px;
+}
+
+.pos07browR {
+  background-size: 1137px;
+  background-position: -790px -140px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.pos08browL {
+  background-position: -1000px -523px;
+}
+
+.pos08browR {
+  background-position: -1000px -523px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
