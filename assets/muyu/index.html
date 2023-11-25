@@ -2,11 +2,18 @@
 <head>
 <title>MechaMuyu</title>
 <link rel="preload" href="https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.png">
+<link rel="shortcut icon" href="assets/muyu_rouge_salmony.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&amp;family=Gaegu:wght@300;400&amp;family=Stylish&amp;display=swap" rel="stylesheet">
 <style type="text/css">
-  #content {
-   opacity:0.5;
-    width: 200px;
-    border: 1px dashed greenyellow;
+  #content { 
+   color: #003152;
+   font-family: 'Gaegu', cursive;
+  font-size: x-large;
+  font-weight: bolder;
+    width: 300px;
+    border: 1px dashed salmon;
+    background-color: rgba(250, 128, 114, 0.5);
+    border-style: inset;
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
@@ -32,8 +39,8 @@
 
   #clickarea {
     width: 500px;
-    height : 300px;
-    border: 2px solid #dc0000;
+    height : 450px;
+    border: 2px solid #dc00004c;
     border-radius: 6%;
     font-size: 20px;
     text-align: center;
@@ -61,8 +68,8 @@
     padding: 0 20px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
+    color: #eee;
+    text-shadow: 1px 1px 1px #003152;
     border-radius: 10px;
     background-color: rgba(220, 0, 0, 1);
     background-image: linear-gradient(to top left,
@@ -71,6 +78,9 @@
                   rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+    font-family: 'Gaegu', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
   }
 
   #start:hover {
@@ -84,7 +94,7 @@
 
   /*   working fine, just annoying until the graphics are ready */
   #boomBox{
-  background-color: #2222222a;
+  background-color: #22222200;
   position: absolute;
   z-index: -100;
   width: 100%;
@@ -94,10 +104,13 @@
   top: -20px;
   left: -10px;
   background-image: url("assets/confetti1.png");
-  background-size: 180px;
+  background-size: 280px;
 
+  /*
+   animation: falling 3s forwards;
+  */
   
-  animation: falling 3s forwards;
+  animation: falling 3s forwards ;
   animation-iteration-count:infinite;
   
   }
@@ -107,12 +120,12 @@
   position: absolute;
   z-index: -200;
   width: 105%;
-  height: 100%;
+  height: 105%;
   overflow: hidden;
   top: -20px;
   left: -90px;
   background-image: url("assets/confetti0.png");
-  background-size: 180px;
+  background-size: 240px;
   }
 
   @keyframes falling{
@@ -170,14 +183,14 @@
   <img id="logo" src="cursor.png" /> -->
   <div id="content">
     
-    Score: <span id="score" style="font-size: larger;"></span><br/><br/>
+    Score: <span id="score" style="font-size: xx-large;"></span><br/><br/>
     <span id="timer"></span><br/>
     <span id="clicks"></span>
   </div>
  
   <div id="clickarea" class="cursor_mallet">
-   <img src="/assets/muyu/assets/muyu_temporary.png" alt="" style="border-radius: 50%;">
-    <button id="start">start</button>
+   <img src="/assets/muyu/assets/muyu_rouge_salmony.png" alt="A fish bell. Click here as fast as you can." style="width: 450px; ">
+    <button id="start"> start </button>
   </div>
   <!-- fontawesome kit-->
   <script src="https://kit.fontawesome.com/b9730a3ea0.js" crossorigin="anonymous"></script>
@@ -252,6 +265,8 @@
     setTimeout(function() {
 
      //have background play confetti gif or img moving down with background-repeat for 10 seconds then go back to regular
+
+     
 
 
       
