@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>MechaMuyu</title>
+<link rel="preload" href="https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.png">
 <style type="text/css">
   #content {
    opacity:0.5;
@@ -15,10 +16,17 @@
   }
 
   .cursor_mallet {
+   
+   cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1021.cur), default;
+   cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.cur), default;
+   cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.png), crosshair;
+   /*
    cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.cur),auto;
+   cursor: url(mallet.cur), crosshair; 
    cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.png), auto;
    cursor: url(assets/mallet0.cur), default;
-      
+   
+      */
    /* needs to be a .cur file, i bet */
   }
 
@@ -74,6 +82,7 @@
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
   }
 
+  /*   working fine, just annoying until the graphics are ready 
   #boomBox{
   background-color: #2222222a;
   position: absolute;
@@ -86,9 +95,7 @@
   left: -10px;
   background-image: url("assets/muyu_temporary.png");
   background-size: 180px;
-  /*
-  animation: falling 5s timing-function infinite normal fill-mode;
-  */
+
   
   animation: falling 3s forwards;
   animation-iteration-count:infinite;
