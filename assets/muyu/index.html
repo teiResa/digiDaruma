@@ -70,21 +70,108 @@
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
   }
+
+  #boomBox{
+  background-color: #2222222a;
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+  top: -20px;
+  left: -10px;
+  background-image: url("assets/muyu_temporary.png");
+  background-size: 180px;
+  /*
+  animation: falling 5s timing-function infinite normal fill-mode;
+  */
+  
+  animation: falling 3s forwards;
+  animation-iteration-count:infinite;
+  
+  }
+
+  #boomBox1{
+  background-color: pink;
+  position: absolute;
+  z-index: -200;
+  width: 105%;
+  height: 100%;
+  overflow: hidden;
+  top: -20px;
+  left: -90px;
+  background-image: url("assets/muyu_temporary.png");
+  background-size: 180px;
+  }
+
+  @keyframes falling{
+  0%{opacity: 0}
+  40%{opacity: 0.5;}
+  100%{transform: translateY(70px); opacity: 0;}
+}
+
+
+
+  /*
+#boomBox {
+  visibility: hidden;
+  background-color: #222;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 40%;
+  left: 0%;
+}
+.dot-container {
+  position:absolute;
+  left:0;
+  top:0;
+  overflow:visible;
+  z-index:5000;
+  pointer-events:none;
+}
+.dot {
+  position: absolute;
+  pointer-events: none; 
+} */
 </style>
 </head>
-<body>
+
+<body style="user-select: none;" class="cursor_mallet">
+  <div id="boomBox"></div>
+  <div id="boomBox1"></div>
+  <!--
+
+   <i class="fas fa-yin-yang"></i>
+   <i class="fas fa-wind"></i>
+
+   <i class="fas fa-splotch"></i>
+   <i class="far fa-star"></i>
+   <i class="fas fa-star"></i>
+   <i class="fas fa-star-of-life"></i>
+   <i class="fas fa-asterisk"></i>
+
+
+
+  -->
  <!--
   <img id="logo" src="cursor.png" /> -->
-  <div id="content" class="cursor_mallet">
+  <div id="content">
     
-    Score: <span id="score" style="font-size: larger;"></span><br/>
+    Score: <span id="score" style="font-size: larger;"></span><br/><br/>
     <span id="timer"></span><br/>
     <span id="clicks"></span>
   </div>
+ 
   <div id="clickarea">
    <img src="/assets/muyu/assets/muyu_temporary.png" alt="" style="border-radius: 50%;">
     <button id="start">start</button>
   </div>
+  <!-- fontawesome kit-->
+  <script src="https://kit.fontawesome.com/b9730a3ea0.js" crossorigin="anonymous"></script>
+
   <script type="text/javascript">
     var score; // to store the current score
     var duration = 10; // 10 seconds
@@ -96,6 +183,7 @@
     var clicksTxt = document.getElementById("clicks");
     var startBtn = document.getElementById("start");
     var clickArea = document.getElementById("clickarea");
+    var blast = document.getElementById("boomBox");
     // we define two functions for showing or hiding a HTML element
     var show = function(elem) {
       elem.style.display = 'inline';
@@ -126,21 +214,41 @@
         }
       }, 1);
   }
+
+
+ 
+
+
+
   // end game method
   function endGame() {
     // we write final stats
     var clicsBySeconds = (score / duration).toFixed(2);
-    timerTxt.textContent = "In "+ duration.toFixed(2) + " seconds";
-    clicksTxt.textContent = "That's "+clicsBySeconds + " clicks per second!";
+    timerTxt.textContent = "In "+ duration.toFixed(2) + " seconds,";
+    clicksTxt.textContent = "that's "+clicsBySeconds + " clicks per second!";
     // we show start button to play an other game
     show(startBtn);
     // we display result to the user in delayed mode 
     //to update DOM elements just before the alert
+    /*   disabled alert for now because I would rather confetti or fireworks
     setTimeout(function() {
       alert('Wowza! You made ' + score + ' clicks in ' + duration + 
       ' seconds. It is ' + clicsBySeconds + 
       ' clicks a seconds. Try again!');
     }, 10);
+    */
+
+
+    setTimeout(function() {
+
+     //have background play confetti gif or img moving down with background-repeat for 10 seconds then go back to regular
+
+
+      
+    }, 10);
+
+
+
   }
   // we set a click event listener on the start button
   startBtn.addEventListener("click", function(e) {
