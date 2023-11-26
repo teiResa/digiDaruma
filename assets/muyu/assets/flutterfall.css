@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  background: rgba(128, 128, 128, 0);
+  overflow: hidden;
+}
+
+.flutterfall, .flutterfall:before, .flutterfall:after {
+  position: absolute;
+  top: -600px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: radial-gradient(6px 6px at 395px 572px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 49px 351px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 83px 340px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 159px 286px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 304px 289px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 387px 47px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 452px 129px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 216px 464px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 45px 60px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 595px 120px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 583px 88px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 322px 517px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 299px 35px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 7px 246px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 88px 398px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 520px 347px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 445px 201px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 12px 426px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 232px 446px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 111px 252px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 347px 195px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 593px 541px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 386px 443px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 321px 374px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 581px 452px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 153px 78px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 279px 103px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 69px 309px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 9px 308px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 39px 542px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 359px 487px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 570px 458px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 275px 109px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 140px 430px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 424px 515px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 291px 422px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 173px 524px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 568px 385px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 19px 405px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 576px 10px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 536px 512px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 70px 165px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 560px 128px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 596px 206px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 139px 67px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 273px 102px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 559px 9px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 484px 322px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 353px 275px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 576px 39px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 274px 189px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 100px 543px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 191px 61px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 500px 22px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 46px 576px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 301px 372px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 354px 259px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 14px 325px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 64px 158px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 54px 539px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 208px 400px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 450px 315px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 359px 178px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 388px 491px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 485px 271px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 213px 112px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 327px 405px, white 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 593px 66px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 257px 85px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 317px 276px, white 50%, rgba(0, 0, 0, 0));
+  background-size: 600px 600px;
+  -webkit-animation: flutterfall 3s linear infinite;
+          animation: flutterfall 3s linear infinite;
+  content: "";
+}
+
+.flutterfall:after {
+  margin-left: -200px;
+  opacity: .4;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  animation-direction: reverse;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
+.flutterfall:before {
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  animation-direction: reverse;
+  margin-left: -300px;
+  opacity: .65;
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
+}
+
+@-webkit-keyframes flutterfall {
+  to {
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
+  }
+}
+
+@keyframes flutterfall {
+  to {
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
+  }
+}
+/*# sourceMappingURL=flutterfall.css.map */

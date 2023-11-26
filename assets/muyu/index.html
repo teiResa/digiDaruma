@@ -4,6 +4,7 @@
 <link rel="preload" href="https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.png">
 <link rel="shortcut icon" href="assets/muyu_rouge_salmony.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Cute+Font&amp;family=Gaegu:wght@300;400&amp;family=Stylish&amp;display=swap" rel="stylesheet">
+
 <style type="text/css">
   #content { 
    color: #003152;
@@ -25,8 +26,10 @@
   .cursor_mallet {
    
    cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1021.cur), default;
-   cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.cur), default;
-   cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.png), crosshair;
+   cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet02.cur), default;
+   
+   cursor: url(/assets/muyu/assets/mallet02.cur), default;
+   cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet02.png), crosshair;
    /*
    cursor: url(https://teiresa.github.io/digiDaruma/assets/muyu/assets/mallet0.cur),auto;
    cursor: url(mallet.cur), crosshair; 
@@ -104,19 +107,26 @@
   top: -20px;
   left: -10px;
   background-image: url("assets/confetti1.png");
-  background-size: 280px;
+  background-size: 300px;
 
   /*
    animation: falling 3s forwards;
+
+
+   For the more crazy one with all of the other boomBoxN divs
+   animation: falling2 6s forwards ;
+  animation-delay: 1500ms;
   */
   
-  animation: falling 3s forwards ;
+  animation: falling 3s forwards;
   animation-iteration-count:infinite;
   
   }
 
   #boomBox1{
+   /*
   background-color: pink;
+  */
   position: absolute;
   z-index: -200;
   width: 105%;
@@ -125,14 +135,84 @@
   top: -20px;
   left: -90px;
   background-image: url("assets/confetti0.png");
-  background-size: 240px;
+  background-size: 240px;  
   }
 
+  #boomBox2 {
+
+   position: absolute;
+  z-index: -300;
+  width: 105%;
+  height: 105%;
+  overflow: hidden;
+  top: -20px;
+  left: -90px;
+  background-image: url("assets/confetti1.png");
+  background-size: 210px;  
+   animation: falling2 6s forwards ;
+   animation-delay: 3000ms;
+  animation-iteration-count:infinite;
+  }
+
+  #boomBox3{
+  background-color: #22222200;
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+  top: -20px;
+  left: -10px;
+  background-image: url("assets/confetti0.png");
+  background-size: 300px;
+  animation: falling2 6s forwards ;
+  animation-delay: 4500ms;
+  animation-iteration-count:infinite;
+  
+  }
+
+  #boomBox4 {
+    position: absolute;
+    z-index: -300;
+    width: 105%;
+    height: 105%;
+    overflow: hidden;
+    top: -20px;
+    left: -90px;
+    background-image: url("assets/confetti1.png");
+    background-size: 210px;  
+    animation: feelingfaded 6s forwards ;
+    animation-delay: 6000ms;
+    animation-iteration-count:infinite;
+    }
+
   @keyframes falling{
+   /*I should make this into a figure 8 (back/ups invisible)*/
   0%{opacity: 0}
   40%{opacity: 0.5;}
   100%{transform: translateY(70px); opacity: 0;}
 }
+
+
+@keyframes falling2{
+  0%{opacity: 0.1}
+  2%{opacity:0.6;}
+  20%{opacity: 0.8;}
+  40% {opacity:0.0;}
+  100%{transform: translateY(800px); opacity: 0;}}
+
+  @keyframes feelingfaded {
+   0%{opacity:0.0;}
+   10%{opacity:0.3;}
+   30%{opacity:0.7;}
+   50%{opacity:0.0;}
+   60%{opacity: 0.3;}
+   80%{opacity: 0.7;}
+   100%{opacity:0.2;}
+  }
+
+
 
 
 
@@ -164,7 +244,11 @@
 
 <body style="user-select: none;" class="cursor_mallet">
   <div id="boomBox"></div>
-  <div id="boomBox1"></div>
+  <div id="boomBox1" ></div>
+  <!--
+  <div id="boomBox2"></div>
+  <div id="boomBox3"></div>
+  <div id="boomBox4"></div> -->
   <!--
 
    <i class="fas fa-yin-yang"></i>
@@ -189,7 +273,7 @@
   </div>
  
   <div id="clickarea" class="cursor_mallet">
-   <img src="/assets/muyu/assets/muyu_rouge_salmony.png" alt="A fish bell. Click here as fast as you can." style="width: 450px; ">
+   <img src="/assets/muyu/assets/muyu_rouge_salmony_sm.png" alt="A fish bell. Click here as fast as you can." style="width: 450px; ">
     <button id="start"> start </button>
   </div>
   <!-- fontawesome kit-->
