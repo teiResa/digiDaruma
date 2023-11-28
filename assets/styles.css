@@ -14,6 +14,43 @@
  box-sizing: border-box;
 }
 
+button {
+ font-family: 'Gaegu', cursive;
+}
+
+
+button {
+ /*position: absolute;
+ top: 50%; left: 50%;
+ transform: translate(-50%,-50%);*/
+ border: 0;
+ line-height: 2;
+ padding: 0 20px;
+ margin: 2px;
+ font-size: 0.5rem;
+ text-align: center;
+ color: #eee;
+ text-shadow: 1px 1px 1px #003152;
+ border-radius: 10px;
+ background-color: rgb(245, 124, 245); background-image: linear-gradient(to top left,
+               rgba(0, 0, 0, .2),
+               rgba(0, 0, 0, .2) 30%,
+               rgba(0, 0, 0, 0));
+ box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+             inset -2px -2px 3px rgba(0, 0, 0, .6);
+ font-size: medium;
+}
+
+button:hover {
+ background-color: lightblue;
+}
+
+button:active {
+ box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+             inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
 
 
 body {
@@ -21,6 +58,10 @@ body {
  margin: auto;
  overflow: hidden;
  width: 100vw;
+ background-image: url(../assets/muyu/assets/confetti0.png);
+ background-size: 300px;
+ font-family: 'Gaegu', cursive;
+ 
 
  /* So the user cannot highlight or copy anything (excluding DEV stuff section (see very bottom for class .dev_only)) */
  user-select: none; /* supported by Chrome and Opera */
@@ -33,19 +74,76 @@ body {
 h1 {
  color: white;
  text-shadow: 3px 3px 8px cyan, -3px -3px 9px magenta;
- font-size: 3rem;
+ font-size: 4rem; /* was 3rem*/
  font-family: cursive, sans-serif;
  text-align: center;
 }
 
 
+.section-butts {
+ flex-wrap: nowrap;
+}
+
+.subsections {
+ display: grid; 
+ grid-template-columns: 50% 50%;
+}
+
+.subsect {
+ grid: 50%;
+}
+
+
+
+
+
+
+.menu-button {
+ background-color: green;
+}
+
+
+.menu-button {
+ /*position: absolute;
+ top: 50%; left: 50%;
+ transform: translate(-50%,-50%);*/
+ border: 0;
+ line-height: 2;
+ padding: 0 20px;
+ font-size: 0.5rem;
+ text-align: center;
+ color: #eee;
+ text-shadow: 1px 1px 1px #003152;
+ border-radius: 10px;
+ background-color: rgb(245, 124, 245); background-image: linear-gradient(to top left,
+               rgba(0, 0, 0, .2),
+               rgba(0, 0, 0, .2) 30%,
+               rgba(0, 0, 0, 0));
+ box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+             inset -2px -2px 3px rgba(0, 0, 0, .6);
+ font-size: medium;
+}
+
+.menu-button:hover {
+ background-color: lightblue;
+}
+
+.menu-button:active {
+ box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+             inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
 .frame {
  display: flex;
- background-color: lightblue;
+ background-color: rgba(173, 216, 230, 0.889);
+ border-radius: 1%;
  align-items: center;
  justify-content: center;
  height: 65vh;
- width: 80vw;
+ width: 30vw;
+ min-width: 500px;
  margin: auto;
 
  /* might need this float: left; if the frame starts acting up */
@@ -299,9 +397,16 @@ position: absolute;
 
 #toggleMenu { /*Changing traits menu */
  background-color: rgb(89, 89, 89);
+ background-image: url(../assets/muyu/assets/confetti0.png);
+ background-size: 500px;
+
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+ background-blend-mode: soft-light;
+ overflow-y: hidden;
  margin-top: 2vh;
- padding: 1vw;
- width: 20vw;
+ padding: 2vw 1vw 1vw 2vw;
+ width: 60vw; /* was 20 */
  min-height: 70vh;
  float: left;
 
@@ -320,6 +425,8 @@ position: absolute;
  /*max-width: 18vw;
  min-width: 17vw;
 */
+
+background-color: rgba(89, 89, 89, 0.613);
  width: 267.81;
  height: 102.26;
 }

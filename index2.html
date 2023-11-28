@@ -25,7 +25,7 @@
  
  <h1>My Daruma Doll</h1>
 
- <button onclick="menuToggler()">Click to edit your Daruma</button>
+ <button onclick="menuToggler()" class="menu-button">Click to edit your Daruma</button>
  <br>
 
  <div id="toggleMenu" class="customiserMenu">
@@ -56,7 +56,7 @@
    <button id="template-togglr" onclick="templateToggle()"> <i class="fa fa-home" id="template-icon"></i></button>
 
    
-   <div class="sections">
+   <div class="section-butts" >
     Goal is: <br>
     <label class="switch toggleSwitch nolabel sanslabel" onclick="eyeRHide()">
 
@@ -68,7 +68,8 @@
    </label><br>
    <button onclick="eyeRHide2()" id="eye-set" class="eye-button-left" type="button">Success!</button>
    <button onclick="eyeOverride()" id="eye-override" class="eye-button-right" type="button">Goal Set</button>
-
+   </div>
+   <div class="sections">
     <h3>body</h3>
     
     <details class="subsections"> <!-- body colours -->
@@ -101,6 +102,7 @@
     </details>
     <details class="subsections"> <!-- torse patterns -->
      <summary>Torso Pattern</summary>
+     <div class="subsect subsect-left">
      <input type="radio" name="torso-pattern" id="torPatt0" value="torPatt0" class="torPattOpt0"/>
        <label for="torPatt0"> None</label><br>
       <input type="radio" name="torso-pattern" id="torPatt1" value="torPatt1" class="torPattOpt1"/>
@@ -115,8 +117,10 @@
        <label for="torPatt5"> torPatt5</label><br>
        <input type="radio" name="torso-pattern" id="torPatt6" value="torPatt6" class="torPattOpt6"/>
        <label for="torPatt6"> torPatt6</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt7" value="torPatt7" class="torPattOpt7"/>
-       <label for="torPatt7"> torPatt7</label><br>
+      </div>
+      <div class="subsect subsect-right">
+       <input type="radio" name="torso-pattern" id="torPatt7" value="torPatt7" class="torPattOpt7"/> 
+       <label for="torPatt7"> torPatt7</label><br> 
        <input type="radio" name="torso-pattern" id="torPatt8" value="torPatt8" class="torPattOpt8"/>
        <label for="torPatt8"> torPatt8</label><br>
        <input type="radio" name="torso-pattern" id="torPatt9" value="torPatt9" class="torPattOpt9"/>
@@ -127,6 +131,7 @@
        <label for="torPatt11"> torPatt11</label><br>
        <input type="radio" name="torso-pattern" id="torPatt12" value="torPatt12" class="torPattOpt12"/>
        <label for="torPatt12"> torPatt12</label><br>
+      </div>
     </details>
     <details class="subsections"> <!-- chest -->
      <summary>Chest Pattern</summary>
