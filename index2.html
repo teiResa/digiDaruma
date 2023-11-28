@@ -69,7 +69,8 @@
    <button onclick="eyeRHide2()" id="eye-set" class="eye-button-left" type="button">Success!</button>
    <button onclick="eyeOverride()" id="eye-override" class="eye-button-right" type="button">Goal Set</button>
    </div>
-   <div class="sections">
+   <div class="snoosey">
+   <div class="sections woosey">
     <h3>body</h3>
     
     <details class="subsections"> <!-- body colours -->
@@ -102,6 +103,7 @@
     </details>
     <details class="subsections"> <!-- torse patterns -->
      <summary>Torso Pattern</summary>
+     <div class="choosey">
      <div class="subsect subsect-left">
      <input type="radio" name="torso-pattern" id="torPatt0" value="torPatt0" class="torPattOpt0"/>
        <label for="torPatt0"> None</label><br>
@@ -131,10 +133,12 @@
        <label for="torPatt11"> torPatt11</label><br>
        <input type="radio" name="torso-pattern" id="torPatt12" value="torPatt12" class="torPattOpt12"/>
        <label for="torPatt12"> torPatt12</label><br>
-      </div>
+      </div></div>
     </details>
     <details class="subsections"> <!-- chest -->
      <summary>Chest Pattern</summary>
+     <div class="choosey">
+      <div class="subsect subsect-left">
       <input type="radio" name="chest-pattern" id="chestPatt0" value="chestPatt0" class="chestPattOpt0"/>
        <label for="chestPatt0"> None</label><br>
       <input type="radio" name="chest-pattern" id="chestPatt1" value="chestPatt1" class="chestPattOpt1"/>
@@ -148,6 +152,8 @@
        <label for="chestPatt4"> pos00chest</label><br>
        <input type="radio" name="chest-pattern" id="chestPatt5" value="chestPatt5" class="chestPattOpt5"/>
        <label for="chestPatt5"> pos01chest</label><br>
+       </div>
+        <div class="subsect subsect-right">
        <input type="radio" name="chest-pattern" id="chestPatt6" value="chestPatt6" class="chestPattOpt6"/>
        <label for="chestPatt6"> pos02chest</label><br>
        <input type="radio" name="chest-pattern" id="chestPatt7" value="chestPatt7" class="chestPattOpt7"/>
@@ -162,13 +168,17 @@
        <label for="chestPatt11"> pos07chest</label><br>
        <input type="radio" name="chest-pattern" id="chestPatt12" value="chestPatt12" class="chestPattOpt12"/>
        <label for="chestPatt12"> pos08chest</label><br>
+       </div>
     </details>
     <details class="subsections"> <!-- ears -->
      <summary>Ear Shape</summary>
+     <div class="choosey">
+     <div class="subsect subsect-left">
      <input type="radio" name="ear-sets" id="earSet0" value="earSet0">
        <label for="earSet0"> None</label><br>
       <input type="radio" name="ear-sets" id="earSet1" value="earSet1">
        <label for="earSet1"> Option 2</label><br>
+     
       <input type="radio" name="ear-sets" id="earSet2" value="earSet2">
        <label for="earSet2"> Option 3</label><br>
       <input type="radio" name="ear-sets" id="earSet3" value="earSet3">
@@ -178,6 +188,8 @@
       <label for="earSet4"> pos00ear</label><br>
       <input type="radio" name="ear-sets" id="earSet5" value="earSet5">
       <label for="earSet5"> pos01ear</label><br>
+      </div>
+       <div class="subsect subsect-right">
       <input type="radio" name="ear-sets" id="earSet6" value="earSet6">
       <label for="earSet6"> pos02ear</label><br>
       <input type="radio" name="ear-sets" id="earSet7" value="earSet7">
@@ -192,15 +204,18 @@
       <label for="earSet11"> pos07ear</label><br>
       <input type="radio" name="ear-sets" id="earSet12" value="earSet12">
       <label for="earSet12"> pos08ear</label><br>
+      </div> </div>
     </details>
 
    </div>
-
-   <div class="sections">
+   <div class="spoosey"></div>
+   <div class="sections woosey">
    <h3>Face</h3>
 
    <details class="subsections"> <!-- eyes -->
     <summary>Eye Shape</summary>
+    <div class="choosey">
+     <div class="subsect subsect-left">
      <input type="radio" name="eye-shape" id="eyeSet0" value="eyeSet0">
       <label for="eyeSet0"> None</label><br>
      <input type="radio" name="eye-shape" id="eyeSet1" value="eyeSet1">
@@ -213,6 +228,8 @@
       <label for="eyeSet4"> pos00eye</label><br>
       <input type="radio" name="eye-shape" id="eyeSet5" value="eyeSet5">
       <label for="eyeSet5"> pos01eye</label><br>
+     </div>
+      <div class="subsect subsect-right">
       <input type="radio" name="eye-shape" id="eyeSet6" value="eyeSet6">
       <label for="eyeSet6"> pos02eye</label><br>
       <input type="radio" name="eye-shape" id="eyeSet7" value="eyeSet7">
@@ -227,11 +244,14 @@
       <label for="eyeSet11"> pos07eye</label><br>
       <input type="radio" name="eye-shape" id="eyeSet12" value="eyeSet12">
       <label for="eyeSet12"> pos08eye</label><br>
+      </div></div>
    </details>
 
 
    <details class="subsections"> <!-- eyebrows -->
     <summary>Eyebrows</summary>
+    <div class="choosey">
+     <div class="subsect subsect-left">
     <input type="radio" name="brow-sets" id="browSet0" value="browSet0">
       <label for="browSet0"> None</label><br>
      <input type="radio" name="brow-sets" id="browSet1" value="browSet1">
@@ -244,6 +264,8 @@
       <label for="browSet4"> pos00brows </label><br>
       <input type="radio" name="brow-sets" id="browSet5" value="browSet5">
       <label for="browSet5"> pos01brows </label><br>
+     </div>
+      <div class="subsect subsect-right">
       <input type="radio" name="brow-sets" id="browSet6" value="browSet6">
       <label for="browSet6"> pos02brows </label><br>
       <input type="radio" name="brow-sets" id="browSet7" value="browSet7">
@@ -258,9 +280,12 @@
       <label for="browSet11"> pos07brows </label><br>
       <input type="radio" name="brow-sets" id="browSet12" value="browSet12">
       <label for="browSet12"> pos08brows </label><br>
+      </div></div>
    </details>
    <details class="subsections"> <!-- bindi -->
     <summary>Bindi</summary>
+    <div class="choosey">
+     <div class="subsect subsect-left">
     <input type="radio" name="bindi-style" id="bindiPatt0" value="bindiPatt0">
       <label for="bindiPatt0"> None</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt1" value="bindiPatt1">
@@ -272,6 +297,8 @@
       
      <input type="radio" name="bindi-style" id="bindiPatt4" value="bindiPatt4">
      <label for="bindiPatt4"> pos00bindi</label><br>
+     </div>   
+      <div class="subsect subsect-right">
      <input type="radio" name="bindi-style" id="bindiPatt5" value="bindiPatt5">
      <label for="bindiPatt5"> pos01bindi</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt6" value="bindiPatt6">
@@ -288,6 +315,7 @@
      <label for="bindiPatt11"> pos07bindi</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt12" value="bindiPatt12">
      <label for="bindiPatt12"> pos08bindi</label><br>
+     </div>
    </details>
    <details class="subsections"> <!-- nose -->
     <summary>Nose</summary>
@@ -393,7 +421,7 @@
       <label for="fhair12"> pos08cheek</label><br>
    </details>
 
-   </div>
+   </div></div>
    
 
 
