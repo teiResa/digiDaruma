@@ -597,16 +597,55 @@ function eyeRHide(){
    });
   }
 
-  /* I'm thinking this
+  /* I was thinking this,  but i don't think it would work
   
   https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/toggle_event    
   */
 
-  const button = document.getElementById("tempbutton");
-const input = document.getElementById("tempinput");
+  const buttonhi = document.getElementById("tempbutton");
 
-button.addEventListener("click", () => {
-  input.toggleAttribute("disabled");
+buttonhi.addEventListener("click", () => {
+ $('#displayEyeHide').html('CCCCCCCCCCLLLLLLLLLLIIIIIIIIIIICCCCCCCCCCCCCCKKKKKKKKKKK');
+
+    const currREye = document.getElementById('eye-right');
+    /*
+    currREye.classList.add('eyeRightUnhidden');
+
+
+
+
+
+
+const popover = document.getElementById("mypopover");
+
+// ...
+
+popover.addEventListener("beforetoggle", (event) => {
+  if (event.newState === "open") {
+    console.log("Popover is being shown");
+  } else {
+    console.log("Popover is being hidden");
+  }
+});
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/ToggleEvent/newState
+*/
+
+    currREye.addEventListener("toggle", (event) => {
+     if (event.classList.contains('eyeRightUnhidden')) {
+       $('#displayEyeHide').html('RIGHT EYE is so hiIDDEN');
+       currREye.classList.add('eyeRightUnhidden');
+      currREye.classList.remove('eyeRightHidden');
+     } else {
+       $('#displayEyeHide').html('RIGHT EYE is absolutely not unHIDDEN');
+       currREye.classList.add('eyeRightHidden');
+       currREye.classList.remove('eyeRightUnhidden');
+     }
+   });
+
 });
 
   /* Was this, before experiementing:
