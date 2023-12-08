@@ -597,6 +597,36 @@ function eyeRHide(){
    });
   }
 
+  /* I'm thinking this
+  
+  https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/toggle_event    
+  */
+
+  const button = document.getElementById("tempbutton");
+const input = document.getElementById("tempinput");
+
+button.addEventListener("click", () => {
+  input.toggleAttribute("disabled");
+});
+
+  /* Was this, before experiementing:
+  
+  function eyeRHide(){
+
+   $('#toggleInput').on('click', function(){
+
+    $('#displayEyeHide').html('RIGHT EYE unHIDDEN');
+
+    const currREye = document.getElementById('eye-right');
+      currREye.classList.add('eyeRightUnhidden');
+      currREye.classList.remove('eyeRightHidden');
+   });
+  }*/
+
+
+
+  /* The set of buttons underneith for temp use */
+
   function eyeRHide2(){
 
    $('#eye-set').on('click', function(){
