@@ -559,7 +559,7 @@ $( '#earSet12' ).on( 'click', function() {
 });
 
 /* Eyes (first three) missing */
-
+/*
 function eyeHide() {
  $('#displayEyeHide').html( 'Hidden right eye' );
 
@@ -575,7 +575,7 @@ function eyeUnhide() {
   unhideEye.style.opacity = 1;
 
 }; 
-
+*/
 /*
 function eyeHideUnhide(){
  */
@@ -585,6 +585,7 @@ function eyeHideUnhide(){
 const toggler = document.querySelector('toggleSwitch');
 
 }*/
+/*
 function eyeRHide(){
 
    $('#toggleInput').on('click', function(){
@@ -596,22 +597,22 @@ function eyeRHide(){
       currREye.classList.remove('eyeRightHidden');
    });
   }
-
+*/
   /* I was thinking this,  but i don't think it would work
   
   https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/toggle_event    
   */
 
-  const buttonhi = document.getElementById("tempbutton");
+  const buttonhi = document.getElementById("heidibutton");
 
 buttonhi.addEventListener("click", () => {
  $('#displayEyeHide').html('CCCCCCCCCCLLLLLLLLLLIIIIIIIIIIICCCCCCCCCCCCCCKKKKKKKKKKK');
 
     const currREye = document.getElementById('eye-right');
+
+  
     /*
     currREye.classList.add('eyeRightUnhidden');
-
-
 
 
 
@@ -632,7 +633,7 @@ popover.addEventListener("beforetoggle", (event) => {
 
 
 https://developer.mozilla.org/en-US/docs/Web/API/ToggleEvent/newState
-*/
+
 
     currREye.addEventListener("toggle", (event) => {
      if (event.classList.contains('eyeRightUnhidden')) {
@@ -645,6 +646,27 @@ https://developer.mozilla.org/en-US/docs/Web/API/ToggleEvent/newState
        currREye.classList.remove('eyeRightUnhidden');
      }
    });
+*/
+
+buttonhi.addEventListener("click", (event) => {
+ if (currREye.classList.contains('eyeRightHidden')) {
+  $('#displayEyeHide').html('IIIIICCCCCCCCCCCCCCKKKKKKKKKKK it hidden but now unhidden');
+  currREye.classList.replace('eyeRightHidden', 'eyeRightUnhidden');
+ } else if (currREye.classList.contains('eyeRightUnhidden')) {
+  $('#displayEyeHide').html('CCCCCCCCCCLLLLLLLLLLIIIII unhidden but now hidden');
+  currREye.classList.replace('eyeRightUnhidden', 'eyeRightHidden');
+ } else {
+  $('#displayEyeHide').html('hidden or unhidden? I know not. I am an error.');
+ }
+
+ 
+});
+
+/*
+if (currREye.classList.contains('eyeRightUnhidden')) 
+{ alert("unhidden")}
+*/
+
 
 });
 
@@ -665,7 +687,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/ToggleEvent/newState
 
 
   /* The set of buttons underneith for temp use */
-
+/*
   function eyeRHide2(){
 
    $('#eye-set').on('click', function(){
@@ -690,7 +712,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/ToggleEvent/newState
 
    });
 
-  }
+  }                       */
  
  //}
 
@@ -755,8 +777,7 @@ if (eyeState.style.opacity === "0") {
      else {alert('hi')}
 */
 
-
-
+/*
 function eyeHide() {
   $('#displayEyeHide').html( 'Hidden right eye' );
 
@@ -773,7 +794,7 @@ function eyeHide() {
 
  }; 
 
-
+*/
 
 $(document).ready(function () { 
  $( '#eyeSet0' ).on( 'click', function() { 
