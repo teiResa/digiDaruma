@@ -665,6 +665,12 @@ buttonhi.addEventListener("click", (event) => {
 /*
 if (currREye.classList.contains('eyeRightUnhidden')) 
 { alert("unhidden")}
+
+Practiced drawing today so I can redo the graphics tomorrow.
+
+Also tomorrow I need to fix the botton "double click" error.
+
+("Mostly working, but it needs to be clicked twice. Fix next time.")
 */
 
 
