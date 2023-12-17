@@ -658,7 +658,7 @@ buttonhi.addEventListener("click", (event) => {
  } else {
   $('#displayEyeHide').html('hidden or unhidden? I know not. I am an error.');
  }
-
+// Should I completely restart the graphics? I think I may, because this past weeks has been great for my illustration confidence
  
 });
 
