@@ -666,9 +666,11 @@ buttonhi.addEventListener("click", (event) => {
 if (currREye.classList.contains('eyeRightUnhidden')) 
 { alert("unhidden")}
 
-Practiced drawing today (x4 because I was inspired) so I can redo the graphics tomorrow.
+Practiced drawing today (x6 because I was inspired) so I can redo the graphics tomorrow.
 
 Also tomorrow I need to fix the botton "double click" error.
+
+I was thinking about maybe making something with tiny little red packets. IDK, feels cute. May not do it because I am struggling to think of what to do with it that isn't dumb/pointless. Oh, maybe a few circling a daruma? My character? Maybe a few stacking up as a loading gif? Maybe Maybe they could just be a spinny that stops as daruma, muyu, packet with a tazzy tornado in between spins.
 
 ("Mostly working, but it needs to be clicked twice. Fix next time.")
 */
