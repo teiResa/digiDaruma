@@ -202,10 +202,11 @@ Not used, but I wrote the code for it in html and js
   background-size: 1421px;
 }
 
-.pos00browL {
+.pos00eyeL {
   background-position: -85px -209px;
 }
 
+/* was browL, so I made it eye. Pretty sure it was accidental*/
 .pos00eyeR {
   background-position: -85px -209px;
   -webkit-transform: scaleX(-1);

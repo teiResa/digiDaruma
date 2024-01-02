@@ -1431,42 +1431,123 @@ $( '#nosePatt11' ).on( 'click', function() {
 });
 
 $(document).ready(function () { /* Mouth */
-      
- $( '#mouth0' ).on( 'click', function() { 
-  $('#displayMouth').html( 'mouth mouth0 (none) is selected!' );
+        
+ $( '#mouthPatt0' ).on( 'click', function() { 
+  $('#displayMouth').html( 'mouth mouthPatt0 (selection is cleared) is selected!' );
 
-  const currMouth = document.getElementById('mouth');
+  const currmouth = document.getElementById('mouth');
 
-  currMouth.classList.remove('mouthBasic', 'mouthRobotCat', 'mouthShiba');
- }); 
+  currmouth.classList.remove('spriteContainer1', 'spriteContainer2', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+ });
+ 
+ $( '#mouthPatt1' ).on( 'click', function() { 
+     $('#displayMouth').html( 'mouth mouthPatt1 (basic) is selected!' );
 
- $( '#mouth1' ).on( 'click', function() { 
-     $('#displayMouth').html( 'mouth mouth1 is selected!' );
+     const currmouth = document.getElementById('mouth');
 
-     const currMouth = document.getElementById('mouth');
-
-     currMouth.classList.add('mouthBasic');
-     currMouth.classList.remove('mouthRobotCat', 'mouthShiba');
+     currmouth.classList.add('spriteContainer1', 'mouthBasic');
+     currmouth.classList.remove('spriteContainer2', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouth2' ).on( 'click', function() { 
- $('#displayMouth').html( 'mouth mouth2 is selected!' );
+$( '#mouthPatt2' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt2 (RobotCat) is selected!' );
 
- const currMouth = document.getElementById('mouth');
+ const currmouth = document.getElementById('mouth');
 
- currMouth.classList.add('mouthRobotCat');
- currMouth.classList.remove('mouthBasic', 'mouthShiba');
+ currmouth.classList.add('spriteContainer1', 'mouthRobotCat');
+     currmouth.classList.remove('spriteContainer2', 'mouthBasic', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouth3' ).on( 'click', function() { 
- $('#displayMouth').html( 'mouth mouth3 (shiba) is selected!' );
+$( '#mouthPatt3' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt3 (Shiba nooooooooooose) is selected!' );
 
- const currMouth = document.getElementById('mouth');
+ const currmouth = document.getElementById('mouth');
 
- currMouth.classList.add('mouthShiba');
- currMouth.classList.remove('mouthBasic', 'mouthRobotCat');
+ currmouth.classList.add('spriteContainer1', 'mouthShiba');
+ currmouth.classList.remove('spriteContainer2', 'mouthBasic', 'mouthRobotCat', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
+
+$( '#mouthPatt4' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt4 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos00mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt5' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt5 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos01mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth',  'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt5' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt5 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos02mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt6' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt6 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos03mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt7' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt7 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos04mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt8' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt8 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos05mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt9' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt9 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos06mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos07mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt10' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt10 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos07mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos08mouth');
+}); 
+
+$( '#mouthPatt11' ).on( 'click', function() { 
+ $('#displayMouth').html( 'mouth mouthPatt11 (NONE) is selected!' );
+
+ const currmouth = document.getElementById('mouth');
+
+ currmouth.classList.add('spriteContainer2', 'pos08mouth');
+ currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth');
+}); 
 });
 
 $(document).ready(function () { /* Facial hair or cheeks */

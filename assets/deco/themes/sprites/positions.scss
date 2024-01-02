@@ -168,7 +168,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos00browL,  .pos01browL, .pos02browL, .pos03browL, .pos04browL, .pos05browL, .pos06browL, .pos07browL, .pos08browL{background-size: 1421px;}
 
-.pos00browL{background-position: -85px -209px;}
+.pos00eyeL{background-position: -85px -209px;} /* was browL, so I made it eye. Pretty sure it was accidental*/
 .pos00eyeR{background-position: -85px -209px; transform: scaleX(-1)/*Leaving center for now*/;}
 .pos01eyeL{background-size: 1706px;background-position: -110px -666px;}
 .pos01eyeR{background-size: 1706px;background-position: -110px -666px; transform: scaleX(-1);}
