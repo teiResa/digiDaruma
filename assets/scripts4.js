@@ -1165,8 +1165,8 @@ $( '#bindiPatt0' ).on( 'click', function() {
 
  const currBindi = document.getElementById('bindi');
 
- currBindi.classList.add('bindiStyle0');
- currBindi.classList.remove('bindiStyle1', 'bindiRobotCat', 'bindiStyle3');
+ currBindi.classList.add('spriteContainer1', 'bindiStyle0');
+ currBindi.classList.remove('spriteContainer2', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
 }); 
         
  $( '#bindiPatt1' ).on( 'click', function() { 
@@ -1174,8 +1174,8 @@ $( '#bindiPatt0' ).on( 'click', function() {
 
      const currBindi = document.getElementById('bindi');
 
-     currBindi.classList.add('bindiStyle1');
-     currBindi.classList.remove('bindiStyle0', 'bindiRobotCat', 'bindiStyle3');
+     currBindi.classList.add('spriteContainer1', 'bindiStyle1');
+     currBindi.classList.remove('spriteContainer2', 'bindiStyle0', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
 }); 
 
 $( '#bindiPatt2' ).on( 'click', function() { 
@@ -1183,8 +1183,8 @@ $( '#bindiPatt2' ).on( 'click', function() {
 
  const currBindi = document.getElementById('bindi');
 
- currBindi.classList.add('bindiRobotCat');
- currBindi.classList.remove('bindiStyle0', 'bindiStyle1',  'bindiStyle3');
+ currBindi.classList.add('spriteContainer1', 'bindiRobotCat');
+ currBindi.classList.remove('spriteContainer2', 'bindiStyle0', 'bindiStyle1',  'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
 }); 
 
 $( '#bindiPatt3' ).on( 'click', function() { 
@@ -1192,8 +1192,89 @@ $( '#bindiPatt3' ).on( 'click', function() {
 
  const currBindi = document.getElementById('bindi');
 
- currBindi.classList.add('bindiStyle3');
- currBindi.classList.remove('bindiStyle1', 'bindiRobotCat', 'bindiStyle0');
+ currBindi.classList.add('spriteContainer1', 'bindiStyle3');
+ currBindi.classList.remove('spriteContainer2', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle0', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt4' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt4 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos00bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt5' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt5 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos01bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt5' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt5 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos02bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt5' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt5 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos03bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt6' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt6 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos04bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt7' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt7 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos05bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi',  'pos06bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt8' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt8 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos06bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos07bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt9' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt9 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos07bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos08bindi');
+}); 
+
+$( '#bindiPatt10' ).on( 'click', function() { 
+ $('#displayBindi').html( 'bindi bindiPatt10 (NONE) is selected!' );
+
+ const currBindi = document.getElementById('bindi');
+
+ currBindi.classList.add('spriteContainer2', 'pos08bindi');
+ currBindi.classList.remove('spriteContainer1', 'bindiStyle0', 'bindiStyle1', 'bindiRobotCat', 'bindiStyle3', 'pos00bindi', 'pos01bindi', 'pos02bindi', 'pos03bindi', 'pos04bindi', 'pos05bindi', 'pos06bindi', 'pos07bindi');
 }); 
 
 });
@@ -1224,48 +1305,129 @@ $( '#bindiPatt3' ).on( 'click', function() {
       <input type="radio" name="fhair-style" id="fhair3" value="fhair3">
       <label for="fhair3"> Style 3</label><br>
 
-      .noseStyle1
+      .noseRobotCat
       mouthStyle3
       fhSprite3r
 */
 
 $(document).ready(function () { /* Nose */
         
- $( '#nose0' ).on( 'click', function() { 
-  $('#displayNose').html( 'nose nose0 (none) is selected!' );
+ $( '#nosePatt0' ).on( 'click', function() { 
+  $('#displayNose').html( 'nose nosePatt0 (selection is cleared) is selected!' );
 
   const currNose = document.getElementById('nose');
 
-  currNose.classList.remove('noseBasic', 'noseRobotCat', 'noseShiba');
+  currNose.classList.remove('spriteContainer1', 'spriteContainer2', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
  });
  
- $( '#nose1' ).on( 'click', function() { 
-     $('#displayNose').html( 'nose nose1 (basic) is selected!' );
+ $( '#nosePatt1' ).on( 'click', function() { 
+     $('#displayNose').html( 'nose nosePatt1 (basic) is selected!' );
 
      const currNose = document.getElementById('nose');
 
-     currNose.classList.add('noseBasic');
-     currNose.classList.remove('noseRobotCat', 'noseShiba');
+     currNose.classList.add('spriteContainer1', 'noseBasic');
+     currNose.classList.remove('spriteContainer2', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nose2' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nose2 (RobotCat) is selected!' );
+$( '#nosePatt2' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt2 (RobotCat) is selected!' );
 
  const currNose = document.getElementById('nose');
 
- currNose.classList.add('noseRobotCat');
- currNose.classList.remove('noseBasic', 'noseShiba');
+ currNose.classList.add('spriteContainer1', 'noseRobotCat');
+     currNose.classList.remove('spriteContainer2', 'noseBasic', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nose3' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nose3 (Shiba) is selected!' );
+$( '#nosePatt3' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt3 (Shiba nooooooooooose) is selected!' );
 
  const currNose = document.getElementById('nose');
 
- currNose.classList.add('noseShiba');
- currNose.classList.remove('noseBasic', 'noseRobotCat');
+ currNose.classList.add('spriteContainer1', 'noseShiba');
+ currNose.classList.remove('spriteContainer2', 'noseBasic', 'noseRobotCat', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
+
+$( '#nosePatt4' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt4 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos00nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt5' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt5 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos01nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose',  'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt5' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt5 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos02nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt6' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt6 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos03nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt7' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt7 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos04nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt8' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt8 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos05nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos06nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt9' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt9 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos06nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos07nose', 'pos08nose');
+}); 
+
+$( '#nosePatt10' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt10 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos07nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos08nose');
+}); 
+
+$( '#nosePatt11' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt11 (NONE) is selected!' );
+
+ const currNose = document.getElementById('nose');
+
+ currNose.classList.add('spriteContainer2', 'pos08nose');
+ currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose');
+}); 
 });
 
 $(document).ready(function () { /* Mouth */
@@ -1404,3 +1566,19 @@ if (templTogg.style.display === "none") {
 
 
 */
+
+
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
+
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});

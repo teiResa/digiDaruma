@@ -25,7 +25,7 @@
  
  <h1>My Daruma Doll</h1>
 
- <button onclick="menuToggler()" class="menu-button">Click to edit your Daruma</button>
+ <button onclick="menuToggler()" class="menu-button" type="button">Click to edit your Daruma</button>
  <br>
 
  <div id="toggleMenu" class="customiserMenu">
@@ -276,11 +276,11 @@
       <input type="radio" name="brow-sets" id="browSet9" value="browSet9">
       <label for="browSet9"> Simple </label><br>
       <input type="radio" name="brow-sets" id="browSet10" value="browSet10">
-      <label for="browSet10"> Intimidationg </label><br>
+      <label for="browSet10"> Intimidating (LG) </label><br>
       <input type="radio" name="brow-sets" id="browSet11" value="browSet11">
-      <label for="browSet11"> pos07brows </label><br>
+      <label for="browSet11"> intimidating </label><br>
       <input type="radio" name="brow-sets" id="browSet12" value="browSet12">
-      <label for="browSet12"> pos08brows </label><br>
+      <label for="browSet12"> Cute little circles </label><br>
       </div></div>
    </details>
    <details class="subsections"> <!-- bindi -->
@@ -299,10 +299,11 @@
      <label for="bindiPatt4"> pos00bindi</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt5" value="bindiPatt5">
      <label for="bindiPatt5"> pos01bindi</label><br>
-     <input type="radio" name="bindi-style" id="bindiPatt6" value="bindiPatt6">
-     <label for="bindiPatt6"> pos02bindi</label><br>
     </div>   
     <div class="subsect subsect-right">
+     <input type="radio" name="bindi-style" id="bindiPatt6" value="bindiPatt6">
+     <label for="bindiPatt6"> pos02bindi</label><br>
+    
      <input type="radio" name="bindi-style" id="bindiPatt7" value="bindiPatt7">
      <label for="bindiPatt7"> pos03bindi</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt8" value="bindiPatt8">
@@ -311,51 +312,58 @@
      <label for="bindiPatt9"> pos05bindi</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt10" value="bindiPatt10">
      <label for="bindiPatt10"> pos06bindi</label><br>
-     <input type="radio" name="bindi-style" id="bindiPatt11" value="bindiPatt11">
+     <!--
+      <input type="radio" name="bindi-style" id="bindiPatt11" value="bindiPatt11">
      <label for="bindiPatt11"> pos07bindi</label><br>
      <input type="radio" name="bindi-style" id="bindiPatt12" value="bindiPatt12">
-     <label for="bindiPatt12"> pos08bindi</label><br>
+     <label for="bindiPatt12"> pos08bindi</label><br>-->
      </div></div>
    </details>
    <details class="subsections"> <!-- nose -->
     <summary>Nose</summary>
     <div class="choosey">
      <div class="subsect subsect-left">
-    <input type="radio" name="nose-style" id="nose0" value="nose0">
-      <label for="nose0"> None</label><br>
-     <input type="radio" name="nose-style" id="nose1" value="nose1">
-      <label for="nose1"> Nostrils</label><br>
-     <input type="radio" name="nose-style" id="nose2" value="nose2">
-      <label for="nose2"> Red</label><br>
-     <input type="radio" name="nose-style" id="nose3" value="nose3">
-      <label for="nose3"> Triangle</label><br>
-      <input type="radio" name="nose-style" id="nose4" value="nose4">
-      <label for="nose4"> pos00nose</label><br>
-      <input type="radio" name="nose-style" id="nose5" value="nose5">
-      <label for="nose5"> pos01nose</label><br>
-      <input type="radio" name="nose-style" id="nose6" value="nose6">
-      <label for="nose6"> pos02nose</label><br>
-      <input type="radio" name="nose-style" id="nose7" value="nose7">
-      <label for="nose7"> pos03nose</label><br>
-      <input type="radio" name="nose-style" id="nose8" value="nose8">
-      <label for="nose8"> pos04nose</label><br>
+    <input type="radio" name="nose-style" id="nosePatt0" value="nosePatt0">
+      <label for="nosePatt0"> None</label><br>
+     <input type="radio" name="nose-style" id="nosePatt1" value="nosePatt1">
+      <label for="nosePatt1"> Nostrils</label><br>
+     <input type="radio" name="nose-style" id="nosePatt2" value="nosePatt2">
+      <label for="nosePatt2"> Red</label><br>
+     <input type="radio" name="nose-style" id="nosePatt3" value="nosePatt3">
+      <label for="nosePatt3"> Triangle</label><br>
+      <input type="radio" name="nose-style" id="nosePatt4" value="nosePatt4">
+      <label for="nosePatt4"> pos00nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt5" value="nosePatt5">
+      <label for="nosePatt5"> pos01nose</label><br>
      </div><div class="subsect subsect-right">
-      <input type="radio" name="nose-style" id="nose9" value="nose9">
-      <label for="nose9"> pos05nose</label><br>
-      <input type="radio" name="nose-style" id="nose10" value="nose10">
-      <label for="nose10"> pos06nose</label><br>
-      <input type="radio" name="nose-style" id="nose11" value="nose11">
-      <label for="nose11"> pos07nose</label><br>
-      <input type="radio" name="nose-style" id="nose12" value="nose12">
-      <label for="nose12"> pos08nose</label><br>
-      <input type="radio" name="nose-style" id="nose13" value="nose13">
-      <label for="nose13"> pos09nose</label><br>
-      <input type="radio" name="nose-style" id="nose14" value="nose14">
-      <label for="nose14"> pos10nose</label><br>
-      <input type="radio" name="nose-style" id="nose15" value="nose15">
-      <label for="nose15"> pos11nose</label><br>
-      <input type="radio" name="nose-style" id="nose16" value="nose16">
-      <label for="nose16"> pos12nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt6" value="nosePatt6">
+      <label for="nosePatt6"> pos02nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt7" value="nosePatt7">
+      <label for="nosePatt7"> pos03nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt8" value="nosePatt8">
+      <label for="nosePatt8"> pos04nose</label><br>
+     <!-- </div><div class="subsect subsect-right"> -->
+      <input type="radio" name="nose-style" id="nosePatt9" value="nosePatt9">
+      <label for="nosePatt9"> pos05nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt10" value="nosePatt10">
+      <label for="nosePatt10"> pos06nose</label><br>
+ 
+      <input type="radio" name="nose-style" id="nosePatt11" value="nosePatt11">
+      <label for="nosePatt11"> pos07nose</label><br>
+
+      <!--
+      <input type="radio" name="nose-style" id="nosePatt12" value="nosePatt12">
+      <label for="nosePatt12"> pos08nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt13" value="nosePatt13">
+      <label for="nosePatt13"> pos09nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt14" value="nosePatt14">
+      <label for="nosePatt14"> pos10nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt15" value="nosePatt15">
+      <label for="nosePatt15"> pos11nose</label><br>
+      <input type="radio" name="nose-style" id="nosePatt16" value="nosePatt16">
+      <label for="nosePatt16"> pos12nose</label><br>
+      
+      -->
      </div></div>
    </details>
    <details class="subsections"> <!-- mouth -->

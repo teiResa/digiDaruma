@@ -550,6 +550,24 @@ Free to use later
 }
 
 /* Look into whether using something like calc() would help. I believe I spaced them well. Maybe it would be worth while to confirm this then write a quick alogithm in js. Otherwise, just do it the traditional paint method. */
+.pos00bindi, .pos01bindi, .pos02bindi, .pos03bindi, .pos04bindi, .pos05bindi, .pos06bindi, .pos07bindi, .pos08bindi {
+  background-color: greenyellow;
+  background-position: -886px -342px;
+  border: 2px solid red;
+}
+
+.pos00nose, .pos01nose, .pos02nose, .pos03nose, .pos04nose, .pos05nose, .pos06nose, .pos07nose, .pos08nose {
+  background-color: greenyellow;
+  background-position: -886px -342px;
+  border: 2px solid blue;
+}
+
+.pos00mouth, .pos01mouth, .pos02mouth, .pos03mouth, .pos04mouth, .pos05mouth, .pos06mouth, .pos07mouth, .pos08mouth {
+  background-color: greenyellow;
+  background-position: -886px -342px;
+  border: 2px solid red;
+}
+
 .eyeRightHidden {
   opacity: 0;
 }
