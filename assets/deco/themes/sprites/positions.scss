@@ -325,8 +325,29 @@ Free to use later
 }
 
 
-
-
+.pos00cheekL{background-position: -886px -342px;}
+.pos00cheekR{background-position: -886px -342px; transform: scaleX(-1);}
+.pos01cheekL{background-position: -41px -545px;}
+.pos01cheekR{background-position: -41px -545px; transform: scaleX(-1);}
+.pos02cheekL{background-position: -406px -125px;}
+.pos02cheekR{background-position: -406px -125px; transform: scaleX(-1);}
+.pos03cheekL{background-position: -406px -546px;}
+.pos03cheekR{background-position: -406px -546px; transform: scaleX(-1);}
+//04 was drawn too big
+.pos04cheekL{background-position: -784px -134px;}
+.pos04cheekR{background-position: -784px -134px; transform: scaleX(-1);}
+.pos05cheekL{background-position: -784px -541px;}
+.pos05cheekR{background-position: -784px -541px; transform: scaleX(-1);}
+.pos06cheekL{background-position: -1159px -138px;}
+.pos06cheekR{background-position: -1159px -138px; transform: scaleX(-1);}
+//I should probably make the cheek space larger.
+.pos07cheekL{background-position: -1154px -554px;}
+.pos07cheekR{background-position: -1154px -554px; transform: scaleX(-1);}
+/*
+Not used, but I wrote the code for it in html and js
+.pos08cheekL{background-position: -886px -342px;}
+.pos08cheekR{background-position: -886px -342px; transform: scaleX(-1);}
+*/
 
 
 

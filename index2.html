@@ -21,7 +21,7 @@
  <link rel="icon" href="https://teiresa.github.io/rwd/assets/teiResaHead.ico">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
-<body>
+<body onbeforeunload="return unloadConfirm()">
  
  <h1>My Daruma Doll</h1>
 
@@ -53,7 +53,7 @@
   </style>
   <form action="" id="customisationMenu">
    <button type="submit" id="btnSubmit">update / refresh</button>
-   <button id="template-togglr" onclick="templateToggle()"> <i class="fa fa-home" id="template-icon"></i></button>
+   <button id="template-togglr" onclick="templateToggle()" type="button"> <i class="fa fa-home" id="template-icon"></i></button>
 
    
    <div class="section-butts" >
@@ -510,13 +510,25 @@
   <div id="displayEyeShape"></div>
   <div id="displayEyeHide"></div>
   <div id="displayFacialHair"> </div>
+  <div id="displayCheeky"></div> 
   <div id="displayNose"> </div>
-  <div id="displayMouth"> </div>   
+  <div id="displayMouth"> </div> 
+   
   <div id="error"></div>
  </div>
  
 </body>
-
+<script type="text/javascript">
+ //By using JavaScript
+ window.onbeforeunload = function () {
+     return 'please save your setting before leaving the page';
+ }
+</script>
+<script>
+        function unloadConfirm() {
+          return "ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh";
+        }
+ </script>
 <!-- Using jQuery CDN from Microsoft/Google. I have Microsoft here because China -->
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.js"></script>
 <script src="assets/scripts4.js"></script>

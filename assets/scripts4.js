@@ -1551,10 +1551,190 @@ $( '#mouthPatt11' ).on( 'click', function() {
 });
 
 $(document).ready(function () { /* Facial hair or cheeks */
+
+$( '#cheekSet0' ).on( 'click', function() { 
+ $('#displayFacialHair').html( 'Cheek cheekSet0 (no eyes) is selected!' );
+
+ const currCheekL = document.querySelector('#FH-left');
+ const currCheekR = document.querySelector('#FH-right');
+
+ currCheekL.classList.add('spriteContainer1', 'cheekSet0');
+ currCheekL.classList.remove('spriteContainer2', 'cheekStyle1', 'cheekBasicL', 'cheekStyle2', 'cheekStyle3', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekShibaL', 'cheekSet0','pos00cheekL', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+ currCheekR.classList.add('spriteContainer1', 'cheekSet0');
+ currCheekR.classList.remove('spriteContainer2', 'cheekStyle1', 'cheekBasicR','cheekStyle2', 'cheekStyle3','cheekSet0', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR','pos00cheekR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+ $( '#cheekSet1' ).on( 'click', function() { 
+  $('#displayFacialHair').html( 'Cheek cheekStyle1 (round) is selected!' );
+ 
+  const currCheekL = document.querySelector('#FH-left');
+  const currCheekR = document.querySelector('#FH-right');
+ 
+  currCheekL.classList.add('spriteContainer1', 'cheekStyle1');
+  currCheekL.classList.remove('spriteContainer2','cheekSet0', 'cheekBasicL', 'cheekStyle2', 'cheekStyle3', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekShibaL', 'cheekSet0','pos00cheekL', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+  currCheekR.classList.add('spriteContainer1', 'cheekStyle1');
+  currCheekR.classList.remove('spriteContainer2','cheekSet0', 'cheekBasicR', 'cheekStyle2', 'cheekStyle3', 'cheekSet0', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR','pos00cheekR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+ }); 
+
+  $( '#cheekSet2' ).on( 'click', function() { 
+   $('#displayFacialHair').html( 'Cheek cheekStyle2 (square) is selected!' );
+  
+   const currCheekL = document.querySelector('#FH-left');
+   const currCheekR = document.querySelector('#FH-right');
+  
+   currCheekL.classList.add('spriteContainer1', 'cheekStyle2');
+   currCheekL.classList.remove('spriteContainer2','cheekSet0', 'cheekStyle1', 'cheekStyle3', 'cheekBasicL','cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekShibaL', 'cheekSet0','pos00cheekL', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+   currCheekR.classList.add('spriteContainer1', 'cheekStyle2');
+   currCheekR.classList.remove('spriteContainer2','cheekSet0', 'cheekStyle1', 'cheekStyle3', 'cheekBasicR','cheekSet0', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR','pos00cheekR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+  }); 
+
+  $( '#cheekSet3' ).on( 'click', function() { 
+   $('#displayFacialHair').html( 'Cheek cheekStyle3 (square) is selected!' );
+  
+   const currCheekL = document.querySelector('#FH-left');
+   const currCheekR = document.querySelector('#FH-right');
+  
+   currCheekL.classList.add('spriteContainer1', 'cheekStyle3');
+   currCheekL.classList.remove('spriteContainer2','cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekShibaL', 'cheekSet0','pos00cheekL', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'cheekBasicL','pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+   currCheekR.classList.add('spriteContainer1', 'cheekStyle3');
+   currCheekR.classList.remove('spriteContainer2','cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR','pos00cheekR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+  }); 
+
+ 
+
+
+$( '#cheekSet4' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos00Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos00cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL', 'cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos00cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekSet0', 'cheekBasicR','cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+
+$( '#cheekSet5' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos01Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos01cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos00cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos00cheekR');
+currCheekR.classList.remove('spriteContainer1', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos00cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet6' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos02Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos02cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos00cheekL', 'pos01cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos02cheekR');
+currCheekR.classList.remove('spriteContainer1', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos00cheekR', 'pos01cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet7' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos03Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos03cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL', 'cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos00cheekL', 'pos01cheekL', 'pos02cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos03cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR','pos00cheekR', 'pos01cheekR', 'pos02cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet8' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos04Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos04cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3','pos00cheekL', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos04cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekSet0', 'cheekBasicR', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR','pos00cheekR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet9' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos05Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos05cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos00cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos05cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'cheekSprite0', 'cheekBasicR','cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos00cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet10' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos06Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos06cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos00cheekL', 'pos07cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos06cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos00cheekR', 'pos07cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet11' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos07Cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos07cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos00cheekL', 'pos08cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos07cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos00cheekR', 'pos08cheekR');
+}); 
+$( '#cheekSet12' ).on( 'click', function() { 
+$('#displayFacialHair').html( 'Cheek pos08cheek is selected!' );
+
+const currCheekL = document.querySelector('#FH-left');
+const currCheekR = document.querySelector('#FH-right');
+
+currCheekL.classList.add('spriteContainer2', 'pos09cheekL');
+currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l',
+'cheekBasicL', 'cheekSprite0', 'cheekSprite2l', 'cheekShibaL', 'cheekStyle0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos01cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos00cheekL');
+currCheekR.classList.add('spriteContainer2', 'pos09cheekR');
+currCheekR.classList.remove('spriteContainer1','cheekStyle0',
+'cheekBasicR', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos01cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos00cheekR');
+}); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
- $( '#fhair0' ).on( 'click', function() { 
-  $('#displayFacialHair').html( 'Cheeks fhair0 is selected!' );
+ $( '#cheekSet0' ).on( 'click', function() { 
+  $('#displayFacialHair').html( 'Cheeks cheeks0 is selected!' );
 
   const currCheekL = document.querySelector('#FH-left');
   const currCheekR = document.querySelector('#FH-right');
@@ -1563,8 +1743,8 @@ $(document).ready(function () { /* Facial hair or cheeks */
   currCheekR.classList.remove('cheekBasicR','cheekRobotCatR', 'fhSprite3r');
  }); 
 
- $( '#fhair1' ).on( 'click', function() { 
-     $('#displayFacialHair').html( 'Cheeks fhair1 is selected!' );
+ $( '#cheekSet1' ).on( 'click', function() { 
+     $('#displayFacialHair').html( 'Cheeks cheeks1 is selected!' );
 
      const currCheekL = document.querySelector('#FH-left');
      const currCheekR = document.querySelector('#FH-right');
@@ -1577,8 +1757,8 @@ $(document).ready(function () { /* Facial hair or cheeks */
      currCheekR.classList.remove( 'cheekRobotCatR', 'cheekShibaR');
 }); 
 
-$( '#fhair2' ).on( 'click', function() { 
- $('#displayFacialHair').html( 'Cheeks fhair2 is selected!' );
+$( '#cheekSet2' ).on( 'click', function() { 
+ $('#displayFacialHair').html( 'Cheeks cheeks2 is selected!' );
 
      const currCheekL = document.querySelector('#FH-left');
      const currCheekR = document.querySelector('#FH-right');
@@ -1589,7 +1769,7 @@ $( '#fhair2' ).on( 'click', function() {
      currCheekR.classList.remove('cheekBasicR', 'cheekShibaR');
 }); 
 
-$( '#fhair3' ).on( 'click', function() { 
+$( '#cheekSet3' ).on( 'click', function() { 
  $('#displayFacialHair').html( 'Cheeks fhair3 is selected!' );
 
      const currCheekL = document.querySelector('#FH-left');
@@ -1663,3 +1843,15 @@ details.forEach((targetDetail) => {
     });
   });
 });
+
+
+
+/*
+https://codepen.io/ahmetkilinc/pen/gReNvB
+*/
+
+
+function unloadConfirm() {
+ return "ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh";
+}
+
