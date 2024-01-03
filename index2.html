@@ -106,34 +106,35 @@
      <summary>Torso Pattern</summary>
      <div class="choosey">
      <div class="subsect subsect-left">
-     <input type="radio" name="torso-pattern" id="torPatt0" value="torPatt0" class="torPattOpt0"/>
+     <input type="radio" name="torso-pattern" id="torPatt0" value="torPatt0" class="torPatt0 torPattOpt0"/>
        <label for="torPatt0"> None</label><br>
-      <input type="radio" name="torso-pattern" id="torPatt1" value="torPatt1" class="torPattOpt1"/>
+      <input type="radio" name="torso-pattern" id="torPatt1" value="torPatt1" class="torPatt1 torPattOpt1"/>
        <label for="torPatt1"> torPatt1</label><br>
-      <input type="radio" name="torso-pattern" id="torPatt2" value="torPatt2" class="torPattOpt2" />
+      <input type="radio" name="torso-pattern" id="torPatt2" value="torPatt2" class="torPatt2 topPattOpt2" />
        <label for="torPatt2"> torPatt2</label><br>
-      <input type="radio" name="torso-pattern" id="torPatt3" value="torPatt3" class="torPattOpt3"/>
+      <input type="radio" name="torso-pattern" id="torPatt3" value="torPatt3" class="torPatt3"/>
        <label for="torPatt3"> torPatt3</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt4" value="torPatt4" class="torPattOpt4"/>
-       <label for="torPatt4"> torPatt4</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt5" value="torPatt5" class="torPattOpt5"/>
-       <label for="torPatt5"> torPatt5</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt6" value="torPatt6" class="torPattOpt6"/>
-       <label for="torPatt6"> torPatt6</label><br>
       </div>
       <div class="subsect subsect-right">
-       <input type="radio" name="torso-pattern" id="torPatt7" value="torPatt7" class="torPattOpt7"/> 
+       <input type="radio" name="torso-pattern" id="torPatt4" value="torPatt4" class="torPatt4"/>
+       <label for="torPatt4"> torPatt4</label><br>
+       <input type="radio" name="torso-pattern" id="torPatt5" value="torPatt5" class="torPatt5"/>
+       <label for="torPatt5"> torPatt5</label><br>
+       <input type="radio" name="torso-pattern" id="torPatt6" value="torPatt6" class="torPatt6"/>
+       <label for="torPatt6"> torPatt6</label><br>
+       <input type="radio" name="torso-pattern" id="torPatt7" value="torPatt7" class="torPatt7"/> 
        <label for="torPatt7"> torPatt7</label><br> 
-       <input type="radio" name="torso-pattern" id="torPatt8" value="torPatt8" class="torPattOpt8"/>
+       <!--
+       <input type="radio" name="torso-pattern" id="torPatt8" value="torPatt8" class="torPatt8"/>
        <label for="torPatt8"> torPatt8</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt9" value="torPatt9" class="torPattOpt9"/>
+       <input type="radio" name="torso-pattern" id="torPatt9" value="torPatt9" class="torPatt9"/>
        <label for="torPatt9"> torPatt9</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt10" value="torPatt10" class="torPattOpt10"/>
+       <input type="radio" name="torso-pattern" id="torPatt10" value="torPatt10" class="torPatt10"/>
        <label for="torPatt10"> torPatt10</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt11" value="torPatt11" class="torPattOpt11"/>
+       <input type="radio" name="torso-pattern" id="torPatt11" value="torPatt11" class="torPatt11"/>
        <label for="torPatt11"> torPatt11</label><br>
-       <input type="radio" name="torso-pattern" id="torPatt12" value="torPatt12" class="torPattOpt12"/>
-       <label for="torPatt12"> torPatt12</label><br>
+       <input type="radio" name="torso-pattern" id="torPatt12" value="torPatt12" class="torPatt12"/>
+       <label for="torPatt12"> torPatt12</label><br>-->
       </div></div>
     </details>
     <details class="subsections"> <!-- chest -->
@@ -457,7 +458,10 @@
 
  <div class="frame">
   <div class="animation-frame">
-  <div class="roly-poly background skin-color" id="skin-color"></div>
+  <div class="roly-poly background skin-color" id="skin-color">
+   <div id="skin-patt"></div>
+  </div>
+  <!-- skin-patt may need to be a div withing the skin-color div. We'll see. -->
   <div class="roly-poly middleground face-color">
    <div class="ears">
     <div class="ear-left ear-color spriteContainer1" id="ear-left"></div>
@@ -503,6 +507,7 @@
   <!-- ~~ changed from h3 and h4 to divs. -->
   <div id="displayBodyColor"> </div>
   <div id="displayTorsoPattern"> </div>
+  <div id="displayTorPatt"></div>
   <div id="displayChestPattern"> </div>
   <div id="displayEarShape"> </div>
   <div id="displayBrows"> </div>
@@ -521,7 +526,7 @@
 <script type="text/javascript">
  //By using JavaScript
  window.onbeforeunload = function () {
-     return 'please save your setting before leaving the page';
+     return 'please save your setting before leaving the pageqqqqqqqqq';
  }
 </script>
 <script>

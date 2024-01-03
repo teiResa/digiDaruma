@@ -4,6 +4,7 @@
    Author: Theresa Balsdon ( @teiResa )
    Creation: 2023-05-27
    Most recent update: 2023-05-28
+   Completed Version: 2024-xx-xx
 
 */
 
@@ -25,6 +26,8 @@ var currSkin = document.getElementById('skin-color');
    currSkin.style.backgroundColor = "coral"; //blue
 var currTorso = document.getElementById('torso');
    currTorso.classList.add('spritePos0', 'chestCorrect');
+var currPatt = document.getElementById('skin-patt');
+   currPatt.classList.add('torPatt'/*, 'torPatt00'*/);
 var currChest = document.getElementById('chest');
    currChest.classList.add('chestFu');
 var currEarL = document.querySelector('#ear-left');
@@ -214,6 +217,59 @@ $( '#color11' ).on( 'click', function() {
 
 });
 
+$(document).ready(function () { /* Skin Patterns */
+        
+const currPatt = document.getElementById('skin-patt');
+
+
+ $( '#torPatt0' ).on( 'click', function() { 
+     $('#displayTorPatt').html( 'Body pattern is cleared is selected!' );
+     currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02', 'torPatt02', 'torPatt03', 'torPatt04', 'torPatt05', 'torPatt06', 'torPatt07', 'torPatt08');
+     
+}); 
+
+$( '#torPatt1' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 111111111111111111111111111111111111111 is selected!' );
+ currPatt.classList.add('torPatt01');
+ currPatt.classList.remove('torPatt00', 'torPatt02', 'torPatt03', 'torPatt04', 'torPatt05', 'torPatt06', 'torPatt07', 'torPatt08');
+}); 
+
+$( '#torPatt2' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 222222222222222222222222222222222222222 is selected!' );
+ currPatt.classList.add('torPatt02');
+ currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt03', 'torPatt04', 'torPatt05', 'torPatt06', 'torPatt07', 'torPatt08');
+}); 
+
+$( '#torPatt3' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 3333333333333333333333333333333333333 is selected!' );
+ currPatt.classList.add('torPatt03');
+ currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02', 'torPatt04', 'torPatt05', 'torPatt06', 'torPatt07', 'torPatt08');
+}); 
+
+$( '#torPatt4' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 444444444444444444444444444444444444 is selected!' );
+ currPatt.classList.add('torPatt04');
+ currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02', 'torPatt03',  'torPatt05', 'torPatt06', 'torPatt07', 'torPatt08');
+}); 
+
+$( '#torPatt5' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 555555555555555555555555555555555555 is selected!' );
+ currPatt.classList.add('torPatt05');
+ currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02', 'torPatt03', 'torPatt04',  'torPatt06', 'torPatt07', 'torPatt08');
+}); 
+
+$( '#torPatt6' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 66666666666666666666666666666666666 is selected!' );
+ currPatt.classList.add('torPatt06');
+ currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02',  'torPatt03', 'torPatt04', 'torPatt05','torPatt07', 'torPatt08');
+}); 
+
+$( '#torPatt7' ).on( 'click', function() { 
+ $('#displayTorPatt').html( 'Body 777777777777777777777777777 is selected!' );
+ currPatt.classList.add('torPatt07');
+ currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02', 'torPatt03', 'torPatt04', 'torPatt05', 'torPatt06', 'torPatt08');
+}); 
+});
 
 /* Chest and torso 
 ~~~~~~~~~~~~~~~~~~~~
