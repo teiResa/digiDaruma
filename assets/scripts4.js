@@ -27,7 +27,7 @@ var currSkin = document.getElementById('skin-color');
 var currTorso = document.getElementById('torso');
    currTorso.classList.add('spritePos0', 'chestCorrect');
 var currPatt = document.getElementById('skin-patt');
-   currPatt.classList.add('torPatt'/*, 'torPatt00'*/);
+   currPatt.classList.add('spriteContainer3', 'torPatt'/*, 'torPatt00'*/);
 var currChest = document.getElementById('chest');
    currChest.classList.add('chestFu');
 var currEarL = document.querySelector('#ear-left');
