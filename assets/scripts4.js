@@ -269,6 +269,10 @@ $( '#torPatt7' ).on( 'click', function() {
  currPatt.classList.add('torPatt07');
  currPatt.classList.remove('torPatt00', 'torPatt01', 'torPatt02', 'torPatt03', 'torPatt04', 'torPatt05', 'torPatt06', 'torPatt08');
 }); 
+
+/* #torPatt8 is available, however unused because I want the options to all be odd numbers (even with the none option) 
+#torPatt8 and making it's own function of a .classList.add and .remove. You will have to remove it's HTML counterpart from the commented out section (line 129 at writing) and add it to the css in positions.scss
+*/
 });
 
 /* Chest and torso 
