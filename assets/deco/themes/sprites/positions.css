@@ -1,7 +1,11 @@
 .spriteContainer2 {
-  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin.png) left top no-repeat;
-  display: inline-block;
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin_vector.png) left top no-repeat;
+  /*
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin.png) left top no-repeat ;
   background-size: 1706px;
+  background-size: 800px;
+ */
+  display: inline-block;
 }
 
 .spriteContainer3 {
@@ -347,97 +351,30 @@ Not used, but I wrote the code for it in html and js
           transform: scaleX(-1);
 }
 
-.pos00browL {
-  background-position: -1020px -554px;
-}
+/*
+.pos00browL{background-position: -1020px -554px;}
+.pos00browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos01browL{background-position: -77px -344px;}
+.pos01browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos02browL{
+ /*background-size: 1421px;*/
+/*
+ background-position: -255px -127px;}
+.pos02browR{background-position: -379px -186px; transform: scaleX(-1);}
+.pos03browL{background-position: -255px -339px;}
+.pos03browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos04browL{background-position: -455px -127px;}
+.pos04browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos05browL{background-position: -455px -339px;}
+.pos05browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos06browL{background-position: -650px -127px;}
+.pos06browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos07browL{background-position: -650px -339px;}
+.pos07browR{background-position: -1020px -554px; transform: scaleX(-1);}
+.pos08browL{background-position: -1020px -554px;}
+.pos08browR{background-position: -1020px -554px; transform: scaleX(-1);}
 
-.pos00browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos01browL {
-  background-position: -1020px -554px;
-}
-
-.pos01browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos02browL {
-  /*background-size: 1421px;*/
-  background-position: -379px -186px;
-}
-
-.pos02browR {
-  background-position: -379px -186px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos03browL {
-  background-position: -1020px -554px;
-}
-
-.pos03browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos04browL {
-  background-position: -1020px -554px;
-}
-
-.pos04browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos05browL {
-  background-position: -1020px -554px;
-}
-
-.pos05browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos06browL {
-  background-position: -1020px -554px;
-}
-
-.pos06browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos07browL {
-  background-position: -1020px -554px;
-}
-
-.pos07browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.pos08browL {
-  background-position: -1020px -554px;
-}
-
-.pos08browR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
+*/
 .pos00browL {
   background-position: -691px -170px;
 }
@@ -450,24 +387,27 @@ Not used, but I wrote the code for it in html and js
 
 .pos01browL {
   background-size: 2274px;
-  background-position: -130px -852px;
+  background-position: -77px -344px;
 }
 
 .pos01browR {
-  background-size: 2274px;
-  background-position: -130px -852px;
+  background-size: 2074px;
+  background-position: -77px -344px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos02browL {
-  background-size: 1706px;
-  background-position: -379px -186px;
+  /*
+ background-size: 1006px;
+ 1200
+ */
+  background-position: -335px -137px;
 }
 
 .pos02browR {
-  background-size: 1706px;
-  background-position: -388px -213px;
+  background-size: 1000px;
+  background-position: -255px -127px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -536,6 +476,40 @@ Not used, but I wrote the code for it in html and js
           transform: scaleX(-1);
 }
 
+/* 
+.pos00browL{background-position: -691px -170px;}
+.pos00browR{background-position: -691px -170px;; transform: scaleX(-1);}
+
+.pos01browL{
+ background-size: 2274px;
+ background-position: -130px -852px;}
+.pos01browR{background-size: 2274px;background-position: -130px -852px; transform: scaleX(-1);}
+.pos02browL{
+ background-size: 1706px;
+ background-position: -379px -186px;}
+.pos02browR{
+ background-size: 1706px;
+ background-position: -388px -213px; transform: scaleX(-1);}
+.pos03browL{background-position: -375px -522px;}
+.pos03browR{background-position: -386px -554px; transform: scaleX(-1);}
+.pos04browL{
+ background-position: -691px -180px;}
+.pos04browR{background-position: -691px -180px; transform: scaleX(-1);}
+.pos05browL{background-position: -686px -523px;}
+.pos05browR{background-position: -686px -523px; transform: scaleX(-1);}
+.pos06browL{
+ background-size: 1421px;
+ background-position: -1000px -179px;}
+.pos06browR{     background-size: 1421px;
+ background-position: -1000px -179px; transform: scaleX(-1);}
+.pos07browL{background-size: 1137px;
+ background-position: -790px -140px;}
+.pos07browR{background-size: 1137px;
+ background-position: -790px -140px; transform: scaleX(-1);}
+.pos08browL{background-position: -1000px -523px;}
+.pos08browR{background-position: -1000px -523px; transform: scaleX(-1);}
+
+*/
 .pos00chest {
   /*
  width: 48px;
