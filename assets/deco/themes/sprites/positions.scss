@@ -74,7 +74,7 @@ Decided to just zoom in and out in the browser because I don't want the scroll b
   background-position: 0px 0px;
   background-color: rgba(0, 0, 0, 0);
   border: 2px #00000000;
-  background-size: 1200%;/* so none of sprite is visible */
+  background-size: 1200%;/*  so none of sprite is visible */
  }
  
  .chestCorrect {
@@ -277,40 +277,44 @@ Not used, but I wrote the code for it in html and js
 
 */
 
+/* UNUSED
 .pos00browL{background-position: -691px -170px;}
 .pos00browR{background-position: -691px -170px;; transform: scaleX(-1);}
+*/
 
-.pos01browL{
- background-size: 2274px;
- background-position: -77px -344px;}
-.pos01browR{background-size: 2074px;background-position: -77px -344px; transform: scaleX(-1);}
-.pos02browL{
- /*
- background-size: 1006px;
- 1200
- */
- background-position: -335px -137px;}
-.pos02browR{
- background-size: 1000px;
- background-position: -255px -127px; transform: scaleX(-1);}
-.pos03browL{background-position: -375px -522px;}
-.pos03browR{background-position: -386px -554px; transform: scaleX(-1);}
-.pos04browL{
- background-position: -691px -180px;}
-.pos04browR{background-position: -691px -180px; transform: scaleX(-1);}
-.pos05browL{background-position: -686px -523px;}
-.pos05browR{background-position: -686px -523px; transform: scaleX(-1);}
+.pos01browL{ /* mousey */
+ background-size: 1404px;
+ background-position: -115px -594px;}
+.pos01browR{background-size: 1404px;background-position: -115px -594px; transform: scaleX(-1);}
+.pos02browL{ /* glittery */
+ background-size: 1404px;
+ background-position: -445px -224px;}
+.pos02browR{ 
+ background-size: 1404px;
+ background-position: -445px -224px; transform: scaleX(-1);}
+.pos03browL{ /* wavy and wild */
+ background-size: 1423px;
+ background-position: -458px -590px;}
+.pos03browR{background-size: 1423px;
+ background-position: -458px -590px; transform: scaleX(-1);}
+.pos04browL{ /* cute, three CAT */
+ background-size: 1404px;
+ background-position: -795px -224px;}
+.pos04browR{background-size: 1404px;background-position: -795px -224px; transform: scaleX(-1);}
+.pos05browL{background-size: 1404px;background-position: -790px -594px;}
+.pos05browR{background-size: 1404px;background-position: -790px -594px;; transform: scaleX(-1);}
 .pos06browL{
- background-size: 1421px;
- background-position: -1000px -179px;}
-.pos06browR{     background-size: 1421px;
- background-position: -1000px -179px; transform: scaleX(-1);}
-.pos07browL{background-size: 1137px;
- background-position: -790px -140px;}
-.pos07browR{background-size: 1137px;
- background-position: -790px -140px; transform: scaleX(-1);}
+ background-size: 1404px;
+ background-position: -1125px -224px;}
+.pos06browR{     background-size: 1404px;
+ background-position: -1125px -224px;; transform: scaleX(-1);}
+.pos07browL{background-size: 1404px;
+ background-position: -1125px -594px;}
+.pos07browR{background-size: 1404px;
+ background-position: -1125px -594px; transform: scaleX(-1);}
+ /*
 .pos08browL{background-position: -1000px -523px;}
-.pos08browR{background-position: -1000px -523px; transform: scaleX(-1);}
+.pos08browR{background-position: -1000px -523px; transform: scaleX(-1);} */
 
 /* 
 .pos00browL{background-position: -691px -170px;}

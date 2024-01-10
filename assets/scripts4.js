@@ -1182,7 +1182,7 @@ $( '#browSet11' ).on( 'click', function() {
  currBrowL.classList.add('spriteContainer2', 'pos07browL');
  currBrowL.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1l', 'browSprite2l', 'browSprite3l',  'pos00browL', 'pos01browL', 'pos02browL', 'pos03browL', 'pos04browL', 'pos05browL', 'pos06browL', 'pos08browL');
  currBrowR.classList.add('spriteContainer2', 'pos07browR');
- currBrowR.classList.remove('spriteContainer1', 'browBasicL', 'browRobotCatL', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos08browR');
+ currBrowR.classList.remove('spriteContainer1', 'browBasicR', 'browRobotCatL', 'browSprite1r', 'browSprite2r', 'browSprite3r', 'pos00browR', 'pos01browR', 'pos02browR', 'pos03browR', 'pos04browR', 'pos05browR', 'pos06browR', 'pos08browR');
 });
 
 $( '#browSet12' ).on( 'click', function() { 
