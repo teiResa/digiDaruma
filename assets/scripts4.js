@@ -935,7 +935,7 @@ $( '#eyeSet5' ).on( 'click', function() {
 
  currEyeL.classList.add('spriteContainer2', 'pos01eyeL');
  currEyeL.classList.remove('spriteContainer1', 'eyeSprite1l', 'eyeSprite0', 'eyeSprite2l', 'eyeShibaL', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'pos00eyeL', 'pos02eyeL', 'pos03eyeL', 'pos04eyeL', 'pos05eyeL', 'pos06eyeL', 'pos07eyeL', 'pos08eyeL');
- currEyeR.classList.add('spriteContainer2', 'pos00eyeR');
+ currEyeR.classList.add('spriteContainer2', 'pos01eyeR');
  currEyeR.classList.remove('spriteContainer1', 'eyeStyle0', 'eyeStyle1', 'eyeStyle2', 'eyeStyle3', 'eyeSprite0', 'eyeSprite1r', 'eyeSprite2r', 'eyeShibaR', 'pos00eyeR', 'pos02eyeR', 'pos03eyeR', 'pos04eyeR', 'pos05eyeR', 'pos06eyeR', 'pos07eyeR', 'pos08eyeR');
 }); 
 $( '#eyeSet6' ).on( 'click', function() { 
@@ -1663,7 +1663,7 @@ $( '#cheekSet0' ).on( 'click', function() {
 
 
 $( '#cheekSet4' ).on( 'click', function() { 
-$('#displayFacialHair').html( 'Cheek pos00Cheek is selected!' );
+$('#displayFacialHair').html( 'Cheek pos00Cheek (doraemon) is selected!' );
 
 const currCheekL = document.querySelector('#FH-left');
 const currCheekR = document.querySelector('#FH-right');
@@ -1682,7 +1682,7 @@ const currCheekR = document.querySelector('#FH-right');
 
 currCheekL.classList.add('spriteContainer2', 'pos01cheekL');
 currCheekL.classList.remove('spriteContainer1', 'cheekSprite1l', 'cheekSprite0', 'cheekSprite2l', 'cheekBasicL','cheekShibaL', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekStyle3', 'pos00cheekL', 'pos02cheekL', 'pos03cheekL', 'pos04cheekL', 'pos05cheekL', 'pos06cheekL', 'pos07cheekL', 'pos08cheekL');
-currCheekR.classList.add('spriteContainer2', 'pos00cheekR');
+currCheekR.classList.add('spriteContainer2', 'pos01cheekR');
 currCheekR.classList.remove('spriteContainer1', 'cheekSet0', 'cheekStyle1', 'cheekStyle2', 'cheekBasicR','cheekStyle3', 'cheekSprite0', 'cheekSprite1r', 'cheekSprite2r', 'cheekShibaR', 'pos00cheekR', 'pos02cheekR', 'pos03cheekR', 'pos04cheekR', 'pos05cheekR', 'pos06cheekR', 'pos07cheekR', 'pos08cheekR');
 }); 
 $( '#cheekSet6' ).on( 'click', function() { 

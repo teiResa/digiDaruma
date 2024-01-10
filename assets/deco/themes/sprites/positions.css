@@ -4,6 +4,9 @@
   background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin.png) left top no-repeat ;
   background-size: 1706px;
   background-size: 800px;
+
+
+  background-size: 1404px; is the one I am using 1423 is larger
  */
   display: inline-block;
 }
@@ -259,84 +262,100 @@ Not used, but I wrote the code for it in html and js
 }
 
 .pos00eyeL {
-  background-position: -85px -209px;
+  background-size: 1330px;
+  background-position: -127px -240px;
 }
 
-/* was browL, so I made it eye. Pretty sure it was accidental*/
+/* doreamon */
 .pos00eyeR {
-  background-position: -85px -209px;
+  background-size: 1330px;
+  background-position: -127px -240px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos01eyeL {
-  background-size: 1706px;
-  background-position: -110px -666px;
+  background-size: 1404px;
+  background-position: -135px -618px;
 }
 
+/* mousey */
 .pos01eyeR {
-  background-size: 1706px;
-  background-position: -110px -666px;
+  background-size: 1404px;
+  background-position: -135px -618px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos02eyeL {
-  background-position: -388px -213px;
+  background-size: 1404px;
+  background-position: -463px -250px;
 }
 
+/* glittery */
 .pos02eyeR {
-  background-position: -388px -213px;
+  background-size: 1404px;
+  background-position: -463px -250px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos03eyeL {
-  background-position: -386px -554px;
+  background-size: 1404px;
+  background-position: -463px -618px;
 }
 
+/* wild */
 .pos03eyeR {
-  background-position: -386px -554px;
+  background-size: 1404px;
+  background-position: -463px -618px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos04eyeL {
-  background-position: -701px -210px;
+  background-size: 1404px;
+  background-position: -799px -250px;
 }
 
 .pos04eyeR {
-  background-position: -701px -210px;
+  background-size: 1404px;
+  background-position: -799px -250px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos05eyeL {
-  background-position: -701px -554px;
+  background-size: 1404px;
+  background-position: -799px -618px;
 }
 
 .pos05eyeR {
-  background-position: -701px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
+  background-size: 1404px;
+  background-position: -799px -618px;
+  /* transform: scaleX(-1); */
 }
 
 .pos06eyeL {
-  background-position: -1010px -210px;
+  background-size: 1404px;
+  background-position: -1133px -255px;
 }
 
 .pos06eyeR {
-  background-position: -1010px -216px;
+  background-size: 1404px;
+  background-position: -1133px -255px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos07eyeL {
-  background-position: -1010px -210px;
+  background-size: 1404px;
+  background-position: -1130px -618px;
 }
 
 .pos07eyeR {
-  background-position: -1010px -210px;
+  background-size: 1404px;
+  background-position: -1130px -618px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -557,15 +576,17 @@ Free to use later
   background-color: pink;
 }
 
+/*
 .pos00eyeL, .pos00eyeR {
-  background-color: rgba(255, 192, 203, 0.554);
-  border-color: pink;
+ background-color:rgba(255, 192, 203, 0.554);
+ border-color: pink;
 }
 
 .pos00cheekL, .pos00cheekR {
-  background-color: pink;
+ background-color: pink;
 }
 
+*/
 .pos00nose, .pos00mouth {
   background-color: pink;
 }
@@ -590,81 +611,97 @@ Free to use later
 }
 
 .pos00cheekL {
-  background-position: -886px -342px;
+  background-size: 1404px;
+  background-position: -120px -302px;
 }
 
 .pos00cheekR {
-  background-position: -886px -342px;
+  background-size: 1404px;
+  background-position: -120px -302px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos01cheekL {
-  background-position: -41px -545px;
+  background-size: 1404px;
+  background-position: -123px -669px;
 }
 
 .pos01cheekR {
-  background-position: -41px -545px;
+  background-size: 1404px;
+  background-position: -123px -669px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos02cheekL {
-  background-position: -406px -125px;
+  background-size: 1404px;
+  background-position: -450px -302px;
 }
 
 .pos02cheekR {
-  background-position: -406px -125px;
+  background-size: 1404px;
+  background-position: -450px -302px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos03cheekL {
-  background-position: -406px -546px;
+  background-size: 1404px;
+  background-position: -450px -675px;
 }
 
 .pos03cheekR {
-  background-position: -406px -546px;
+  background-size: 1404px;
+  background-position: -450px -675px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos04cheekL {
-  background-position: -784px -134px;
+  background-size: 1404px;
+  background-position: -794px -302px;
 }
 
 .pos04cheekR {
-  background-position: -784px -134px;
+  background-size: 1404px;
+  background-position: -794px -302px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos05cheekL {
-  background-position: -784px -541px;
+  background-size: 1404px;
+  background-position: -791px -673px;
 }
 
 .pos05cheekR {
-  background-position: -784px -541px;
+  background-size: 1404px;
+  background-position: -791px -673px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos06cheekL {
-  background-position: -1159px -138px;
+  background-size: 1404px;
+  background-position: -1121px -302px;
 }
 
 .pos06cheekR {
-  background-position: -1159px -138px;
+  background-size: 1404px;
+  background-position: -1121px -302px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos07cheekL {
-  background-position: -1154px -554px;
+  background-size: 1404px;
+  background-position: -1126px -673px;
 }
 
 .pos07cheekR {
-  background-position: -1154px -554px;
+  background-size: 1404px;
+  background-position: -1126px -673px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
