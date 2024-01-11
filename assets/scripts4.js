@@ -1409,7 +1409,7 @@ $( '#nosePatt3' ).on( 'click', function() {
 
 
 $( '#nosePatt4' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt4 (NONE) is selected!' );
+ $('#displayNose').html( 'nose nosePatt4 (red) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1418,7 +1418,7 @@ $( '#nosePatt4' ).on( 'click', function() {
 }); 
 
 $( '#nosePatt5' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt5 (NONE) is selected!' );
+ $('#displayNose').html( 'nose nosePatt5 (bean) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1426,8 +1426,8 @@ $( '#nosePatt5' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose',  'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nosePatt5' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt5 (NONE) is selected!' );
+$( '#nosePatt6' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt5 (dashies) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1435,8 +1435,8 @@ $( '#nosePatt5' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nosePatt6' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt6 (NONE) is selected!' );
+$( '#nosePatt7' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt6 (chevron) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1444,8 +1444,8 @@ $( '#nosePatt6' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nosePatt7' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt7 (NONE) is selected!' );
+$( '#nosePatt8' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt7 (lil heart) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1453,8 +1453,8 @@ $( '#nosePatt7' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos05nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nosePatt8' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt8 (NONE) is selected!' );
+$( '#nosePatt9' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt8 (Puffy heart) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1462,8 +1462,8 @@ $( '#nosePatt8' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos06nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nosePatt9' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt9 (NONE) is selected!' );
+$( '#nosePatt10' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt9 (quotation single thing) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1471,8 +1471,8 @@ $( '#nosePatt9' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos07nose', 'pos08nose');
 }); 
 
-$( '#nosePatt10' ).on( 'click', function() { 
- $('#displayNose').html( 'nose nosePatt10 (NONE) is selected!' );
+$( '#nosePatt11' ).on( 'click', function() { 
+ $('#displayNose').html( 'nose nosePatt10 (black heart) is selected!' );
 
  const currNose = document.getElementById('nose');
 
@@ -1480,7 +1480,7 @@ $( '#nosePatt10' ).on( 'click', function() {
  currNose.classList.remove('spriteContainer1', 'noseBasic', 'noseRobotCat', 'noseShiba', 'noseStyle3', 'pos00nose', 'pos01nose', 'pos02nose', 'pos03nose', 'pos04nose', 'pos05nose', 'pos06nose', 'pos08nose');
 }); 
 
-$( '#nosePatt11' ).on( 'click', function() { 
+$( '#nosePatt12' ).on( 'click', function() { 
  $('#displayNose').html( 'nose nosePatt11 (NONE) is selected!' );
 
  const currNose = document.getElementById('nose');
@@ -1546,7 +1546,7 @@ $( '#mouthPatt5' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth',  'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt5' ).on( 'click', function() { 
+$( '#mouthPatt6' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt5 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');
@@ -1555,7 +1555,7 @@ $( '#mouthPatt5' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt6' ).on( 'click', function() { 
+$( '#mouthPatt7' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt6 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');
@@ -1564,7 +1564,7 @@ $( '#mouthPatt6' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt7' ).on( 'click', function() { 
+$( '#mouthPatt8' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt7 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');
@@ -1573,7 +1573,7 @@ $( '#mouthPatt7' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt8' ).on( 'click', function() { 
+$( '#mouthPatt9' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt8 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');
@@ -1582,7 +1582,7 @@ $( '#mouthPatt8' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos06mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt9' ).on( 'click', function() { 
+$( '#mouthPatt10' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt9 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');
@@ -1591,7 +1591,7 @@ $( '#mouthPatt9' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos07mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt10' ).on( 'click', function() { 
+$( '#mouthPatt11' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt10 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');
@@ -1600,7 +1600,7 @@ $( '#mouthPatt10' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos08mouth');
 }); 
 
-$( '#mouthPatt11' ).on( 'click', function() { 
+$( '#mouthPatt12' ).on( 'click', function() { 
  $('#displayMouth').html( 'mouth mouthPatt11 (NONE) is selected!' );
 
  const currmouth = document.getElementById('mouth');

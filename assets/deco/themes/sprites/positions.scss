@@ -155,47 +155,26 @@ Unused : .browShibaL .browShibaR
 
 
 
-
-
-
-
-.pos00earL,  .pos01earL, .pos02earL, .pos03earL, .pos04earL, .pos05earL, .pos06earL, .pos07earL, .pos08earL {
- background-color: pink ;
- border-color: #ffff00;
-  /* FIXED -- All good, but make it not requite !important statement */
-   /* removed width and height so they would just fill the given areawidth: 80px;*/
-   /* bg too big for frame FIX LATER
-   display:inline-block;
-   background-position: -100px -260px;
-  */
-}
-.pos00earR,  .pos01earR, .pos02earR, .pos03earR, .pos04earR, .pos05earR, .pos06earR, .pos07earR, .pos08earR {
- background-color: yellow ;
- border-color: pink;
-}
-
-//for RIGHT ears, I should just mirror the LEFT ear first then go back and do them
-
 /*
 Doraemon doesn't have ears, so these can be used for something else.
 .pos00earL{background-position: -886px -342px;}
 .pos00earR{background-position: -886px -342px; transform: scaleX(-1);}*/
-.pos01earL{background-position: -41px -545px;}
-.pos01earR{background-position: -41px -545px; transform: scaleX(-1);}
-.pos02earL{background-position: -406px -125px;}
-.pos02earR{background-position: -406px -125px; transform: scaleX(-1);}
-.pos03earL{background-position: -406px -546px;}
-.pos03earR{background-position: -406px -546px; transform: scaleX(-1);}
+.pos01earL{background-size: 1404px; background-position: -71px -510px;}
+.pos01earR{background-size: 1404px; background-position: -71px -510px; transform: scaleX(-1);}
+.pos02earL{background-size: 1404px; background-position: -402px -140px;}
+.pos02earR{background-size: 1404px; background-position: -402px -140px; transform: scaleX(-1);}
+.pos03earL{background-size: 1423px; background-position: -405px -514px;}
+.pos03earR{background-size: 1423px; background-position: -405px -514px; transform: scaleX(-1);}
 //04 was drawn too big
-.pos04earL{background-position: -784px -134px;}
-.pos04earR{background-position: -784px -134px; transform: scaleX(-1);}
-.pos05earL{background-position: -784px -541px;}
-.pos05earR{background-position: -784px -541px; transform: scaleX(-1);}
-.pos06earL{background-position: -1159px -138px;}
-.pos06earR{background-position: -1159px -138px; transform: scaleX(-1);}
+.pos04earL{background-size: 1404px; background-position: -738px -143px;}
+.pos04earR{background-size: 1404px; background-position: -738px -143px; transform: scaleX(-1);}
+.pos05earL{background-size: 1404px; background-position: -740px -510px;}
+.pos05earR{background-size: 1404px; background-position: -740px -510px; transform: scaleX(-1);}
+.pos06earL{background-size: 1404px; background-position: -1065px -152px;}
+.pos06earR{background-size: 1404px; background-position: -1065px -152px; transform: scaleX(-1);}
 //I should probably make the ear space larger.
-.pos07earL{background-position: -1154px -554px;}
-.pos07earR{background-position: -1154px -554px; transform: scaleX(-1);}
+.pos07earL{background-size: 1404px; background-position: -1070px -512px;}
+.pos07earR{background-size: 1404px; background-position: -1070px -512px; transform: scaleX(-1);}
 /*
 Not used, but I wrote the code for it in html and js
 .pos08earL{background-position: -886px -342px;}
@@ -412,30 +391,27 @@ Free to use later
  background-color: pink;
 }
 
-*/
+.pos00nose ,
 
-.pos00nose , .pos00mouth {
+ .pos00mouth {
  background-color: pink;
 }
+*/
 
-/* Look into whether using something like calc() would help. I believe I spaced them well. Maybe it would be worth while to confirm this then write a quick alogithm in js. Otherwise, just do it the traditional paint method. */
 
-.pos00bindi, .pos01bindi, .pos02bindi, .pos03bindi, .pos04bindi, .pos05bindi, .pos06bindi, .pos07bindi, .pos08bindi{
- background-color: greenyellow;
- background-position: -886px -342px;
- border: 2px solid red;
-}
+/* Look into whether using something like calc() would help. I believe I spaced them well. Maybe it would be worth while to confirm this then write a quick alogithm in js. Otherwise, just do it the traditional paint method.
+
+
+ */
 
 .pos00nose, .pos01nose, .pos02nose, .pos03nose, .pos04nose, .pos05nose, .pos06nose, .pos07nose, .pos08nose{
- background-color: greenyellow;
- background-position: -886px -342px;
- border: 2px solid blue;
+ border: 2px solid rgba(0, 0, 255, 0);
 }
 
+
 .pos00mouth, .pos01mouth, .pos02mouth, .pos03mouth, .pos04mouth, .pos05mouth, .pos06mouth, .pos07mouth, .pos08mouth{
- background-color: greenyellow;
  background-position: -886px -342px;
- border: 2px solid red;
+ border: 2px solid rgba(255, 0, 0, 0);
 }
 
 
@@ -461,9 +437,54 @@ Not used, but I wrote the code for it in html and js
 .pos08cheekL{background-position: -886px -342px;}
 .pos08cheekR{background-position: -886px -342px; transform: scaleX(-1);}
 */
+.pos00nose {background-size: 1404px; background-position: -175px -283px;}
+
+.pos01nose {background-size: 1404px; background-position: -177px -652px;}
+
+.pos02nose {background-size: 1404px; background-position: -506px -283px;}
+
+.pos03nose {background-size: 1404px; background-position: -507px -648px;}
+
+.pos04nose {background-size: 1404px; background-position: -845px -280px;}
+
+.pos05nose {background-size: 1404px; background-position: -846px -648px;}
+
+.pos06nose {background-size: 1404px; background-position: -1177px -283px;}
+
+.pos07nose {background-size: 1404px; background-position: -1178px -648px;}
 
 
+.pos00mouth {background-size: 1703px; background-position: -214px -382px; }
 
+/*
+.pos01mouth {background-size: 1404px; background-position: -177px -652px;}
+*/
+
+.pos02mouth {background-size: 1404px; background-position: -505px -308px;}
+
+.pos03mouth {background-size: 1404px; background-position: -507px -675px;}
+
+.pos04mouth {background-size: 1404px; background-position: -843px -310px;}
+
+.pos05mouth {background-size: 1404px; background-position: -844px -678px;}
+
+.pos06mouth {background-size: 1404px; background-position: -1175px -313px;}
+
+/*
+.pos07mouth {background-size: 1404px; background-position: -1175px -648px;}
+*/
+
+
+.pos00bindi, .pos01bindi, .pos02bindi, .pos03bindi, .pos06bindi, .pos07bindi, .pos08bindi{
+ /* These are all unused, so I will have to make some more options */
+ background-color: greenyellow;
+ background-position: -886px -342px;
+ border: 2px solid blue;
+}
+
+.pos04bindi {background-size: 1404px; background-position: -512px -211px; border: 2px solid rgba(0, 0, 255, 0);}
+
+.pos05bindi {background-size: 1404px; background-position: -513px -575px; border: 2px solid rgba(0, 0, 255, 0);}
 
 
 

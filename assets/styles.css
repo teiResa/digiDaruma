@@ -263,13 +263,13 @@ position: absolute;
 }
 
 .ear-left {
- border: 2px solid steelblue;
+ /* border: 2px solid steelblue; */
  width: 80px;
 
 }
 
 .ear-right {
- border: 2px solid steelblue;
+ /* border: 2px solid steelblue; */
  width: 80px;
 }
 
@@ -405,16 +405,14 @@ position: absolute;
 }
 
 .nose {
- width: 20px;
- background-color: black;
- height: 20px;
+ width: 35px;
+ height: 35px;
  border-radius: 50%;
 }
 
 .mouth {
  width: 40px;
- background-color: grey;
- height: 15px;
+ height:25px;
 }
 
 .torso {
