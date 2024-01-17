@@ -251,7 +251,7 @@ Not used, but I wrote the code for it in html and js
 }
 
 .pos00browR, .pos01browR, .pos02browR, .pos03browR, .pos04browR, .pos05browR, .pos06browR, .pos07browR, .pos08browR {
-  border-color: #ffff00;
+  /*border-color: #ffff00 ; */
   background-size: 1421px;
 }
 
@@ -438,12 +438,12 @@ Not used, but I wrote the code for it in html and js
 .pos04browL {
   /* cute, three CAT */
   background-size: 1404px;
-  background-position: -795px -224px;
+  background-position: -788px -220px;
 }
 
 .pos04browR {
   background-size: 1404px;
-  background-position: -795px -224px;
+  background-position: -788px -220px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -474,12 +474,12 @@ Not used, but I wrote the code for it in html and js
 
 .pos07browL {
   background-size: 1404px;
-  background-position: -1125px -594px;
+  background-position: -1125px -584px;
 }
 
 .pos07browR {
   background-size: 1404px;
-  background-position: -1125px -594px;
+  background-position: -1125px -584px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }

@@ -319,7 +319,7 @@ position: absolute;
 
 .brow-left, .brow-right {
  width: 75px;
- border: 2px solid greenyellow;
+ border: 2px solid rgba(172, 255, 47, 0);
  height: 40px;
 }
 
@@ -391,7 +391,7 @@ position: absolute;
 
 .facial-hair-left, .facial-hair-right {
  width: 59px;
- border: 2px solid greenyellow;
+ border: 2px solid rgba(172, 255, 47, 0);
  height: 30px;
 }
 
@@ -434,7 +434,7 @@ position: absolute;
 }
 
 .chest {
- border: 2px solid plum; /* make slightly lighter version of the selected colour*/
+ border: 2px solid rgba(221, 160, 221, 0); /* make slightly lighter version of the selected colour*/
  width: 55px;
  height: 55px;
  border-radius: 50%;

@@ -205,7 +205,7 @@ Not used, but I wrote the code for it in html and js
 }
 
 .pos00browR,  .pos01browR, .pos02browR, .pos03browR, .pos04browR, .pos05browR, .pos06browR, .pos07browR, .pos08browR {
- border-color: #ffff00 ;
+ /*border-color: #ffff00 ; */
  background-size: 1421px;
  //was 1706px
 //make brows show sprite
@@ -281,8 +281,8 @@ Not used, but I wrote the code for it in html and js
  background-position: -458px -590px; transform: scaleX(-1);}
 .pos04browL{ /* cute, three CAT */
  background-size: 1404px;
- background-position: -795px -224px;}
-.pos04browR{background-size: 1404px;background-position: -795px -224px; transform: scaleX(-1);}
+ background-position: -788px -220px;}
+.pos04browR{background-size: 1404px;background-position: -788px -220px; transform: scaleX(-1);}
 .pos05browL{background-size: 1404px;background-position: -790px -594px;}
 .pos05browR{background-size: 1404px;background-position: -790px -594px;; transform: scaleX(-1);}
 .pos06browL{
@@ -291,9 +291,9 @@ Not used, but I wrote the code for it in html and js
 .pos06browR{     background-size: 1404px;
  background-position: -1125px -224px;; transform: scaleX(-1);}
 .pos07browL{background-size: 1404px;
- background-position: -1125px -594px;}
+ background-position: -1125px -584px;}
 .pos07browR{background-size: 1404px;
- background-position: -1125px -594px; transform: scaleX(-1);}
+ background-position: -1125px -584px; transform: scaleX(-1);}
  /*
 .pos08browL{background-position: -1000px -523px;}
 .pos08browR{background-position: -1000px -523px; transform: scaleX(-1);} */
