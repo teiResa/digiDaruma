@@ -1609,7 +1609,7 @@ $( '#mouthPatt12' ).on( 'click', function() {
  currmouth.classList.remove('spriteContainer1', 'mouthBasic', 'mouthRobotCat', 'mouthShiba', 'mouthStyle3', 'pos00mouth', 'pos01mouth', 'pos02mouth', 'pos03mouth', 'pos04mouth', 'pos05mouth', 'pos06mouth', 'pos07mouth');
 }); 
 });
-//Just sharpened most of pencil crayon  036 for the last 15 minutes. Reminder to sharpen sharpener of buy a non-garbage one.
+//Just sharpened most of pencil crayon  036 for the last 15 minutes. Reminder to sharpen sharpener of buy a non-garbage one. And now my shapener is dead. I'll have to get a tougher one because that was hsort-lived. lol
 
 $(document).ready(function () { /* Facial hair or cheeks */
 
