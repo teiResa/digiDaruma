@@ -1613,6 +1613,8 @@ $( '#mouthPatt12' ).on( 'click', function() {
 
 //I did buy another sharpener. It is a pokeball. I spent a few hours sharpening all of my pencil crayons, and now it is dull. I like it though, so I bought a heavier-duty sharpener to make this one so the three of them can share the work. The white one is in my desk, and the other two will live in the art cart.
 
+// fgdfg asked david for his sheets. Still waiting 
+
 $(document).ready(function () { /* Facial hair or cheeks */
 
 $( '#cheekSet0' ).on( 'click', function() { 
