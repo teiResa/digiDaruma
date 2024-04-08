@@ -21,6 +21,61 @@
   background-size: 430%;
 }
 
+.spriteContainerRose {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/rose.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerRed {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/red.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerPeach {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/peach.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerOrange {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/orange.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerGold {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/gold.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerGreen {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/green.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerBlue {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/blue.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerPurple {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/purple.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerWhite {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/white.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerBlack {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/black.png) left top no-repeat;
+  display: inline-block;
+}
+
+.spriteContainerMulticolour {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/multicolour.png) left top no-repeat;
+  display: inline-block;
+}
+
 /*
 Decided to just zoom in and out in the browser because I don't want the scroll bar and will fix the menu to just fit everything. Also, have it close the other drop-downs when the next one is opened.
 

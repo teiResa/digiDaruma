@@ -82,6 +82,90 @@ var optnPurple = document.getElementById('colorPurple');
   optnBlack.style.color ="#45443d";
   
 
+  var optnChRose = document.getElementById('colorChestRose');
+  optnChRose.style.color ="#edb0b7";
+var optnChRed = document.getElementById('colorChestRed');
+  optnChRed.style.color ="#f4555f";
+var optnChPeach = document.getElementById('colorChestPeach');
+  optnChPeach.style.color ="#FFCBA4";
+  var optnChOrange = document.getElementById('colorChestOrange');
+  optnChOrange.style.color ="#fca54d";
+  var optnChGold = document.getElementById('colorChestGold');
+  optnChGold.style.color ="#DAA520";
+  var optnChGreen = document.getElementById('colorChestGreen');
+  optnChGreen.style.color ="#8cc063";
+  var optnChBlue = document.getElementById('colorChestBlue');
+  optnChBlue.style.color ="#0183cd";
+var optnChPurple = document.getElementById('colorChestPurple');
+  optnChPurple.style.color = "#9383c4";
+
+  var optnChWhite = document.getElementById('colorChestWhite');
+  optnChWhite.style.color ="#dbdbdb";
+  var optnChBlack = document.getElementById('colorChestBlack');
+  optnChBlack.style.color ="#45443d";
+
+
+
+
+  var optnEaRose = document.getElementById('colorEarRose');
+  optnEaRose.style.color ="#edb0b7";
+var optnEaRed = document.getElementById('colorEarRed');
+  optnEaRed.style.color ="#f4555f";
+var optnEaPeach = document.getElementById('colorEarPeach');
+  optnEaPeach.style.color ="#FFCBA4";
+  var optnEaOrange = document.getElementById('colorEarOrange');
+  optnEaOrange.style.color ="#fca54d";
+  var optnEaGold = document.getElementById('colorEarGold');
+  optnEaGold.style.color ="#DAA520";
+  var optnEaGreen = document.getElementById('colorEarGreen');
+  optnEaGreen.style.color ="#8cc063";
+  var optnEaBlue = document.getElementById('colorEarBlue');
+  optnEaBlue.style.color ="#0183cd";
+var optnEaPurple = document.getElementById('colorEarPurple');
+  optnEaPurple.style.color = "#9383c4";
+  var optnEaWhite = document.getElementById('colorEarWhite');
+  optnEaWhite.style.color ="#dbdbdb";
+  var optnEaBlack = document.getElementById('colorEarBlack');
+  optnEaBlack.style.color ="#45443d";
+
+  var optnChRose = document.getElementById('colorChestRose');
+  optnChRose.style.color ="#edb0b7";
+var optnChRed = document.getElementById('colorChestRed');
+  optnChRed.style.color ="#f4555f";
+var optnChPeach = document.getElementById('colorChestPeach');
+  optnChPeach.style.color ="#FFCBA4";
+  var optnChOrange = document.getElementById('colorChestOrange');
+  optnChOrange.style.color ="#fca54d";
+  var optnChGold = document.getElementById('colorChestGold');
+  optnChGold.style.color ="#DAA520";
+  var optnChGreen = document.getElementById('colorChestGreen');
+  optnChGreen.style.color ="#8cc063";
+  var optnChBlue = document.getElementById('colorChestBlue');
+  optnChBlue.style.color ="#0183cd";
+var optnChPurple = document.getElementById('colorChestPurple');
+  optnChPurple.style.color = "#9383c4";
+
+  var optnChWhite = document.getElementById('colorChestWhite');
+  optnChWhite.style.color ="#dbdbdb";
+  var optnChBlack = document.getElementById('colorChestBlack');
+  optnChBlack.style.color ="#45443d";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -444,6 +528,112 @@ $( '#chestPatt12' ).on( 'click', function() {
 }); 
 
 
+
+
+});
+
+$(document).ready(function () /* Chest colours */ {
+
+ $( '#colorChest1' ).on( 'click', function() { 
+
+  // was color1, now colorChest1 
+       $('#displayChestColor').html( 'Chest colorChest1 is selected!' );
+       
+        const currChest = document.getElementById('chest');
+     currChest.classList.add('spriteContainerRose');
+     currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+  }); 
+
+  $( '#colorChest2' ).on( 'click', function() { 
+
+   // was color1, now colorChest1 
+        $('#displayChestColor').html( 'Chest colorChest2 is selected!' );
+        
+         const currChest = document.getElementById('chest');
+      currChest.classList.add('spriteContainerRed');
+      currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+   }); 
+   $( '#colorChest3' ).on( 'click', function() { 
+
+    // was color1, now colorChest1 
+         $('#displayChestColor').html( 'Chest colorChest3 is selected!' );
+         
+          const currChest = document.getElementById('chest');
+       currChest.classList.add('spriteContainerPeach');
+       currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+    }); 
+    $( '#colorChest4' ).on( 'click', function() { 
+
+     // was color1, now colorChest1 
+          $('#displayChestColor').html( 'Chest colorChest4 is selected!' );
+          
+           const currChest = document.getElementById('chest');
+        currChest.classList.add('spriteContainerOrange');
+        currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach',  'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+     }); 
+     $( '#colorChest5' ).on( 'click', function() { 
+
+      // was color1, now colorChest1 
+           $('#displayChestColor').html( 'Chest colorChest5 is selected!' );
+           
+            const currChest = document.getElementById('chest');
+         currChest.classList.add('spriteContainerGold');
+         currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+      }); 
+      $( '#colorChest6' ).on( 'click', function() { 
+
+       // was color1, now colorChest1 
+            $('#displayChestColor').html( 'Chest colorChest6 is selected!' );
+            
+             const currChest = document.getElementById('chest');
+          currChest.classList.add('spriteContainerGreen');
+          currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold',  'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+       }); 
+       $( '#colorChest7' ).on( 'click', function() { 
+
+        // was color1, now colorChest1 
+             $('#displayChestColor').html( 'Chest colorChest7 is selected!' );
+             
+              const currChest = document.getElementById('chest');
+           currChest.classList.add('spriteContainerBlue');
+           currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+        }); 
+        $( '#colorChest8' ).on( 'click', function() { 
+
+         // was color1, now colorChest1 
+              $('#displayChestColor').html( 'Chest colorChest8 is selected!' );
+              
+               const currChest = document.getElementById('chest');
+            currChest.classList.add('spriteContainerPurple');
+            currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+         }); 
+         $( '#colorChest9' ).on( 'click', function() { 
+
+          // was color1, now colorChest1 
+               $('#displayChestColor').html( 'Chest colorChest9 is selected!' );
+               
+                const currChest = document.getElementById('chest');
+             currChest.classList.add('spriteContainerWhite');
+             currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+          }); 
+          $( '#colorChest10' ).on( 'click', function() { 
+
+           // was color1, now colorChest1 
+                $('#displayChestColor').html( 'Chest colorChest10 is selected!' );
+                
+                 const currChest = document.getElementById('chest');
+              currChest.classList.add('spriteContainerBlack');
+              currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
+           }); 
+           $( '#colorChest0' ).on( 'click', function() { 
+
+            // was color1, now colorChest1 
+                 $('#displayChestColor').html( 'Chest colorChest0 is selected!' );
+                 
+                  const currChest = document.getElementById('chest');
+               currChest.classList.add('spriteContainerMulticolour');
+               currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
+            }); 
 
 
 });
