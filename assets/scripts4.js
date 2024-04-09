@@ -628,12 +628,22 @@ $(document).ready(function () /* Chest colours */ {
            $( '#colorChest0' ).on( 'click', function() { 
 
             // was color1, now colorChest1 
-                 $('#displayChestColor').html( 'Chest colorChest0 is selected!' );
+                 $('#displayChestColor').html( 'Chest colorChest0 MULTICOLOR is selected!' );
                  
                   const currChest = document.getElementById('chest');
                currChest.classList.add('spriteContainerMulticolour');
                currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
             }); 
+
+            $( '#colorChest00' ).on( 'click', function() {
+            
+            // was color1, now colorChest1 
+            $('#displayChestColor').html( 'Chest colorChest00 NO CHEST SHOWN is selected!' );
+                 
+            const currChest = document.getElementById('chest');
+         currChest.classList.add();
+         currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+      }); 
 
 
 });

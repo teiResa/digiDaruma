@@ -943,4 +943,18 @@ Not used, but I wrote the code for it in html and js
   display: inline-block;
   background-position: -642px -187px;
 }
+
+.colorOptions {
+  /* list-style-type:none; */
+  appearance: none;
+  /* supported by Chrome and Opera */
+  -webkit-appearance: none;
+  /* Safari */
+  -khtml-appearance: none;
+  /* Konqueror HTML */
+  -moz-appearance: none;
+  /* Firefox */
+  -ms-appearance: none;
+  /* Internet Explorer/Edge */
+}
 /*# sourceMappingURL=positions.css.map */

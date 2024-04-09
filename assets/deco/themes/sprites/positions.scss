@@ -69,6 +69,7 @@
 
 
 
+
  /*
 Decided to just zoom in and out in the browser because I don't want the scroll bar and will fix the menu to just fit everything. Also, have it close the other drop-downs when the next one is opened.
 
@@ -697,4 +698,14 @@ Not used, but I wrote the code for it in html and js
  /* bg too big for frame FIX LATER*/
  display:inline-block;
  background-position: -642px -187px;
+}
+
+    
+.colorOptions /*, input, fieldset */ {
+ /* list-style-type:none; */
+ appearance: none;  /* supported by Chrome and Opera */
+ -webkit-appearance: none;  /* Safari */
+ -khtml-appearance: none;  /* Konqueror HTML */
+ -moz-appearance: none;  /* Firefox */
+ -ms-appearance: none;  /* Internet Explorer/Edge */
 }

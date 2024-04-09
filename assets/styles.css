@@ -482,6 +482,7 @@ background-color: rgba(89, 89, 89, 0.613);
 }
 
 #body-radios input[type="radio"] {
+ /* see also, positions.scss .colorOptions */ 
   /* getting rid of the selected circle default to radio buttons
   hiding the input element */
   appearance: none;  /* supported by Chrome and Opera */
