@@ -128,34 +128,30 @@ var optnEaPurple = document.getElementById('colorEarPurple');
   var optnEaBlack = document.getElementById('colorEarBlack');
   optnEaBlack.style.color ="#45443d";
 
- /*
 
- This blocked out code is for the cheeks, but it is still chest currently
   
-  var optnChRose = document.getElementById('colorChestRose');
-  optnChRose.style.color ="#edb0b7";
-var optnChRed = document.getElementById('colorChestRed');
-  optnChRed.style.color ="#f4555f";
-var optnChPeach = document.getElementById('colorChestPeach');
-  optnChPeach.style.color ="#FFCBA4";
-  var optnChOrange = document.getElementById('colorChestOrange');
-  optnChOrange.style.color ="#fca54d";
-  var optnChGold = document.getElementById('colorChestGold');
-  optnChGold.style.color ="#DAA520";
-  var optnChGreen = document.getElementById('colorChestGreen');
-  optnChGreen.style.color ="#8cc063";
-  var optnChBlue = document.getElementById('colorChestBlue');
-  optnChBlue.style.color ="#0183cd";
-var optnChPurple = document.getElementById('colorChestPurple');
-  optnChPurple.style.color = "#9383c4";
+  var optnFHRose = document.getElementById('colorCheekRose');
+  optnFHRose.style.color ="#edb0b7";
+var optnFHRed = document.getElementById('colorCheekRed');
+  optnFHRed.style.color ="#f4555f";
+var optnFHPeach = document.getElementById('colorCheekPeach');
+  optnFHPeach.style.color ="#FFCBA4";
+  var optnFHOrange = document.getElementById('colorCheekOrange');
+  optnFHOrange.style.color ="#fca54d";
+  var optnFHGold = document.getElementById('colorCheekGold');
+  optnFHGold.style.color ="#DAA520";
+  var optnFHGreen = document.getElementById('colorCheekGreen');
+  optnFHGreen.style.color ="#8cc063";
+  var optnFHBlue = document.getElementById('colorCheekBlue');
+  optnFHBlue.style.color ="#0183cd";
+var optnFHPurple = document.getElementById('colorCheekPurple');
+  optnFHPurple.style.color = "#9383c4";
 
-  var optnChWhite = document.getElementById('colorChestWhite');
-  optnChWhite.style.color ="#dbdbdb";
-  var optnChBlack = document.getElementById('colorChestBlack');
-  optnChBlack.style.color ="#45443d";
+  var optnFHWhite = document.getElementById('colorCheekWhite');
+  optnFHWhite.style.color ="#dbdbdb";
+  var optnFHBlack = document.getElementById('colorCheekBlack');
+  optnFHBlack.style.color ="#45443d";
 
-
-*/
 
 
 
@@ -1975,7 +1971,167 @@ $( '#mouthPatt12' ).on( 'click', function() {
 
 //I did buy another sharpener. It is a pokeball. I spent a few hours sharpening all of my pencil crayons, and now it is dull. I like it though, so I bought a heavier-duty sharpener to make this one so the three of them can share the work. The white one is in my desk, and the other two will live in the art cart.
 
-// fgdfg asked david for his sheets. Still waiting 
+// fgdfg asked david for his sheets. Still waiting. (March) Still waiting in April.
+
+
+$(document).ready(function () /* Facial Hair and Cheeks colours */ {
+
+ $( '#colorCheek1' ).on( 'click', function() { 
+
+  // was color1, now colorCheek1 
+       $('#displayFHairColor').html( 'cheekies colorCheek1 (ROSE) is selected!' );
+       
+        const currCheek = document.getElementById('FH-left');
+     currCheek.classList.add('spriteContainerRose');
+     currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+     
+     const currCheekR = document.getElementById('FH-right');
+     currCheekR.classList.add('spriteContainerRose');
+     currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+  }); 
+
+  $( '#colorCheek2' ).on( 'click', function() { 
+
+   // was color1, now colorCheek1 
+        $('#displayFHairColor').html( 'cheekies colorCheek2 (RED) is selected!' );
+        
+         const currCheek = document.getElementById('FH-left');
+      currCheek.classList.add('spriteContainerRed');
+      currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+      
+      const currCheekR = document.getElementById('FH-right');
+      currCheekR.classList.add('spriteContainerRed');
+      currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+   }); 
+   $( '#colorCheek3' ).on( 'click', function() { 
+
+    // was color1, now colorCheek1 
+         $('#displayFHairColor').html( 'cheekies colorCheek3 (PEACH) is selected!' );
+         
+          const currCheek = document.getElementById('FH-left');
+       currCheek.classList.add('spriteContainerPeach');
+       currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+       const currCheekR = document.getElementById('FH-right');
+       currCheekR.classList.add('spriteContainerPeach');
+       currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+    }); 
+    $( '#colorCheek4' ).on( 'click', function() { 
+
+     // was color1, now colorCheek1 
+          $('#displayFHairColor').html( 'cheekies colorCheek4 (ORANGE) is selected!' );
+          
+           const currCheek = document.getElementById('FH-left');
+        currCheek.classList.add('spriteContainerOrange');
+        currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach',  'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+
+        const currCheekR = document.getElementById('FH-right');
+        currCheekR.classList.add('spriteContainerOrange');
+        currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach',  'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+     }); 
+     $( '#colorCheek5' ).on( 'click', function() { 
+
+      // was color1, now colorCheek1 
+           $('#displayFHairColor').html( 'cheekies colorCheek5 (GOLD) is selected!' );
+           
+            const currCheek = document.getElementById('FH-left');
+         currCheek.classList.add('spriteContainerGold');
+         currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+         const currCheekR = document.getElementById('FH-right');
+         currCheekR.classList.add('spriteContainerGold');
+         currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+      }); 
+      $( '#colorCheek6' ).on( 'click', function() { 
+
+       // was color1, now colorCheek1 
+            $('#displayFHairColor').html( 'cheekies colorCheek6 (GREEN) is selected!' );
+            
+             const currCheek = document.getElementById('FH-left');
+          currCheek.classList.add('spriteContainerGreen');
+          currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold',  'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+          
+          const currCheekR = document.getElementById('FH-right');
+          currCheekR.classList.add('spriteContainerGreen');
+          currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold',  'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+       }); 
+       $( '#colorCheek7' ).on( 'click', function() { 
+
+        // was color1, now colorCheek1 
+             $('#displayFHairColor').html( 'cheekies colorCheek7 (BLUE) is selected!' );
+             
+              const currCheek = document.getElementById('FH-left');
+           currCheek.classList.add('spriteContainerBlue');
+           currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+           const currCheekR = document.getElementById('FH-right');
+           currCheekR.classList.add('spriteContainerBlue');
+           currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+        }); 
+        $( '#colorCheek8' ).on( 'click', function() { 
+
+         // was color1, now colorCheek1 
+              $('#displayFHairColor').html( 'cheekies colorCheek8 (PURPLE) is selected!' );
+              
+               const currCheek = document.getElementById('FH-left');
+            currCheek.classList.add('spriteContainerPurple');
+            currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+            const currCheekR = document.getElementById('FH-right');
+            currCheekR.classList.add('spriteContainerPurple');
+            currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+         }); 
+         $( '#colorCheek9' ).on( 'click', function() { 
+
+          // was color1, now colorCheek1 
+               $('#displayFHairColor').html( 'cheekies colorCheek9 (WHITE) is selected!' );
+               
+                const currCheek = document.getElementById('FH-left');
+             currCheek.classList.add('spriteContainerWhite');
+             currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+             const currCheekR = document.getElementById('FH-right');
+             currCheekR.classList.add('spriteContainerWhite');
+             currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+          }); 
+          $( '#colorCheek10' ).on( 'click', function() { 
+
+           // was color1, now colorCheek1 
+                $('#displayFHairColor').html( 'cheekies colorCheek10 (BLACK) is selected!' );
+                
+                 const currCheek = document.getElementById('FH-left');
+              currCheek.classList.add('spriteContainerBlack');
+              currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
+              const currCheekR = document.getElementById('FH-right');
+              currCheekR.classList.add('spriteContainerBlack');
+              currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
+           }); 
+           $( '#colorCheek0' ).on( 'click', function() { 
+
+            // was color1, now colorCheek1 
+                 $('#displayFHairColor').html( 'cheekies colorCheek0 MULTICOLOR is selected!' );
+                 
+                  const currCheek = document.getElementById('FH-left');
+               currCheek.classList.add('spriteContainerMulticolour');
+               currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
+               const currCheekR = document.getElementById('FH-right');
+               currCheekR.classList.add('spriteContainerMulticolour');
+               currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
+            }); 
+
+            $( '#colorCheek00' ).on( 'click', function() {
+            
+            // was color1, now colorCheek1 
+            $('#displayFHairColor').html( 'cheek/facial hair colorCheek00 NO cheek/facial hair SHOWN is selected!' );
+                 
+            const currCheek = document.getElementById('FH-left');
+         currCheek.classList.add();
+         currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         const currCheekR = document.getElementById('FH-right');
+         currCheekR.classList.add();
+         currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+      }); 
+
+
+});
+
+
+
 
 $(document).ready(function () { /* Facial hair or cheeks */
 
