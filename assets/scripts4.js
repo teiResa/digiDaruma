@@ -541,7 +541,7 @@ $(document).ready(function () /* Chest colours */ {
  $( '#colorChest1' ).on( 'click', function() { 
 
   // was color1, now colorChest1 
-       $('#displayChestColor').html( 'Chest colorChest1 is selected!' );
+       $('#displayChestColor').html( 'Chest colorChest1 (ROSE) is selected!' );
        
         const currChest = document.getElementById('chest');
      currChest.classList.add('spriteContainerRose');
@@ -551,7 +551,7 @@ $(document).ready(function () /* Chest colours */ {
   $( '#colorChest2' ).on( 'click', function() { 
 
    // was color1, now colorChest1 
-        $('#displayChestColor').html( 'Chest colorChest2 is selected!' );
+        $('#displayChestColor').html( 'Chest colorChest2 (RED) is selected!' );
         
          const currChest = document.getElementById('chest');
       currChest.classList.add('spriteContainerRed');
@@ -560,7 +560,7 @@ $(document).ready(function () /* Chest colours */ {
    $( '#colorChest3' ).on( 'click', function() { 
 
     // was color1, now colorChest1 
-         $('#displayChestColor').html( 'Chest colorChest3 is selected!' );
+         $('#displayChestColor').html( 'Chest colorChest3 (PEACH) is selected!' );
          
           const currChest = document.getElementById('chest');
        currChest.classList.add('spriteContainerPeach');
@@ -569,7 +569,7 @@ $(document).ready(function () /* Chest colours */ {
     $( '#colorChest4' ).on( 'click', function() { 
 
      // was color1, now colorChest1 
-          $('#displayChestColor').html( 'Chest colorChest4 is selected!' );
+          $('#displayChestColor').html( 'Chest colorChest4 (ORANGE) is selected!' );
           
            const currChest = document.getElementById('chest');
         currChest.classList.add('spriteContainerOrange');
@@ -578,7 +578,7 @@ $(document).ready(function () /* Chest colours */ {
      $( '#colorChest5' ).on( 'click', function() { 
 
       // was color1, now colorChest1 
-           $('#displayChestColor').html( 'Chest colorChest5 is selected!' );
+           $('#displayChestColor').html( 'Chest colorChest5 (GOLD) is selected!' );
            
             const currChest = document.getElementById('chest');
          currChest.classList.add('spriteContainerGold');
@@ -587,7 +587,7 @@ $(document).ready(function () /* Chest colours */ {
       $( '#colorChest6' ).on( 'click', function() { 
 
        // was color1, now colorChest1 
-            $('#displayChestColor').html( 'Chest colorChest6 is selected!' );
+            $('#displayChestColor').html( 'Chest colorChest6 (GREEN) is selected!' );
             
              const currChest = document.getElementById('chest');
           currChest.classList.add('spriteContainerGreen');
@@ -596,7 +596,7 @@ $(document).ready(function () /* Chest colours */ {
        $( '#colorChest7' ).on( 'click', function() { 
 
         // was color1, now colorChest1 
-             $('#displayChestColor').html( 'Chest colorChest7 is selected!' );
+             $('#displayChestColor').html( 'Chest colorChest7 (BLUE) is selected!' );
              
               const currChest = document.getElementById('chest');
            currChest.classList.add('spriteContainerBlue');
@@ -605,7 +605,7 @@ $(document).ready(function () /* Chest colours */ {
         $( '#colorChest8' ).on( 'click', function() { 
 
          // was color1, now colorChest1 
-              $('#displayChestColor').html( 'Chest colorChest8 is selected!' );
+              $('#displayChestColor').html( 'Chest colorChest8 (PURPLE) is selected!' );
               
                const currChest = document.getElementById('chest');
             currChest.classList.add('spriteContainerPurple');
@@ -614,7 +614,7 @@ $(document).ready(function () /* Chest colours */ {
          $( '#colorChest9' ).on( 'click', function() { 
 
           // was color1, now colorChest1 
-               $('#displayChestColor').html( 'Chest colorChest9 is selected!' );
+               $('#displayChestColor').html( 'Chest colorChest9 (WHITE) is selected!' );
                
                 const currChest = document.getElementById('chest');
              currChest.classList.add('spriteContainerWhite');
@@ -623,7 +623,7 @@ $(document).ready(function () /* Chest colours */ {
           $( '#colorChest10' ).on( 'click', function() { 
 
            // was color1, now colorChest1 
-                $('#displayChestColor').html( 'Chest colorChest10 is selected!' );
+                $('#displayChestColor').html( 'Chest colorChest10 (BLACK) is selected!' );
                 
                  const currChest = document.getElementById('chest');
               currChest.classList.add('spriteContainerBlack');
@@ -821,6 +821,164 @@ $( '#earSet12' ).on( 'click', function() {
 }); 
 
 });
+
+
+$(document).ready(function () /* Ear colours */ {
+
+ $( '#colorEar1' ).on( 'click', function() { 
+
+  // was color1, now colorEar1 
+       $('#displayEarColor').html( 'ear colorEar1 (ROSE) is selected!' );
+       
+        const currEar = document.getElementById('ear-left');
+     currEar.classList.add('spriteContainerRose');
+     currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+     
+     const currEarR = document.getElementById('ear-right');
+     currEarR.classList.add('spriteContainerRose');
+     currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+  }); 
+
+  $( '#colorEar2' ).on( 'click', function() { 
+
+   // was color1, now colorEar1 
+        $('#displayEarColor').html( 'ear colorEar2 (RED) is selected!' );
+        
+         const currEar = document.getElementById('ear-left');
+      currEar.classList.add('spriteContainerRed');
+      currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+      
+      const currEarR = document.getElementById('ear-right');
+      currEarR.classList.add('spriteContainerRed');
+      currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+   }); 
+   $( '#colorEar3' ).on( 'click', function() { 
+
+    // was color1, now colorEar1 
+         $('#displayEarColor').html( 'ear colorEar3 (PEACH) is selected!' );
+         
+          const currEar = document.getElementById('ear-left');
+       currEar.classList.add('spriteContainerPeach');
+       currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+       const currEarR = document.getElementById('ear-right');
+       currEarR.classList.add('spriteContainerPeach');
+       currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+    }); 
+    $( '#colorEar4' ).on( 'click', function() { 
+
+     // was color1, now colorEar1 
+          $('#displayEarColor').html( 'ear colorEar4 (ORANGE) is selected!' );
+          
+           const currEar = document.getElementById('ear-left');
+        currEar.classList.add('spriteContainerOrange');
+        currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach',  'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+
+        const currEarR = document.getElementById('ear-right');
+        currEarR.classList.add('spriteContainerOrange');
+        currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach',  'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+     }); 
+     $( '#colorEar5' ).on( 'click', function() { 
+
+      // was color1, now colorEar1 
+           $('#displayEarColor').html( 'ear colorEar5 (GOLD) is selected!' );
+           
+            const currEar = document.getElementById('ear-left');
+         currEar.classList.add('spriteContainerGold');
+         currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+         const currEarR = document.getElementById('ear-right');
+         currEarR.classList.add('spriteContainerGold');
+         currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+      }); 
+      $( '#colorEar6' ).on( 'click', function() { 
+
+       // was color1, now colorEar1 
+            $('#displayEarColor').html( 'ear colorEar6 (GREEN) is selected!' );
+            
+             const currEar = document.getElementById('ear-left');
+          currEar.classList.add('spriteContainerGreen');
+          currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold',  'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+          
+          const currEarR = document.getElementById('ear-right');
+          currEarR.classList.add('spriteContainerGreen');
+          currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold',  'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+       }); 
+       $( '#colorEar7' ).on( 'click', function() { 
+
+        // was color1, now colorEar1 
+             $('#displayEarColor').html( 'ear colorEar7 (BLUE) is selected!' );
+             
+              const currEar = document.getElementById('ear-left');
+           currEar.classList.add('spriteContainerBlue');
+           currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+           const currEarR = document.getElementById('ear-right');
+           currEarR.classList.add('spriteContainerBlue');
+           currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+        }); 
+        $( '#colorEar8' ).on( 'click', function() { 
+
+         // was color1, now colorEar1 
+              $('#displayEarColor').html( 'ear colorEar8 (PURPLE) is selected!' );
+              
+               const currEar = document.getElementById('ear-left');
+            currEar.classList.add('spriteContainerPurple');
+            currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+            const currEarR = document.getElementById('ear-right');
+            currEarR.classList.add('spriteContainerPurple');
+            currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+         }); 
+         $( '#colorEar9' ).on( 'click', function() { 
+
+          // was color1, now colorEar1 
+               $('#displayEarColor').html( 'ear colorEar9 (WHITE) is selected!' );
+               
+                const currEar = document.getElementById('ear-left');
+             currEar.classList.add('spriteContainerWhite');
+             currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+             const currEarR = document.getElementById('ear-right');
+             currEarR.classList.add('spriteContainerWhite');
+             currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerBlack', 'spriteContainerMulticolour' );
+          }); 
+          $( '#colorEar10' ).on( 'click', function() { 
+
+           // was color1, now colorEar1 
+                $('#displayEarColor').html( 'ear colorEar10 (BLACK) is selected!' );
+                
+                 const currEar = document.getElementById('ear-left');
+              currEar.classList.add('spriteContainerBlack');
+              currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
+              const currEarR = document.getElementById('ear-right');
+              currEarR.classList.add('spriteContainerBlack');
+              currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
+           }); 
+           $( '#colorEar0' ).on( 'click', function() { 
+
+            // was color1, now colorEar1 
+                 $('#displayEarColor').html( 'ear colorEar0 MULTICOLOR is selected!' );
+                 
+                  const currEar = document.getElementById('ear');
+               currEar.classList.add('spriteContainerMulticolour');
+               currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
+            }); 
+
+            $( '#colorEar00' ).on( 'click', function() {
+            
+            // was color1, now colorEar1 
+            $('#displayEarColor').html( 'ear colorEar00 NO ear SHOWN is selected!' );
+                 
+            const currEar = document.getElementById('ear');
+         currEar.classList.add();
+         currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+      }); 
+
+
+});
+
+
+
+
+
+
+
 
 /* Eyes (first three) missing */
 /*
