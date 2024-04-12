@@ -128,6 +128,10 @@ var optnEaPurple = document.getElementById('colorEarPurple');
   var optnEaBlack = document.getElementById('colorEarBlack');
   optnEaBlack.style.color ="#45443d";
 
+ /*
+
+ This blocked out code is for the cheeks, but it is still chest currently
+  
   var optnChRose = document.getElementById('colorChestRose');
   optnChRose.style.color ="#edb0b7";
 var optnChRed = document.getElementById('colorChestRed');
@@ -151,7 +155,7 @@ var optnChPurple = document.getElementById('colorChestPurple');
   optnChBlack.style.color ="#45443d";
 
 
-
+*/
 
 
 
@@ -188,11 +192,11 @@ const faceSkin = document.getElementById('face-color');
      $('#displayBodyColor').html( 'Body color1 is selected!' );
      $('#colorMeans').html( 'Good fortune' );
      
-     currSkin.style.backgroundColor = "red"; // red
-     currSkin.style.borderColor = "#f20000";
+     currSkin.style.backgroundColor = "#f4555f"; // red
+     currSkin.style.borderColor = "#f20000"; //f44b56
      faceSkin.style.borderColor = "#f20000";
      colorMeaning.style.color = "#dbdbdb";
-     colorMeaning.style.backgroundColor = "red";
+     colorMeaning.style.backgroundColor = "#f4555f";
 }); 
 
 $( '#color2' ).on( 'click', function() { 
