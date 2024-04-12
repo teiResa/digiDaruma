@@ -625,6 +625,7 @@ $(document).ready(function () /* Chest colours */ {
               currChest.classList.add('spriteContainerBlack');
               currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
            }); 
+           /*
            $( '#colorChest0' ).on( 'click', function() { 
 
             // was color1, now colorChest1 
@@ -634,7 +635,7 @@ $(document).ready(function () /* Chest colours */ {
                currChest.classList.add('spriteContainerMulticolour');
                currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
             }); 
-
+*/
             $( '#colorChest00' ).on( 'click', function() {
             
             // was color1, now colorChest1 
@@ -946,6 +947,7 @@ $(document).ready(function () /* Ear colours */ {
               currEarR.classList.add('spriteContainerBlack');
               currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
            }); 
+           /*
            $( '#colorEar0' ).on( 'click', function() { 
 
             // was color1, now colorEar1 
@@ -955,15 +957,19 @@ $(document).ready(function () /* Ear colours */ {
                currEar.classList.add('spriteContainerMulticolour');
                currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
             }); 
+            */
 
             $( '#colorEar00' ).on( 'click', function() {
             
             // was color1, now colorEar1 
             $('#displayEarColor').html( 'ear colorEar00 NO ear SHOWN is selected!' );
                  
-            const currEar = document.getElementById('ear');
+            const currEar = document.getElementById('ear-left');
          currEar.classList.add();
          currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         const currEarR = document.getElementById('ear-right');
+         currEarR.classList.add();
+         currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
       }); 
 
 
@@ -2101,6 +2107,8 @@ $(document).ready(function () /* Facial Hair and Cheeks colours */ {
               currCheekR.classList.add('spriteContainerBlack');
               currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerMulticolour' );
            }); 
+
+           /*
            $( '#colorCheek0' ).on( 'click', function() { 
 
             // was color1, now colorCheek1 
@@ -2113,6 +2121,7 @@ $(document).ready(function () /* Facial Hair and Cheeks colours */ {
                currCheekR.classList.add('spriteContainerMulticolour');
                currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack' );
             }); 
+            */
 
             $( '#colorCheek00' ).on( 'click', function() {
             
