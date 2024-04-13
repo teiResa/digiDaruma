@@ -202,7 +202,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 .pos00earR{background-position: -886px -342px; transform: scaleX(-1);}*/
 .pos01earL {
   background-size: 1404px;
-  background-position: -71px -510px;
+  background-position: -28px -470px;
 }
 
 .pos01earR {
@@ -214,7 +214,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 
 .pos02earL {
   background-size: 1404px;
-  background-position: -402px -140px;
+  background-position: -338px -134px;
 }
 
 .pos02earR {
@@ -226,7 +226,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 
 .pos03earL {
   background-size: 1423px;
-  background-position: -405px -514px;
+  background-position: -338px -475px;
 }
 
 .pos03earR {
@@ -238,7 +238,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 
 .pos04earL {
   background-size: 1404px;
-  background-position: -738px -143px;
+  background-position: -646px -134px;
 }
 
 .pos04earR {
@@ -250,7 +250,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 
 .pos05earL {
   background-size: 1404px;
-  background-position: -740px -510px;
+  background-position: -653px -475px;
 }
 
 .pos05earR {
@@ -262,7 +262,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 
 .pos06earL {
   background-size: 1404px;
-  background-position: -1065px -152px;
+  background-position: -945px -152px;
 }
 
 .pos06earR {
@@ -274,7 +274,7 @@ Doraemon doesn't have ears, so these can be used for something else.
 
 .pos07earL {
   background-size: 1404px;
-  background-position: -1070px -512px;
+  background-position: -950px -476px;
 }
 
 .pos07earR {
@@ -578,26 +578,28 @@ Not used, but I wrote the code for it in html and js
 */
 .pos00chest {
   /*
- width: 48px;
-  height: 46px;  
-  
+ width: 48px; height: 46px;  
   background-size: 190vw;
   background-position: -78px -181px;
-  */
   background-position: -141px -338px;
+  */
+  background-position: -181px -418px;
   /* I need to stop the page from growing or shrinking. The dang background images (the sprites) move with the screen size. Probably because I used 190vw instead of something non-flexy. */
 }
 
 .pos01chest {
-  background-position: -175px -300px;
+  background-size: 1404px;
+  background-position: -431px -304px;
 }
 
 .pos02chest {
-  background-position: -886px -342px;
+  background-size: 1404px;
+  background-position: -742px -304px;
 }
 
 .pos03chest {
-  background-position: -1256px -350px;
+  background-size: 1404px;
+  background-position: -1047px -310px;
 }
 
 /*
@@ -605,11 +607,13 @@ Free to use later
 .pos04chest{background-position: - -;}
 */
 .pos05chest {
-  background-position: -510px -757px;
+  background-size: 1404px;
+  background-position: -431px -650px;
 }
 
 .pos06chest {
-  background-position: -887px -747px;
+  background-size: 1404px;
+  background-position: -741px -650px;
 }
 
 /*
