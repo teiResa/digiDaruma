@@ -642,8 +642,8 @@ $(document).ready(function () /* Chest colours */ {
             $('#displayChestColor').html( 'Chest colorChest00 NO CHEST SHOWN is selected!' );
                  
             const currChest = document.getElementById('chest');
-         currChest.classList.add();
-         currChest.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         currChest.classList.add('spriteContainer2');
+         currChest.classList.remove('spriteContainer1',  'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
       }); 
 
 
@@ -965,11 +965,11 @@ $(document).ready(function () /* Ear colours */ {
             $('#displayEarColor').html( 'ear colorEar00 NO ear SHOWN is selected!' );
                  
             const currEar = document.getElementById('ear-left');
-         currEar.classList.add();
-         currEar.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         currEar.classList.add('spriteContainer2');
+         currEar.classList.remove('spriteContainer1', /*'spriteContainer2',*/ 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
          const currEarR = document.getElementById('ear-right');
-         currEarR.classList.add();
-         currEarR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         currEarR.classList.add('spriteContainer2');
+         currEarR.classList.remove('spriteContainer1', /* 'spriteContainer2', */'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
       }); 
 
 
@@ -2129,11 +2129,11 @@ $(document).ready(function () /* Facial Hair and Cheeks colours */ {
             $('#displayFHairColor').html( 'cheek/facial hair colorCheek00 NO cheek/facial hair SHOWN is selected!' );
                  
             const currCheek = document.getElementById('FH-left');
-         currCheek.classList.add();
-         currCheek.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         currCheek.classList.add('spriteContainer2');
+         currCheek.classList.remove('spriteContainer1',  'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
          const currCheekR = document.getElementById('FH-right');
-         currCheekR.classList.add();
-         currCheekR.classList.remove('spriteContainer1', 'spriteContainer2', 'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
+         currCheekR.classList.add('spriteContainer2');
+         currCheekR.classList.remove('spriteContainer1',  'spriteContainerRose', 'spriteContainerRed', 'spriteContainerPeach', 'spriteContainerOrange', 'spriteContainerGold', 'spriteContainerGreen', 'spriteContainerBlue', 'spriteContainerPurple', 'spriteContainerWhite', 'spriteContainerBlack', 'spriteContainerMulticolour');
       }); 
 
 

@@ -1,6 +1,9 @@
 .spriteContainer2 {
-  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin_vector.png) left top no-repeat;
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/lineart.png) left top no-repeat;
   /*
+https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin_vector.png
+
+
   background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/daruma_Sprites0_zoomedin.png) left top no-repeat ;
   background-size: 1706px;
   background-size: 800px;
@@ -19,6 +22,11 @@
   width: 500px;width: 19000px;
   */
   background-size: 430%;
+}
+
+.spriteContainerLines {
+  background: url(https://teiresa.github.io/digiDaruma/assets/deco/themes/sprites/colours/lineart.png) left top no-repeat;
+  display: inline-block;
 }
 
 .spriteContainerRose {
