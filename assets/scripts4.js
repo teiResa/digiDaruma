@@ -14,7 +14,7 @@
 
 
 
-
+/* 2024-04-30 finally got Veronica to play Fall Guys! */
 
 
 /* When the radio button (in html) is selected, the following function checks which is selected, prints a receipt, and updates the css to match. 
@@ -650,7 +650,7 @@ $(document).ready(function () /* Chest colours */ {
 });
 
 /* Ears
- hahaha, i have to realign everything else now
+ hahaha, i have to realign everything else now woooow
 <input type="radio" name="ear-sets" id="earSet3" value="earSet3">
        <label for="earSet3"> Elongated</label><br>
 
