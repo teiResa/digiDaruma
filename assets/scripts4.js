@@ -650,7 +650,7 @@ $(document).ready(function () /* Chest colours */ {
 });
 
 /* Ears
-
+ hahaha, i have to realign everything else now
 <input type="radio" name="ear-sets" id="earSet3" value="earSet3">
        <label for="earSet3"> Elongated</label><br>
 
