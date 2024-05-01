@@ -324,20 +324,20 @@ Not used, but I wrote the code for it in html and js
 
 .pos00eyeL {
   background-size: 1330px;
-  background-position: -127px -240px;
+  background-position: -93px -221px;
 }
 
 /* doreamon */
 .pos00eyeR {
   background-size: 1330px;
-  background-position: -127px -240px;
+  background-position: -70px -210px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos01eyeL {
   background-size: 1404px;
-  background-position: -135px -618px;
+  background-position: -93px -575px;
 }
 
 /* mousey */
@@ -350,7 +350,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos02eyeL {
   background-size: 1404px;
-  background-position: -463px -250px;
+  background-position: -403px -232px;
 }
 
 /* glittery */
@@ -363,7 +363,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos03eyeL {
   background-size: 1404px;
-  background-position: -463px -618px;
+  background-position: -388px -575px;
 }
 
 /* wild */
@@ -376,7 +376,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos04eyeL {
   background-size: 1404px;
-  background-position: -799px -250px;
+  background-position: -782px -235px;
 }
 
 .pos04eyeR {
