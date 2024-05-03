@@ -421,16 +421,10 @@ Not used, but I wrote the code for it in html and js
           transform: scaleX(-1);
 }
 
-.pos08eyeL {
-  background-position: -1020px -554px;
-}
-
-.pos08eyeR {
-  background-position: -1020px -554px;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
+/* Commented out the corrisponding button...
+.pos08eyeL{background-position: -1020px -554px;}
+.pos08eyeR{background-position: -1020px -554px; transform: scaleX(-1);}
+*/
 /*
 .pos00browL{background-position: -1020px -554px;}
 .pos00browR{background-position: -1020px -554px; transform: scaleX(-1);}
@@ -461,13 +455,13 @@ Not used, but I wrote the code for it in html and js
 */
 .pos01browL {
   /* mousey */
-  background-size: 1404px;
-  background-position: -115px -594px;
+  background-size: 1504px;
+  background-position: -90px -580px;
 }
 
 .pos01browR {
-  background-size: 1404px;
-  background-position: -115px -594px;
+  background-size: 1504px;
+  background-position: -90px -580px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -475,25 +469,25 @@ Not used, but I wrote the code for it in html and js
 .pos02browL {
   /* glittery */
   background-size: 1404px;
-  background-position: -445px -224px;
+  background-position: -384px -194px;
 }
 
 .pos02browR {
   background-size: 1404px;
-  background-position: -445px -224px;
+  background-position: -384px -194px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos03browL {
   /* wavy and wild */
-  background-size: 1423px;
-  background-position: -458px -590px;
+  background-size: 1657px;
+  background-position: -463px -636px;
 }
 
 .pos03browR {
-  background-size: 1423px;
-  background-position: -458px -590px;
+  background-size: 1657px;
+  background-position: -463px -636px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -501,55 +495,58 @@ Not used, but I wrote the code for it in html and js
 .pos04browL {
   /* cute, three CAT */
   background-size: 1404px;
-  background-position: -788px -220px;
+  background-position: -760px -200px;
 }
 
 .pos04browR {
   background-size: 1404px;
-  background-position: -788px -220px;
+  background-position: -760px -200px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos05browL {
-  background-size: 1404px;
-  background-position: -790px -594px;
+  background-size: 1704px;
+  background-position: -850px -668px;
 }
 
 .pos05browR {
-  background-size: 1404px;
-  background-position: -790px -594px;
+  /* background-size: 1404px;background-position: -790px -594px;*/
+  background-size: 1704px;
+  background-position: -850px -668px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
 .pos06browL {
   background-size: 1404px;
-  background-position: -1125px -224px;
+  background-position: -1005px -205px;
 }
 
 .pos06browR {
   background-size: 1404px;
-  background-position: -1125px -224px;
+  background-position: -1005px -205px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
-.pos07browL {
-  background-size: 1404px;
-  background-position: -1125px -584px;
+/*.pos07browL{background-size: 1404px;
+ background-position: -1125px -584px;}
+.pos07browR{background-size: 1404px;
+ background-position: -1125px -584px; transform: scaleX(-1);}
+ */
+.pos08browL {
+  background-size: 1504px;
+  background-position: -1085px -580px;
 }
 
-.pos07browR {
-  background-size: 1404px;
-  background-position: -1125px -584px;
+.pos08browR {
+  background-size: 1504px;
+  background-position: -1085px -580px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
-/*
-.pos08browL{background-position: -1000px -523px;}
-.pos08browR{background-position: -1000px -523px; transform: scaleX(-1);} */
 /* 
 .pos00browL{background-position: -691px -170px;}
 .pos00browR{background-position: -691px -170px;; transform: scaleX(-1);}
