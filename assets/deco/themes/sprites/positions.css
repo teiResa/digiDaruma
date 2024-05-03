@@ -330,7 +330,7 @@ Not used, but I wrote the code for it in html and js
 /* doreamon */
 .pos00eyeR {
   background-size: 1330px;
-  background-position: -70px -210px;
+  background-position: -93px -221px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -343,7 +343,7 @@ Not used, but I wrote the code for it in html and js
 /* mousey */
 .pos01eyeR {
   background-size: 1404px;
-  background-position: -135px -618px;
+  background-position: -93px -575px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -356,7 +356,7 @@ Not used, but I wrote the code for it in html and js
 /* glittery */
 .pos02eyeR {
   background-size: 1404px;
-  background-position: -463px -250px;
+  background-position: -403px -232px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -369,7 +369,7 @@ Not used, but I wrote the code for it in html and js
 /* wild */
 .pos03eyeR {
   background-size: 1404px;
-  background-position: -463px -618px;
+  background-position: -388px -575px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -381,7 +381,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos04eyeR {
   background-size: 1404px;
-  background-position: -799px -250px;
+  background-position: -782px -235px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -393,7 +393,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos05eyeR {
   background-size: 1404px;
-  background-position: -799px -618px;
+  background-position: -710px -575px;
   /* transform: scaleX(-1); */
 }
 
@@ -404,7 +404,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos06eyeR {
   background-size: 1404px;
-  background-position: -1133px -255px;
+  background-position: -1020px -239px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -416,7 +416,7 @@ Not used, but I wrote the code for it in html and js
 
 .pos07eyeR {
   background-size: 1404px;
-  background-position: -1130px -618px;
+  background-position: -1018px -573px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
@@ -853,18 +853,22 @@ Not used, but I wrote the code for it in html and js
   /* These are all unused, so I will have to make some more options */
   background-color: greenyellow;
   background-position: -886px -342px;
-  border: 2px solid blue;
+  border: 2px solid rgba(0, 0, 255, 0);
+}
+
+.bindiRobotCat, .spriteContainer1 {
+  border: 2px solid #00000000;
 }
 
 .pos04bindi {
   background-size: 1404px;
-  background-position: -512px -211px;
+  background-position: -448px -195px;
   border: 2px solid rgba(0, 0, 255, 0);
 }
 
 .pos05bindi {
   background-size: 1404px;
-  background-position: -513px -575px;
+  background-position: -448px -523px;
   border: 2px solid rgba(0, 0, 255, 0);
 }
 
