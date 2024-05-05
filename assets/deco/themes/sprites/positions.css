@@ -814,41 +814,45 @@ Not used, but I wrote the code for it in html and js
 }
 
 .pos00mouth {
-  background-size: 1703px;
-  background-position: -214px -382px;
+  background-size: 1853px;
+  background-position: -182px -384px;
 }
 
-/*
-.pos01mouth {background-size: 1404px; background-position: -177px -652px;}
-*/
+.pos01mouth {
+  background-size: 1404px;
+  background-position: -93px -623px;
+}
+
 .pos02mouth {
   background-size: 1404px;
-  background-position: -505px -308px;
+  background-position: -403px -292px;
 }
 
 .pos03mouth {
   background-size: 1404px;
-  background-position: -507px -675px;
+  background-position: -338px -623px;
 }
 
 .pos04mouth {
   background-size: 1404px;
-  background-position: -843px -310px;
+  background-position: -439px -292px;
 }
 
 .pos05mouth {
   background-size: 1404px;
-  background-position: -844px -678px;
+  background-position: -439px -623px;
 }
 
 .pos06mouth {
   background-size: 1404px;
-  background-position: -1175px -313px;
+  background-position: -1020px -292px;
 }
 
-/*
-.pos07mouth {background-size: 1404px; background-position: -1175px -648px;}
-*/
+.pos07mouth {
+  background-size: 1404px;
+  background-position: -1175px -623px;
+}
+
 .pos00bindi, .pos01bindi, .pos02bindi, .pos03bindi, .pos06bindi, .pos07bindi, .pos08bindi {
   /* These are all unused, so I will have to make some more options */
   background-color: greenyellow;
